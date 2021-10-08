@@ -1,0 +1,5 @@
+25/07/19;16:20:38.089;INFO;Interface;Command: ExecRobotTask (home,-1);
+25/07/19;16:20:38.090;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/07/19;16:20:38.090;INFO;Controller;Status = Executing: home;
+25/07/19;16:20:38.090;INFO;Controller;State = Running;
+25/07/19;16:20:39.065;INFO;Robot Runtime;executing:    home;

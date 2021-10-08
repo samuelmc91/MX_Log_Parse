@@ -1,0 +1,7 @@
+12/07/18;11:36:40.514;INFO;Interface;Command: ExecRobotTask (mount,-1);
+12/07/18;11:36:40.515;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+12/07/18;11:36:40.515;INFO;Controller;Status = Executing: mount;
+12/07/18;11:36:40.515;INFO;Controller;State = Running;
+12/07/18;11:36:41.387;INFO;Robot Runtime;executing:    mount;
+12/07/18;11:39:50.293;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+12/07/18;11:39:50.293;INFO;Controller;State = Ready;

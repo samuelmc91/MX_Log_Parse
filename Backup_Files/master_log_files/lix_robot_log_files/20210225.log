@@ -1,0 +1,810 @@
+25/02/21;12:28:47.843;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:28:47.843;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:28:47.843;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:28:47.843;INFO;Controller;State = Running;
+25/02/21;12:28:48.269;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:28:48.297;INFO;Robot Runtime;Robot is on hold or doing connection movement --- 2;
+25/02/21;12:28:49.794;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:28:49.795;INFO;Controller;State = Ready;
+25/02/21;12:28:49.818;INFO;Server;Command: ExecRobotTask (Home,500000);
+25/02/21;12:28:49.818;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:28:49.818;INFO;Controller;Status = Executing: Home;
+25/02/21;12:28:49.818;INFO;Controller;State = Running;
+25/02/21;12:28:50.208;INFO;Robot Runtime;executing:    Home;
+25/02/21;12:29:34.130;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:29:34.131;WARNING;Controller;Exception: Activity still running
+Stack trace:
+org.embl.StateException: Activity still running
+	at org.embl.ctrl.Sequencer.assertActivityNotRunning(Sequencer.java:1033)
+	at org.embl.ctrl.Sequencer.assertNotExecutingTask(Sequencer.java:1054)
+	at org.embl.ctrl.Controller.assertHighLevelCommandAllowed(Controller.java:784)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1967)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1944)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1933)
+	at org.embl.sw.Control.startRobotTask(Control.java:377)
+	at org.embl.sw.Server.startRobotTask(Server.java:45)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.embl.reflection.Exposer.execute(Exposer.java:318)
+	at org.embl.protocol.EpicsServer$MethodProcessVariable.write(EpicsServer.java:421)
+	at gov.aps.jca.cas.ServerChannel.write(ServerChannel.java:126)
+	at com.cosylab.epics.caj.cas.handlers.WriteNotifyResponse.internalHandleResponse(WriteNotifyResponse.java:119)
+	at com.cosylab.epics.caj.impl.handlers.AbstractCAResponseHandler.handleResponse(AbstractCAResponseHandler.java:110)
+	at com.cosylab.epics.caj.cas.CASResponseHandler.handleResponse(CASResponseHandler.java:120)
+	at com.cosylab.epics.caj.cas.CASTransport.processRead(CASTransport.java:398)
+	at com.cosylab.epics.caj.cas.CASTransport.handleEvent(CASTransport.java:297)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.handleEvent(LeaderFollowersHandler.java:71)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.processInternal(Reactor.java:376)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.process(Reactor.java:266)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.run(LeaderFollowersHandler.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+;
+25/02/21;12:29:48.257;WARNING;Robot Runtime;AUTORECOVER=====> Found false kick. Resume Robot Power;
+25/02/21;12:30:03.611;WARNING;Robot Runtime;AUTORECOVER=====> Found false kick. Resume Robot Power;
+25/02/21;12:30:50.356;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:30:50.356;WARNING;Controller;Exception: Activity still running
+Stack trace:
+org.embl.StateException: Activity still running
+	at org.embl.ctrl.Sequencer.assertActivityNotRunning(Sequencer.java:1033)
+	at org.embl.ctrl.Sequencer.assertNotExecutingTask(Sequencer.java:1054)
+	at org.embl.ctrl.Controller.assertHighLevelCommandAllowed(Controller.java:784)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1967)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1944)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1933)
+	at org.embl.sw.Control.startRobotTask(Control.java:377)
+	at org.embl.sw.Server.startRobotTask(Server.java:45)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.embl.reflection.Exposer.execute(Exposer.java:318)
+	at org.embl.protocol.EpicsServer$MethodProcessVariable.write(EpicsServer.java:421)
+	at gov.aps.jca.cas.ServerChannel.write(ServerChannel.java:126)
+	at com.cosylab.epics.caj.cas.handlers.WriteNotifyResponse.internalHandleResponse(WriteNotifyResponse.java:119)
+	at com.cosylab.epics.caj.impl.handlers.AbstractCAResponseHandler.handleResponse(AbstractCAResponseHandler.java:110)
+	at com.cosylab.epics.caj.cas.CASResponseHandler.handleResponse(CASResponseHandler.java:120)
+	at com.cosylab.epics.caj.cas.CASTransport.processRead(CASTransport.java:398)
+	at com.cosylab.epics.caj.cas.CASTransport.handleEvent(CASTransport.java:297)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.handleEvent(LeaderFollowersHandler.java:71)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.processInternal(Reactor.java:376)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.process(Reactor.java:266)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.run(LeaderFollowersHandler.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+;
+25/02/21;12:31:25.978;WARNING;Robot Runtime;AUTORECOVER=====> Found false kick. Resume Robot Power;
+25/02/21;12:31:33.894;WARNING;Robot Runtime;AUTORECOVER=====> Found false kick. Resume Robot Power;
+25/02/21;12:31:54.180;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:31:54.180;WARNING;Controller;Exception: Activity still running
+Stack trace:
+org.embl.StateException: Activity still running
+	at org.embl.ctrl.Sequencer.assertActivityNotRunning(Sequencer.java:1033)
+	at org.embl.ctrl.Sequencer.assertNotExecutingTask(Sequencer.java:1054)
+	at org.embl.ctrl.Controller.assertHighLevelCommandAllowed(Controller.java:784)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1967)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1944)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1933)
+	at org.embl.sw.Control.startRobotTask(Control.java:377)
+	at org.embl.sw.Server.startRobotTask(Server.java:45)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.embl.reflection.Exposer.execute(Exposer.java:318)
+	at org.embl.protocol.EpicsServer$MethodProcessVariable.write(EpicsServer.java:421)
+	at gov.aps.jca.cas.ServerChannel.write(ServerChannel.java:126)
+	at com.cosylab.epics.caj.cas.handlers.WriteNotifyResponse.internalHandleResponse(WriteNotifyResponse.java:119)
+	at com.cosylab.epics.caj.impl.handlers.AbstractCAResponseHandler.handleResponse(AbstractCAResponseHandler.java:110)
+	at com.cosylab.epics.caj.cas.CASResponseHandler.handleResponse(CASResponseHandler.java:120)
+	at com.cosylab.epics.caj.cas.CASTransport.processRead(CASTransport.java:398)
+	at com.cosylab.epics.caj.cas.CASTransport.handleEvent(CASTransport.java:297)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.handleEvent(LeaderFollowersHandler.java:71)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.processInternal(Reactor.java:376)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.process(Reactor.java:266)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.run(LeaderFollowersHandler.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+;
+25/02/21;12:32:00.943;INFO;Server;Command: Abort;
+25/02/21;12:32:00.943;INFO;Robot;Abort;
+25/02/21;12:32:00.943;INFO;Controller;Activity ExecRobotTask was stopped;
+25/02/21;12:32:00.943;INFO;Controller;State = Ready;
+25/02/21;12:32:01.006;INFO;Server;Command: Restart;
+25/02/21;12:32:01.006;INFO;Controller;State = Initializing;
+25/02/21;12:32:01.051;INFO;Controller;Initialized log services - Startup: 25/01/21 20:38:23;
+25/02/21;12:32:02.340;INFO;Epics Server;Exiting running thread;
+25/02/21;12:32:02.345;INFO;Epics Server;Registered PV: SW:Version;
+25/02/21;12:32:02.345;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+25/02/21;12:32:02.345;INFO;Epics Server;Registered PV: SW:AlarmList;
+25/02/21;12:32:02.345;INFO;Epics Server;Registered PV: SW:LastTaskException;
+25/02/21;12:32:02.345;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+25/02/21;12:32:02.345;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+25/02/21;12:32:02.345;INFO;Epics Server;Registered PV: SW:RobotState;
+25/02/21;12:32:02.346;INFO;Epics Server;Registered PV: SW:JointPositions;
+25/02/21;12:32:02.346;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+25/02/21;12:32:02.346;INFO;Epics Server;Registered PV: SW:Status;
+25/02/21;12:32:02.346;INFO;Epics Server;Registered PV: SW:Uptime;
+25/02/21;12:32:02.346;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+25/02/21;12:32:02.346;INFO;Epics Server;Registered PV: SW:State;
+25/02/21;12:32:02.346;INFO;Epics Server;Registered PV: SW:abort;
+25/02/21;12:32:02.346;INFO;Epics Server;Registered PV: SW:startRobotTask;
+25/02/21;12:32:02.346;INFO;Epics Server;Registered PV: SW:startTestTask;
+25/02/21;12:32:02.347;INFO;Epics Server;Registered PV: SW:pauseRobot;
+25/02/21;12:32:02.347;INFO;Epics Server;Registered PV: SW:resumeRobot;
+25/02/21;12:32:02.347;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+25/02/21;12:32:02.347;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+25/02/21;12:32:02.347;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+25/02/21;12:32:02.347;INFO;Epics Server;Registered PV: SW:getDistance;
+25/02/21;12:32:02.347;INFO;Epics Server;Registered PV: SW:restart;
+25/02/21;12:32:02.347;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+25/02/21;12:32:02.347;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+25/02/21;12:32:02.347;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+25/02/21;12:32:02.347;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+25/02/21;12:32:02.349;INFO;Epics Server;Started server: ready to accept requests;
+25/02/21;12:32:03.137;INFO;Controller;Initializing Robot;
+25/02/21;12:32:03.142;INFO;Robot;Setting reference frame to: world;
+25/02/21;12:32:03.223;INFO;Controller;Initializing Bus Controller;
+25/02/21;12:32:03.223;INFO;Anti-Collision;Active = true;
+25/02/21;12:32:03.223;INFO;Controller;State = Starting;
+25/02/21;12:32:03.224;INFO;Controller;Command: Reset;
+25/02/21;12:32:03.224;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+25/02/21;12:32:03.224;INFO;Controller;Status = Reseting;
+25/02/21;12:32:03.224;INFO;Controller;State = Running;
+25/02/21;12:32:03.429;INFO;Controller;Script host: localhost:40211;
+25/02/21;12:32:03.429;INFO;Script;Starting initialization script;
+25/02/21;12:32:03.432;INFO;Script;Do nothing;
+25/02/21;12:32:03.432;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+25/02/21;12:32:03.433;INFO;Controller;State = Ready;
+25/02/21;12:32:39.169;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:32:39.169;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:32:39.169;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:32:39.169;INFO;Controller;State = Running;
+25/02/21;12:32:39.545;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:32:39.573;INFO;Robot Runtime;Robot is on hold or doing connection movement --- 2;
+25/02/21;12:32:40.285;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:32:40.286;INFO;Controller;State = Ready;
+25/02/21;12:32:40.313;INFO;Server;Command: ExecRobotTask (Home,500000);
+25/02/21;12:32:40.313;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:32:40.314;INFO;Controller;Status = Executing: Home;
+25/02/21;12:32:40.314;INFO;Controller;State = Running;
+25/02/21;12:32:40.681;INFO;Robot Runtime;executing:    Home;
+25/02/21;12:33:31.137;WARNING;Robot;Alarm active: Device is offline;
+25/02/21;12:33:31.224;INFO;Controller;Command: Abort;
+25/02/21;12:33:31.224;INFO;Robot;Abort;
+25/02/21;12:33:31.224;INFO;Controller;Status = Alarm - Device is offline;
+25/02/21;12:33:31.225;INFO;Controller;State = Alarm;
+25/02/21;12:35:16.780;INFO;Server;Command: Abort;
+25/02/21;12:35:16.780;INFO;Robot;Abort;
+25/02/21;12:35:20.312;INFO;Controller;Activity ExecRobotTask was stopped;
+25/02/21;12:35:41.920;INFO;Server;Command: Abort;
+25/02/21;12:35:41.920;INFO;Robot;Abort;
+25/02/21;12:35:52.246;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:35:52.247;WARNING;Controller;Exception: Command refused due to active alarms:
+- Device is offline 
+Stack trace:
+org.embl.StateException: Command refused due to active alarms:
+- Device is offline 
+	at org.embl.ctrl.Controller.assertHighLevelCommandAllowed(Controller.java:794)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1967)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1944)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1933)
+	at org.embl.sw.Control.startRobotTask(Control.java:377)
+	at org.embl.sw.Server.startRobotTask(Server.java:45)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.embl.reflection.Exposer.execute(Exposer.java:318)
+	at org.embl.protocol.EpicsServer$MethodProcessVariable.write(EpicsServer.java:421)
+	at gov.aps.jca.cas.ServerChannel.write(ServerChannel.java:126)
+	at com.cosylab.epics.caj.cas.handlers.WriteNotifyResponse.internalHandleResponse(WriteNotifyResponse.java:119)
+	at com.cosylab.epics.caj.impl.handlers.AbstractCAResponseHandler.handleResponse(AbstractCAResponseHandler.java:110)
+	at com.cosylab.epics.caj.cas.CASResponseHandler.handleResponse(CASResponseHandler.java:120)
+	at com.cosylab.epics.caj.cas.CASTransport.processRead(CASTransport.java:398)
+	at com.cosylab.epics.caj.cas.CASTransport.handleEvent(CASTransport.java:297)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.handleEvent(LeaderFollowersHandler.java:71)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.processInternal(Reactor.java:376)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.process(Reactor.java:266)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.run(LeaderFollowersHandler.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+;
+25/02/21;12:35:55.443;INFO;Server;Command: Abort;
+25/02/21;12:35:55.443;INFO;Robot;Abort;
+25/02/21;12:37:05.983;INFO;Server;Command: Abort;
+25/02/21;12:37:05.984;INFO;Robot;Abort;
+25/02/21;12:37:53.009;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:37:53.010;WARNING;Controller;Exception: Command refused due to active alarms:
+- Device is offline 
+Stack trace:
+org.embl.StateException: Command refused due to active alarms:
+- Device is offline 
+	at org.embl.ctrl.Controller.assertHighLevelCommandAllowed(Controller.java:794)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1967)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1944)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1933)
+	at org.embl.sw.Control.startRobotTask(Control.java:377)
+	at org.embl.sw.Server.startRobotTask(Server.java:45)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.embl.reflection.Exposer.execute(Exposer.java:318)
+	at org.embl.protocol.EpicsServer$MethodProcessVariable.write(EpicsServer.java:421)
+	at gov.aps.jca.cas.ServerChannel.write(ServerChannel.java:126)
+	at com.cosylab.epics.caj.cas.handlers.WriteNotifyResponse.internalHandleResponse(WriteNotifyResponse.java:119)
+	at com.cosylab.epics.caj.impl.handlers.AbstractCAResponseHandler.handleResponse(AbstractCAResponseHandler.java:110)
+	at com.cosylab.epics.caj.cas.CASResponseHandler.handleResponse(CASResponseHandler.java:120)
+	at com.cosylab.epics.caj.cas.CASTransport.processRead(CASTransport.java:398)
+	at com.cosylab.epics.caj.cas.CASTransport.handleEvent(CASTransport.java:297)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.handleEvent(LeaderFollowersHandler.java:71)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.processInternal(Reactor.java:376)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.process(Reactor.java:266)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.run(LeaderFollowersHandler.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+;
+25/02/21;12:38:08.352;INFO;Server;Command: Abort;
+25/02/21;12:38:08.352;INFO;Robot;Abort;
+25/02/21;12:42:23.373;INFO;Controller;Instantiation;
+25/02/21;12:42:23.434;INFO;Controller;State = Initializing;
+25/02/21;12:42:23.631;WARNING;Interface;Access level set to Admin;
+25/02/21;12:42:23.779;INFO;Controller;Initialized log services - Startup: 25/02/21 12:42:23;
+25/02/21;12:42:23.790;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+25/02/21;12:42:24.189;INFO;Epics Server;Registered PV: SW:Version;
+25/02/21;12:42:24.190;INFO;Epics Server;Registered PV: SW:RobotState;
+25/02/21;12:42:24.217;INFO;Epics Server;Registered PV: SW:JointPositions;
+25/02/21;12:42:24.218;INFO;Epics Server;Registered PV: SW:Status;
+25/02/21;12:42:24.219;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+25/02/21;12:42:24.220;INFO;Epics Server;Registered PV: SW:AlarmList;
+25/02/21;12:42:24.220;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+25/02/21;12:42:24.221;INFO;Epics Server;Registered PV: SW:LastTaskException;
+25/02/21;12:42:24.221;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+25/02/21;12:42:24.222;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+25/02/21;12:42:24.222;INFO;Epics Server;Registered PV: SW:Uptime;
+25/02/21;12:42:24.223;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+25/02/21;12:42:24.224;INFO;Epics Server;Registered PV: SW:State;
+25/02/21;12:42:24.226;INFO;Epics Server;Registered PV: SW:getDistance;
+25/02/21;12:42:24.227;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+25/02/21;12:42:24.229;INFO;Epics Server;Registered PV: SW:restart;
+25/02/21;12:42:24.231;INFO;Epics Server;Registered PV: SW:startTestTask;
+25/02/21;12:42:24.231;INFO;Epics Server;Registered PV: SW:pauseRobot;
+25/02/21;12:42:24.232;INFO;Epics Server;Registered PV: SW:resumeRobot;
+25/02/21;12:42:24.233;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+25/02/21;12:42:24.233;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+25/02/21;12:42:24.234;INFO;Epics Server;Registered PV: SW:startRobotTask;
+25/02/21;12:42:24.234;INFO;Epics Server;Registered PV: SW:abort;
+25/02/21;12:42:24.235;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+25/02/21;12:42:24.235;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+25/02/21;12:42:24.236;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+25/02/21;12:42:24.237;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+25/02/21;12:42:24.240;INFO;Epics Server;Started server: ready to accept requests;
+25/02/21;12:42:25.247;INFO;Controller;Initializing Robot;
+25/02/21;12:42:25.264;INFO;Robot;Setting reference frame to: world;
+25/02/21;12:42:25.388;INFO;Controller;Initializing Bus Controller;
+25/02/21;12:42:25.389;INFO;Anti-Collision;Active = true;
+25/02/21;12:42:25.390;INFO;Controller;State = Starting;
+25/02/21;12:42:25.393;INFO;Controller;Command: Reset;
+25/02/21;12:42:25.726;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+25/02/21;12:42:25.726;INFO;Controller;Status = Reseting;
+25/02/21;12:42:25.726;INFO;Controller;State = Running;
+25/02/21;12:42:26.386;INFO;Controller;Script host: localhost:44945;
+25/02/21;12:42:26.387;INFO;Script;Starting initialization script;
+25/02/21;12:42:26.389;INFO;Script;Do nothing;
+25/02/21;12:42:26.390;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+25/02/21;12:42:26.391;INFO;Controller;State = Ready;
+25/02/21;12:43:47.508;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:43:47.509;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:43:47.510;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:43:47.510;INFO;Controller;State = Running;
+25/02/21;12:43:47.901;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:43:47.928;INFO;Robot Runtime;Robot is on hold or doing connection movement --- 2;
+25/02/21;12:43:49.275;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:43:49.275;INFO;Controller;State = Ready;
+25/02/21;12:43:49.290;INFO;Server;Command: ExecRobotTask (Home,500000);
+25/02/21;12:43:49.291;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:43:49.291;INFO;Controller;Status = Executing: Home;
+25/02/21;12:43:49.291;INFO;Controller;State = Running;
+25/02/21;12:43:49.660;INFO;Robot Runtime;executing:    Home;
+25/02/21;12:43:50.749;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:43:50.750;INFO;Controller;State = Ready;
+25/02/21;12:44:06.029;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:44:06.030;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:44:06.030;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:44:06.031;INFO;Controller;State = Running;
+25/02/21;12:44:06.396;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:44:06.490;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:44:06.491;INFO;Controller;State = Ready;
+25/02/21;12:44:06.513;INFO;Server;Command: ExecRobotTask (Home,500000);
+25/02/21;12:44:06.513;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:44:06.513;INFO;Controller;Status = Executing: Home;
+25/02/21;12:44:06.514;INFO;Controller;State = Running;
+25/02/21;12:44:06.881;INFO;Robot Runtime;executing:    Home;
+25/02/21;12:44:06.983;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:44:06.984;INFO;Controller;State = Ready;
+25/02/21;12:44:07.171;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:44:07.172;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:44:07.172;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:44:07.172;INFO;Controller;State = Running;
+25/02/21;12:44:07.539;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:44:07.647;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:44:07.648;INFO;Controller;State = Ready;
+25/02/21;12:44:07.667;INFO;Server;Command: ExecRobotTask (Load,500000);
+25/02/21;12:44:07.667;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:44:07.667;INFO;Controller;Status = Executing: Load;
+25/02/21;12:44:07.668;INFO;Controller;State = Running;
+25/02/21;12:44:08.037;INFO;Robot Runtime;executing:    Load;
+25/02/21;12:44:08.064;INFO;Robot Runtime;TraceSample(1): False/False/True;
+25/02/21;12:44:20.263;INFO;Robot Runtime;TraceSample(1): False/True/False;
+25/02/21;12:44:20.512;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+25/02/21;12:44:20.513;INFO;Controller;State = Ready;
+25/02/21;12:44:23.547;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:44:23.548;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:44:23.574;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:44:23.574;INFO;Controller;State = Running;
+25/02/21;12:44:23.939;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:44:24.190;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:44:24.190;INFO;Controller;State = Ready;
+25/02/21;12:44:24.224;INFO;Server;Command: ExecRobotTask (Unload,500000);
+25/02/21;12:44:24.225;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:44:24.225;INFO;Controller;Status = Executing: Unload;
+25/02/21;12:44:24.225;INFO;Controller;State = Running;
+25/02/21;12:44:24.596;INFO;Robot Runtime;executing:    Unload;
+25/02/21;12:44:24.623;INFO;Robot Runtime;TraceSample(1): False/True/False;
+25/02/21;12:44:34.686;INFO;Robot Runtime;TraceSample(1): False/False/True;
+25/02/21;12:44:34.957;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/True;
+25/02/21;12:44:34.957;INFO;Controller;State = Ready;
+25/02/21;12:44:35.158;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:44:35.159;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:44:35.159;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:44:35.159;INFO;Controller;State = Running;
+25/02/21;12:44:35.524;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:44:35.757;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:44:35.757;INFO;Controller;State = Ready;
+25/02/21;12:44:35.785;INFO;Server;Command: ExecRobotTask (Load,500000);
+25/02/21;12:44:35.786;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:44:35.786;INFO;Controller;Status = Executing: Load;
+25/02/21;12:44:35.787;INFO;Controller;State = Running;
+25/02/21;12:44:36.160;INFO;Robot Runtime;executing:    Load;
+25/02/21;12:44:36.188;INFO;Robot Runtime;TraceSample(2): False/False/True;
+25/02/21;12:44:48.222;INFO;Robot Runtime;TraceSample(2): False/True/False;
+25/02/21;12:44:48.466;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+25/02/21;12:44:48.467;INFO;Controller;State = Ready;
+25/02/21;12:44:51.492;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:44:51.493;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:44:51.493;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:44:51.494;INFO;Controller;State = Running;
+25/02/21;12:44:51.858;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:44:52.116;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:44:52.117;INFO;Controller;State = Ready;
+25/02/21;12:44:52.146;INFO;Server;Command: ExecRobotTask (Unload,500000);
+25/02/21;12:44:52.147;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:44:52.147;INFO;Controller;Status = Executing: Unload;
+25/02/21;12:44:52.148;INFO;Controller;State = Running;
+25/02/21;12:44:52.521;INFO;Robot Runtime;executing:    Unload;
+25/02/21;12:44:52.548;INFO;Robot Runtime;TraceSample(2): False/True/False;
+25/02/21;12:45:02.897;INFO;Robot Runtime;TraceSample(2): False/False/True;
+25/02/21;12:45:02.981;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/True;
+25/02/21;12:45:02.981;INFO;Controller;State = Ready;
+25/02/21;12:45:03.163;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:45:03.163;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:45:03.163;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:45:03.163;INFO;Controller;State = Running;
+25/02/21;12:45:03.531;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:45:03.643;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:45:03.643;INFO;Controller;State = Ready;
+25/02/21;12:45:03.667;INFO;Server;Command: ExecRobotTask (Load,500000);
+25/02/21;12:45:03.667;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:45:03.668;INFO;Controller;Status = Executing: Load;
+25/02/21;12:45:03.668;INFO;Controller;State = Running;
+25/02/21;12:45:04.036;INFO;Robot Runtime;executing:    Load;
+25/02/21;12:45:04.062;INFO;Robot Runtime;TraceSample(3): False/False/True;
+25/02/21;12:45:15.736;INFO;Robot Runtime;TraceSample(3): False/True/False;
+25/02/21;12:45:15.993;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+25/02/21;12:45:15.994;INFO;Controller;State = Ready;
+25/02/21;12:45:19.109;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:45:19.110;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:45:19.110;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:45:19.110;INFO;Controller;State = Running;
+25/02/21;12:45:19.475;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:45:19.565;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:45:19.565;INFO;Controller;State = Ready;
+25/02/21;12:45:19.595;INFO;Server;Command: ExecRobotTask (Unload,500000);
+25/02/21;12:45:19.595;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:45:19.596;INFO;Controller;Status = Executing: Unload;
+25/02/21;12:45:19.596;INFO;Controller;State = Running;
+25/02/21;12:45:19.966;INFO;Robot Runtime;executing:    Unload;
+25/02/21;12:45:19.992;INFO;Robot Runtime;TraceSample(3): False/True/False;
+25/02/21;12:45:30.231;INFO;Robot Runtime;TraceSample(3): False/False/True;
+25/02/21;12:45:30.482;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/True;
+25/02/21;12:45:30.482;INFO;Controller;State = Ready;
+25/02/21;12:45:30.767;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:45:30.768;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:45:30.784;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:45:30.785;INFO;Controller;State = Running;
+25/02/21;12:45:31.154;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:45:31.402;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:45:31.402;INFO;Controller;State = Ready;
+25/02/21;12:45:31.427;INFO;Server;Command: ExecRobotTask (Home,500000);
+25/02/21;12:45:31.427;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:45:31.428;INFO;Controller;Status = Executing: Home;
+25/02/21;12:45:31.428;INFO;Controller;State = Running;
+25/02/21;12:45:31.801;INFO;Robot Runtime;executing:    Home;
+25/02/21;12:45:32.637;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:45:32.637;INFO;Controller;State = Ready;
+25/02/21;12:45:32.830;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:45:32.831;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:45:32.831;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:45:32.831;INFO;Controller;State = Running;
+25/02/21;12:45:33.200;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:45:33.443;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:45:33.444;INFO;Controller;State = Ready;
+25/02/21;12:45:33.466;INFO;Server;Command: ExecRobotTask (Load,500000);
+25/02/21;12:45:33.467;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:45:33.467;INFO;Controller;Status = Executing: Load;
+25/02/21;12:45:33.467;INFO;Controller;State = Running;
+25/02/21;12:45:33.837;INFO;Robot Runtime;executing:    Load;
+25/02/21;12:45:33.863;INFO;Robot Runtime;TraceSample(1): False/False/True;
+25/02/21;12:45:46.404;INFO;Robot Runtime;TraceSample(1): False/True/False;
+25/02/21;12:45:46.467;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+25/02/21;12:45:46.467;INFO;Controller;State = Ready;
+25/02/21;12:45:46.768;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;12:45:46.768;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:45:46.769;INFO;Controller;Status = Executing: Initialize;
+25/02/21;12:45:46.769;INFO;Controller;State = Running;
+25/02/21;12:45:47.134;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;12:45:47.246;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;12:45:47.246;INFO;Controller;State = Ready;
+25/02/21;12:45:47.277;INFO;Server;Command: ExecRobotTask (Mount,500000);
+25/02/21;12:45:47.278;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;12:45:47.278;INFO;Controller;Status = Executing: Mount;
+25/02/21;12:45:47.278;INFO;Controller;State = Running;
+25/02/21;12:45:47.644;INFO;Robot Runtime;executing:    Mount;
+25/02/21;12:45:47.672;INFO;Robot Runtime;TraceSample(1): False/True/False;
+25/02/21;12:45:56.723;INFO;Robot Runtime;TraceSample(1): True/False/False;
+25/02/21;12:45:56.988;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+25/02/21;12:45:56.988;INFO;Controller;State = Ready;
+25/02/21;13:13:59.525;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;13:13:59.525;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:13:59.526;INFO;Controller;Status = Executing: Initialize;
+25/02/21;13:13:59.526;INFO;Controller;State = Running;
+25/02/21;13:13:59.927;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;13:14:00.169;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;13:14:00.169;INFO;Controller;State = Ready;
+25/02/21;13:14:00.196;INFO;Server;Command: ExecRobotTask (Unmount,500000);
+25/02/21;13:14:00.197;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:14:00.197;INFO;Controller;Status = Executing: Unmount;
+25/02/21;13:14:00.197;INFO;Controller;State = Running;
+25/02/21;13:14:00.563;INFO;Robot Runtime;executing:    Unmount;
+25/02/21;13:14:00.590;INFO;Robot Runtime;TraceSample(1): True/False/False;
+25/02/21;13:14:09.828;INFO;Robot Runtime;TraceSample(1): False/True/False;
+25/02/21;13:14:10.114;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+25/02/21;13:14:10.114;INFO;Controller;State = Ready;
+25/02/21;13:14:10.316;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;13:14:10.316;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:14:10.316;INFO;Controller;Status = Executing: Initialize;
+25/02/21;13:14:10.317;INFO;Controller;State = Running;
+25/02/21;13:14:10.683;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;13:14:10.920;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;13:14:10.921;INFO;Controller;State = Ready;
+25/02/21;13:14:10.945;INFO;Server;Command: ExecRobotTask (Unload,500000);
+25/02/21;13:14:10.946;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:14:10.946;INFO;Controller;Status = Executing: Unload;
+25/02/21;13:14:10.946;INFO;Controller;State = Running;
+25/02/21;13:14:11.317;INFO;Robot Runtime;executing:    Unload;
+25/02/21;13:14:11.347;INFO;Robot Runtime;TraceSample(1): False/True/False;
+25/02/21;13:14:23.185;INFO;Robot Runtime;TraceSample(1): False/False/True;
+25/02/21;13:14:23.275;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/True;
+25/02/21;13:14:23.276;INFO;Controller;State = Ready;
+25/02/21;13:14:25.762;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;13:14:25.762;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:14:25.763;INFO;Controller;Status = Executing: Initialize;
+25/02/21;13:14:25.763;INFO;Controller;State = Running;
+25/02/21;13:14:26.127;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;13:14:26.222;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;13:14:26.223;INFO;Controller;State = Ready;
+25/02/21;13:14:26.254;INFO;Server;Command: ExecRobotTask (Load,500000);
+25/02/21;13:14:26.255;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:14:26.255;INFO;Controller;Status = Executing: Load;
+25/02/21;13:14:26.255;INFO;Controller;State = Running;
+25/02/21;13:14:26.624;INFO;Robot Runtime;executing:    Load;
+25/02/21;13:14:26.651;INFO;Robot Runtime;TraceSample(3): False/False/True;
+25/02/21;13:14:38.661;INFO;Robot Runtime;TraceSample(3): False/True/False;
+25/02/21;13:14:38.891;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+25/02/21;13:14:38.892;INFO;Controller;State = Ready;
+25/02/21;13:14:39.197;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;13:14:39.198;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:14:39.198;INFO;Controller;Status = Executing: Initialize;
+25/02/21;13:14:39.198;INFO;Controller;State = Running;
+25/02/21;13:14:39.564;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;13:14:39.815;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;13:14:39.816;INFO;Controller;State = Ready;
+25/02/21;13:14:39.844;INFO;Server;Command: ExecRobotTask (Mount,500000);
+25/02/21;13:14:39.845;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:14:39.845;INFO;Controller;Status = Executing: Mount;
+25/02/21;13:14:39.845;INFO;Controller;State = Running;
+25/02/21;13:14:40.208;INFO;Robot Runtime;executing:    Mount;
+25/02/21;13:14:40.235;INFO;Robot Runtime;TraceSample(3): False/True/False;
+25/02/21;13:14:49.284;INFO;Robot Runtime;TraceSample(3): True/False/False;
+25/02/21;13:14:49.574;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+25/02/21;13:14:49.575;INFO;Controller;State = Ready;
+25/02/21;13:44:22.759;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;13:44:22.759;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:44:22.759;INFO;Controller;Status = Executing: Initialize;
+25/02/21;13:44:22.760;INFO;Controller;State = Running;
+25/02/21;13:44:23.142;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;13:44:23.408;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;13:44:23.408;INFO;Controller;State = Ready;
+25/02/21;13:44:23.434;INFO;Server;Command: ExecRobotTask (Unmount,500000);
+25/02/21;13:44:23.435;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:44:23.435;INFO;Controller;Status = Executing: Unmount;
+25/02/21;13:44:23.435;INFO;Controller;State = Running;
+25/02/21;13:44:23.802;INFO;Robot Runtime;executing:    Unmount;
+25/02/21;13:44:23.829;INFO;Robot Runtime;TraceSample(3): True/False/False;
+25/02/21;13:44:33.064;INFO;Robot Runtime;TraceSample(3): False/True/False;
+25/02/21;13:44:33.351;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+25/02/21;13:44:33.351;INFO;Controller;State = Ready;
+25/02/21;13:44:33.539;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;13:44:33.539;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:44:33.539;INFO;Controller;Status = Executing: Initialize;
+25/02/21;13:44:33.540;INFO;Controller;State = Running;
+25/02/21;13:44:33.905;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;13:44:34.157;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;13:44:34.158;INFO;Controller;State = Ready;
+25/02/21;13:44:34.194;INFO;Server;Command: ExecRobotTask (Unload,500000);
+25/02/21;13:44:34.195;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:44:34.195;INFO;Controller;Status = Executing: Unload;
+25/02/21;13:44:34.195;INFO;Controller;State = Running;
+25/02/21;13:44:34.567;INFO;Robot Runtime;executing:    Unload;
+25/02/21;13:44:34.594;INFO;Robot Runtime;TraceSample(3): False/True/False;
+25/02/21;13:44:46.594;INFO;Robot Runtime;TraceSample(3): False/False/True;
+25/02/21;13:44:46.873;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/True;
+25/02/21;13:44:46.873;INFO;Controller;State = Ready;
+25/02/21;13:44:49.366;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;13:44:49.367;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:44:49.367;INFO;Controller;Status = Executing: Initialize;
+25/02/21;13:44:49.367;INFO;Controller;State = Running;
+25/02/21;13:44:49.734;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;13:44:49.852;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;13:44:49.852;INFO;Controller;State = Ready;
+25/02/21;13:44:49.867;INFO;Server;Command: ExecRobotTask (Load,500000);
+25/02/21;13:44:49.868;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:44:49.868;INFO;Controller;Status = Executing: Load;
+25/02/21;13:44:49.868;INFO;Controller;State = Running;
+25/02/21;13:44:50.239;INFO;Robot Runtime;executing:    Load;
+25/02/21;13:44:50.265;INFO;Robot Runtime;TraceSample(2): False/False/True;
+25/02/21;13:45:02.006;INFO;Robot Runtime;TraceSample(2): False/True/False;
+25/02/21;13:45:02.215;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+25/02/21;13:45:02.216;INFO;Controller;State = Ready;
+25/02/21;13:45:02.528;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;13:45:02.529;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:45:02.529;INFO;Controller;Status = Executing: Initialize;
+25/02/21;13:45:02.529;INFO;Controller;State = Running;
+25/02/21;13:45:02.896;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;13:45:03.142;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;13:45:03.142;INFO;Controller;State = Ready;
+25/02/21;13:45:03.169;INFO;Server;Command: ExecRobotTask (Mount,500000);
+25/02/21;13:45:03.169;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;13:45:03.170;INFO;Controller;Status = Executing: Mount;
+25/02/21;13:45:03.170;INFO;Controller;State = Running;
+25/02/21;13:45:03.533;INFO;Robot Runtime;executing:    Mount;
+25/02/21;13:45:03.560;INFO;Robot Runtime;TraceSample(2): False/True/False;
+25/02/21;13:45:12.608;INFO;Robot Runtime;TraceSample(2): True/False/False;
+25/02/21;13:45:12.727;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+25/02/21;13:45:12.727;INFO;Controller;State = Ready;
+25/02/21;14:14:44.204;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;14:14:44.208;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;14:14:44.208;INFO;Controller;Status = Executing: Initialize;
+25/02/21;14:14:44.209;INFO;Controller;State = Running;
+25/02/21;14:14:44.606;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;14:14:44.699;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;14:14:44.699;INFO;Controller;State = Ready;
+25/02/21;14:14:44.724;INFO;Server;Command: ExecRobotTask (Unmount,500000);
+25/02/21;14:14:44.724;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;14:14:44.724;INFO;Controller;Status = Executing: Unmount;
+25/02/21;14:14:44.724;INFO;Controller;State = Running;
+25/02/21;14:14:45.091;INFO;Robot Runtime;executing:    Unmount;
+25/02/21;14:14:45.118;INFO;Robot Runtime;TraceSample(2): True/False/False;
+25/02/21;14:14:54.350;INFO;Robot Runtime;TraceSample(2): False/True/False;
+25/02/21;14:14:54.579;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+25/02/21;14:14:54.579;INFO;Controller;State = Ready;
+25/02/21;14:14:54.763;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;14:14:54.764;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;14:14:54.764;INFO;Controller;Status = Executing: Initialize;
+25/02/21;14:14:54.764;INFO;Controller;State = Running;
+25/02/21;14:14:55.127;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;14:14:55.377;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;14:14:55.377;INFO;Controller;State = Ready;
+25/02/21;14:14:55.407;INFO;Server;Command: ExecRobotTask (Unload,500000);
+25/02/21;14:14:55.407;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;14:14:55.407;INFO;Controller;Status = Executing: Unload;
+25/02/21;14:14:55.408;INFO;Controller;State = Running;
+25/02/21;14:14:55.781;INFO;Robot Runtime;executing:    Unload;
+25/02/21;14:14:55.807;INFO;Robot Runtime;TraceSample(2): False/True/False;
+25/02/21;14:15:07.928;INFO;Robot Runtime;TraceSample(2): False/False/True;
+25/02/21;14:15:08.023;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/True;
+25/02/21;14:15:08.023;INFO;Controller;State = Ready;
+25/02/21;14:15:08.048;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;14:15:08.048;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;14:15:08.048;INFO;Controller;Status = Executing: Initialize;
+25/02/21;14:15:08.048;INFO;Controller;State = Running;
+25/02/21;14:15:08.413;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;14:15:08.513;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;14:15:08.513;INFO;Controller;State = Ready;
+25/02/21;14:15:08.546;INFO;Server;Command: ExecRobotTask (Home,500000);
+25/02/21;14:15:08.546;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;14:15:08.547;INFO;Controller;Status = Executing: Home;
+25/02/21;14:15:08.547;INFO;Controller;State = Running;
+25/02/21;14:15:08.913;INFO;Robot Runtime;executing:    Home;
+25/02/21;14:15:09.602;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;14:15:09.602;INFO;Controller;State = Ready;
+25/02/21;14:15:09.631;INFO;Server;Command: ExecRobotTask (Park,500000);
+25/02/21;14:15:09.632;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;14:15:09.632;INFO;Controller;Status = Executing: Park;
+25/02/21;14:15:09.632;INFO;Controller;State = Running;
+25/02/21;14:15:09.697;INFO;Robot Runtime;executing:    Park;
+25/02/21;14:15:10.795;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;14:15:10.795;INFO;Controller;State = Ready;
+25/02/21;14:15:10.833;INFO;Server;Command: ExecRobotTask (PowerOff,500000);
+25/02/21;14:15:10.834;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;14:15:10.834;INFO;Controller;Status = Executing: PowerOff;
+25/02/21;14:15:10.834;INFO;Controller;State = Running;
+25/02/21;14:15:11.185;INFO;Robot Runtime;executing:    PowerOff;
+25/02/21;14:15:13.056;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;14:15:13.056;INFO;Controller;State = Ready;
+25/02/21;16:22:56.250;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;16:22:56.251;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:22:56.251;INFO;Controller;Status = Executing: Initialize;
+25/02/21;16:22:56.251;INFO;Controller;State = Running;
+25/02/21;16:22:56.679;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;16:22:56.707;INFO;Robot Runtime;Robot is on hold or doing connection movement --- 2;
+25/02/21;16:22:58.263;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:22:58.263;INFO;Controller;State = Ready;
+25/02/21;16:22:58.286;INFO;Server;Command: ExecRobotTask (Home,500000);
+25/02/21;16:22:58.286;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:22:58.286;INFO;Controller;Status = Executing: Home;
+25/02/21;16:22:58.286;INFO;Controller;State = Running;
+25/02/21;16:22:58.653;INFO;Robot Runtime;executing:    Home;
+25/02/21;16:22:59.562;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:22:59.562;INFO;Controller;State = Ready;
+25/02/21;16:22:59.743;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;16:22:59.743;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:22:59.743;INFO;Controller;Status = Executing: Initialize;
+25/02/21;16:22:59.743;INFO;Controller;State = Running;
+25/02/21;16:23:00.115;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;16:23:00.223;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:23:00.223;INFO;Controller;State = Ready;
+25/02/21;16:23:00.237;INFO;Server;Command: ExecRobotTask (Load,500000);
+25/02/21;16:23:00.237;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:23:00.238;INFO;Controller;Status = Executing: Load;
+25/02/21;16:23:00.238;INFO;Controller;State = Running;
+25/02/21;16:23:00.607;INFO;Robot Runtime;executing:    Load;
+25/02/21;16:23:00.634;INFO;Robot Runtime;TraceSample(3): False/False/True;
+25/02/21;16:23:13.427;INFO;Robot Runtime;TraceSample(3): False/True/False;
+25/02/21;16:23:13.624;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+25/02/21;16:23:13.625;INFO;Controller;State = Ready;
+25/02/21;16:23:16.509;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;16:23:16.510;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:23:16.519;INFO;Controller;Status = Executing: Initialize;
+25/02/21;16:23:16.520;INFO;Controller;State = Running;
+25/02/21;16:23:16.883;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;16:23:17.112;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:23:17.112;INFO;Controller;State = Ready;
+25/02/21;16:23:17.127;INFO;Server;Command: ExecRobotTask (Unload,500000);
+25/02/21;16:23:17.128;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:23:17.128;INFO;Controller;Status = Executing: Unload;
+25/02/21;16:23:17.128;INFO;Controller;State = Running;
+25/02/21;16:23:17.499;INFO;Robot Runtime;executing:    Unload;
+25/02/21;16:23:17.526;INFO;Robot Runtime;TraceSample(3): False/True/False;
+25/02/21;16:23:27.919;INFO;Robot Runtime;TraceSample(3): False/False/True;
+25/02/21;16:23:28.203;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/True;
+25/02/21;16:23:28.204;INFO;Controller;State = Ready;
+25/02/21;16:23:28.401;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;16:23:28.402;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:23:28.402;INFO;Controller;Status = Executing: Initialize;
+25/02/21;16:23:28.402;INFO;Controller;State = Running;
+25/02/21;16:23:28.767;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;16:23:28.892;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:23:28.892;INFO;Controller;State = Ready;
+25/02/21;16:23:28.904;INFO;Server;Command: ExecRobotTask (Home,500000);
+25/02/21;16:23:28.904;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:23:28.904;INFO;Controller;Status = Executing: Home;
+25/02/21;16:23:28.905;INFO;Controller;State = Running;
+25/02/21;16:23:29.270;INFO;Robot Runtime;executing:    Home;
+25/02/21;16:23:29.981;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:23:29.981;INFO;Controller;State = Ready;
+25/02/21;16:23:30.159;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;16:23:30.159;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:23:30.160;INFO;Controller;Status = Executing: Initialize;
+25/02/21;16:23:30.160;INFO;Controller;State = Running;
+25/02/21;16:23:30.526;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;16:23:30.640;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:23:30.640;INFO;Controller;State = Ready;
+25/02/21;16:23:30.656;INFO;Server;Command: ExecRobotTask (Load,500000);
+25/02/21;16:23:30.656;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:23:30.656;INFO;Controller;Status = Executing: Load;
+25/02/21;16:23:30.656;INFO;Controller;State = Running;
+25/02/21;16:23:31.028;INFO;Robot Runtime;executing:    Load;
+25/02/21;16:23:31.054;INFO;Robot Runtime;TraceSample(3): False/False/True;
+25/02/21;16:23:43.425;INFO;Robot Runtime;TraceSample(3): False/True/False;
+25/02/21;16:23:43.707;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+25/02/21;16:23:43.708;INFO;Controller;State = Ready;
+25/02/21;16:23:44.012;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;16:23:44.013;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:23:44.013;INFO;Controller;Status = Executing: Initialize;
+25/02/21;16:23:44.013;INFO;Controller;State = Running;
+25/02/21;16:23:44.379;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;16:23:44.624;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:23:44.625;INFO;Controller;State = Ready;
+25/02/21;16:23:44.642;INFO;Server;Command: ExecRobotTask (Mount,500000);
+25/02/21;16:23:44.642;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:23:44.642;INFO;Controller;Status = Executing: Mount;
+25/02/21;16:23:44.642;INFO;Controller;State = Running;
+25/02/21;16:23:45.009;INFO;Robot Runtime;executing:    Mount;
+25/02/21;16:23:45.036;INFO;Robot Runtime;TraceSample(3): False/True/False;
+25/02/21;16:23:54.084;INFO;Robot Runtime;TraceSample(3): True/False/False;
+25/02/21;16:23:54.302;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+25/02/21;16:23:54.302;INFO;Controller;State = Ready;
+25/02/21;16:39:28.324;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;16:39:28.324;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:39:28.324;INFO;Controller;Status = Executing: Initialize;
+25/02/21;16:39:28.324;INFO;Controller;State = Running;
+25/02/21;16:39:28.689;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;16:39:28.978;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:39:28.978;INFO;Controller;State = Ready;
+25/02/21;16:39:28.993;INFO;Server;Command: ExecRobotTask (Unmount,500000);
+25/02/21;16:39:28.993;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:39:28.993;INFO;Controller;Status = Executing: Unmount;
+25/02/21;16:39:28.993;INFO;Controller;State = Running;
+25/02/21;16:39:29.362;INFO;Robot Runtime;executing:    Unmount;
+25/02/21;16:39:29.391;INFO;Robot Runtime;TraceSample(3): True/False/False;
+25/02/21;16:39:38.625;INFO;Robot Runtime;TraceSample(3): False/True/False;
+25/02/21;16:39:38.748;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+25/02/21;16:39:38.748;INFO;Controller;State = Ready;
+25/02/21;16:39:38.916;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;16:39:38.917;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:39:38.917;INFO;Controller;Status = Executing: Initialize;
+25/02/21;16:39:38.917;INFO;Controller;State = Running;
+25/02/21;16:39:39.283;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;16:39:39.402;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:39:39.402;INFO;Controller;State = Ready;
+25/02/21;16:39:39.412;INFO;Server;Command: ExecRobotTask (Unload,500000);
+25/02/21;16:39:39.412;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:39:39.412;INFO;Controller;Status = Executing: Unload;
+25/02/21;16:39:39.412;INFO;Controller;State = Running;
+25/02/21;16:39:39.786;INFO;Robot Runtime;executing:    Unload;
+25/02/21;16:39:39.812;INFO;Robot Runtime;TraceSample(3): False/True/False;
+25/02/21;16:39:51.546;INFO;Robot Runtime;TraceSample(3): False/False/True;
+25/02/21;16:39:51.778;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/True;
+25/02/21;16:39:51.778;INFO;Controller;State = Ready;
+25/02/21;16:39:51.788;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+25/02/21;16:39:51.788;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:39:51.788;INFO;Controller;Status = Executing: Initialize;
+25/02/21;16:39:51.788;INFO;Controller;State = Running;
+25/02/21;16:39:52.153;INFO;Robot Runtime;executing:    Initialize;
+25/02/21;16:39:52.411;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:39:52.412;INFO;Controller;State = Ready;
+25/02/21;16:39:52.428;INFO;Server;Command: ExecRobotTask (Home,500000);
+25/02/21;16:39:52.428;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:39:52.428;INFO;Controller;Status = Executing: Home;
+25/02/21;16:39:52.428;INFO;Controller;State = Running;
+25/02/21;16:39:52.796;INFO;Robot Runtime;executing:    Home;
+25/02/21;16:39:53.647;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:39:53.648;INFO;Controller;State = Ready;
+25/02/21;16:39:53.663;INFO;Server;Command: ExecRobotTask (Park,500000);
+25/02/21;16:39:53.663;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:39:53.664;INFO;Controller;Status = Executing: Park;
+25/02/21;16:39:53.664;INFO;Controller;State = Running;
+25/02/21;16:39:53.724;INFO;Robot Runtime;executing:    Park;
+25/02/21;16:39:54.755;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:39:54.755;INFO;Controller;State = Ready;
+25/02/21;16:39:54.769;INFO;Server;Command: ExecRobotTask (PowerOff,500000);
+25/02/21;16:39:54.770;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/21;16:39:54.770;INFO;Controller;Status = Executing: PowerOff;
+25/02/21;16:39:54.770;INFO;Controller;State = Running;
+25/02/21;16:39:55.117;INFO;Robot Runtime;executing:    PowerOff;
+25/02/21;16:39:57.003;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/21;16:39:57.004;INFO;Controller;State = Ready;

@@ -1,0 +1,7 @@
+25/09/18;10:06:42.901;WARNING;Robot Runtime;update thread is down, Error Code: 125;
+25/09/18;10:06:46.743;WARNING;Robot;Alarm active: Device is offline;
+25/09/18;10:06:46.744;INFO;Controller;State = Communication Error;
+25/09/18;10:15:20.868;INFO;Robot;Alarm inactive: Device is offline;
+25/09/18;10:15:20.868;WARNING;Controller;Communication resumed, trying updating devices;
+25/09/18;10:15:20.868;INFO;Controller;Finished device updating;
+25/09/18;10:15:20.868;INFO;Controller;State = Ready;

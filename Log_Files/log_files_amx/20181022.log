@@ -1,0 +1,3 @@
+22/10/18;09:22:27.487;INFO;Controller;State = Closing;
+22/10/18;09:22:28.499;INFO;Epics Server;Exiting running thread;
+22/10/18;09:22:28.503;INFO;Controller;Stopping log services - Startup: 20/10/18 16:14:44;

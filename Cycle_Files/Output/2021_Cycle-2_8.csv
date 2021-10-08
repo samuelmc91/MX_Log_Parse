@@ -1,0 +1,13 @@
+,AMX morning,AMX afternoon,AMX overnight,FMX morning,FMX afternoon,FMX overnight
+1,BAG,BAG,,PR,BAG,
+2,BAG,BAG,BAG,PR,GU,
+3,,,,blsk/oph,,
+5,BLC,BAG,,BLC,BAG,BAG
+6,BAG,BAG,BAG,PR,PR,PR
+7,BAG,PR-SPP,BAG,BAG,PR,PR
+8,RA,RA,RA,Mitegen,BAG,PR
+9,GU,BAG,BAG,GU,BAG,BAG
+10,BAG,BAG,BLC,BAG,GU,Open
+11,,305041,,,,
+17,,,,Ophyd/Bluesky,,
+24,,,,Ophyd/Bluesky?,,

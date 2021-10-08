@@ -1,0 +1,7 @@
+16/10/17;16:44:30.953;INFO;Interface;Command: ExecRobotTask (Finish,-1);
+16/10/17;16:44:30.963;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+16/10/17;16:44:30.963;INFO;Controller;Status = Executing: Finish;
+16/10/17;16:44:30.963;INFO;Controller;State = Running;
+16/10/17;16:44:31.965;INFO;Robot Runtime;executing:    Finish;
+16/10/17;16:47:16.776;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+16/10/17;16:47:16.776;INFO;Controller;State = Ready;

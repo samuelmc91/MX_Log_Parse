@@ -1,0 +1,124 @@
+02/04/21;10:03:50.161;WARNING;Robot;Alarm active: Device is offline;
+02/04/21;10:03:50.162;INFO;Controller;State = Communication Error;
+02/04/21;16:01:38.087;INFO;Controller;Instantiation;
+02/04/21;16:01:38.106;INFO;Controller;State = Initializing;
+02/04/21;16:01:38.186;WARNING;Interface;Access level set to Admin;
+02/04/21;16:01:38.243;INFO;Controller;Initialized log services - Startup: 02/04/21 16:01:37;
+02/04/21;16:01:38.251;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+02/04/21;16:01:38.464;INFO;Epics Server;Registered PV: SW:Version;
+02/04/21;16:01:38.465;INFO;Epics Server;Registered PV: SW:Status;
+02/04/21;16:01:38.465;INFO;Epics Server;Registered PV: SW:Uptime;
+02/04/21;16:01:38.481;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+02/04/21;16:01:38.481;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+02/04/21;16:01:38.482;INFO;Epics Server;Registered PV: SW:AlarmList;
+02/04/21;16:01:38.482;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+02/04/21;16:01:38.483;INFO;Epics Server;Registered PV: SW:LastTaskException;
+02/04/21;16:01:38.483;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+02/04/21;16:01:38.484;INFO;Epics Server;Registered PV: SW:RobotState;
+02/04/21;16:01:38.484;INFO;Epics Server;Registered PV: SW:JointPositions;
+02/04/21;16:01:38.485;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+02/04/21;16:01:38.485;INFO;Epics Server;Registered PV: SW:State;
+02/04/21;16:01:38.488;INFO;Epics Server;Registered PV: SW:abort;
+02/04/21;16:01:38.488;INFO;Epics Server;Registered PV: SW:restart;
+02/04/21;16:01:38.488;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+02/04/21;16:01:38.489;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+02/04/21;16:01:38.490;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+02/04/21;16:01:38.491;INFO;Epics Server;Registered PV: SW:startTestTask;
+02/04/21;16:01:38.491;INFO;Epics Server;Registered PV: SW:pauseRobot;
+02/04/21;16:01:38.491;INFO;Epics Server;Registered PV: SW:resumeRobot;
+02/04/21;16:01:38.492;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+02/04/21;16:01:38.492;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+02/04/21;16:01:38.492;INFO;Epics Server;Registered PV: SW:startRobotTask;
+02/04/21;16:01:38.492;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+02/04/21;16:01:38.493;INFO;Epics Server;Registered PV: SW:getDistance;
+02/04/21;16:01:38.493;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+02/04/21;16:01:38.496;INFO;Epics Server;Started server: ready to accept requests;
+02/04/21;16:01:39.191;INFO;Controller;Initializing Robot;
+02/04/21;16:01:39.199;INFO;Robot;Setting reference frame to: world;
+02/04/21;16:01:39.204;WARNING;Robot;Exception: Robot connection error (Error connecting to device)
+Stack trace:
+org.embl.ctrl.ConnectedDevice$ConnectionFailureException: Connection error
+	at org.embl.ctrl.ConnectedDevice.connect(ConnectedDevice.java:136)
+	at org.embl.ctrl.ConnectedDevice.doInitialize(ConnectedDevice.java:85)
+	at org.embl.dev.staubli.StaubliRobot.doInitialize(StaubliRobot.java:491)
+	at org.embl.ctrl.Device.initialize(Device.java:678)
+	at org.embl.ctrl.Device.initialize(Device.java:644)
+	at org.embl.ctrl.Sequencer.initializeDevices(Sequencer.java:611)
+	at org.embl.ctrl.Controller.initializeDevices(Controller.java:2664)
+	at org.embl.ctrl.Sequencer.initializeDevices(Sequencer.java:597)
+	at org.embl.ctrl.Sequencer.initializeDevices(Sequencer.java:592)
+	at org.embl.sw.Control.doInitialize(Control.java:183)
+	at org.embl.ctrl.Sequencer.initialize(Sequencer.java:259)
+	at org.embl.ctrl.Controller.initialize(Controller.java:514)
+	at org.embl.ctrl.Sequencer$1.run(Sequencer.java:312)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.embl.ctrl.Device$DeviceException: Error connecting to device
+	at org.embl.dev.staubli.StaubliRobot.doConnect(StaubliRobot.java:592)
+	at org.embl.ctrl.ConnectedDevice.connect(ConnectedDevice.java:125)
+	... 13 more
+Caused by: org.embl.net.NetException$NetConnectionErrorException: Connection error
+	at org.embl.net.SocketClient.connect(SocketClient.java:241)
+	at org.embl.dev.staubli.StaubliRobot.doConnect(StaubliRobot.java:584)
+	... 14 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.embl.net.SocketClient.connect(SocketClient.java:235)
+	... 15 more
+;
+02/04/21;16:01:39.286;INFO;Controller;Initializing Bus Controller;
+02/04/21;16:01:39.287;INFO;Anti-Collision;Active = true;
+02/04/21;16:01:39.288;INFO;Controller;State = Starting;
+02/04/21;16:01:39.291;INFO;Controller;State = Communication Error;
+02/04/21;16:01:39.292;SEVERE;Controller;Exception: Communication timeout with the devices: 
+Robot
+Stack trace:
+org.embl.BaseException: Communication timeout with the devices: 
+Robot
+	at org.embl.ctrl.Controller.onStart(Controller.java:1323)
+	at org.embl.ctrl.Sequencer.start(Sequencer.java:1192)
+	at org.embl.ctrl.Sequencer.initialize(Sequencer.java:287)
+	at org.embl.ctrl.Controller.initialize(Controller.java:514)
+	at org.embl.ctrl.Sequencer$1.run(Sequencer.java:312)
+	at java.lang.Thread.run(Thread.java:745)
+;
+02/04/21;16:01:40.292;WARNING;Robot;Alarm active: Device is offline;
+02/04/21;16:01:54.450;INFO;Robot;Alarm inactive: Device is offline;
+02/04/21;16:01:54.451;WARNING;Controller;Communication resumed, trying updating devices;
+02/04/21;16:01:54.454;INFO;Controller;Finished device updating;
+02/04/21;16:01:54.454;INFO;Controller;Alarm condition ceased but controller has not been started: retrying a start;
+02/04/21;16:01:54.454;INFO;Controller;State = Starting;
+02/04/21;16:01:54.455;INFO;Controller;Command: Reset;
+02/04/21;16:01:54.748;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+02/04/21;16:01:54.748;INFO;Controller;Status = Reseting;
+02/04/21;16:01:54.748;INFO;Controller;State = Running;
+02/04/21;16:01:55.386;INFO;Controller;Script host: localhost:34602;
+02/04/21;16:01:55.386;INFO;Script;Starting initialization script;
+02/04/21;16:01:55.390;INFO;Script;Do nothing;
+02/04/21;16:01:55.391;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+02/04/21;16:01:55.391;INFO;Controller;State = Ready;
+02/04/21;16:02:24.346;INFO;Interface;Command: ExecRobotTask (UC_FlidLoad,-1);
+02/04/21;16:02:24.346;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+02/04/21;16:02:24.347;INFO;Controller;Status = Executing: UC_FlidLoad;
+02/04/21;16:02:24.347;INFO;Controller;State = Running;
+02/04/21;16:02:24.962;INFO;Robot Runtime;executing:    UC_FlidLoad;
+02/04/21;16:02:46.583;INFO;Controller;Activity ExecRobotTask ended. Return value: ;
+02/04/21;16:02:46.584;INFO;Controller;State = Ready;
+02/04/21;16:13:17.955;INFO;Robot Runtime;Unsupported Movement Dewar->Park;
+02/04/21;16:16:10.270;WARNING;Robot;Alarm active: Device is offline;
+02/04/21;16:16:10.271;INFO;Controller;State = Communication Error;
+02/04/21;16:16:14.395;INFO;Robot;Alarm inactive: Device is offline;
+02/04/21;16:16:14.395;WARNING;Controller;Communication resumed, trying updating devices;
+02/04/21;16:16:14.397;INFO;Controller;Finished device updating;
+02/04/21;16:16:14.397;INFO;Controller;State = Ready;
+02/04/21;17:02:37.353;INFO;Interface;Command: ExecRobotTask (UC_FlidLoad,-1);
+02/04/21;17:02:37.353;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+02/04/21;17:02:37.354;INFO;Controller;Status = Executing: UC_FlidLoad;
+02/04/21;17:02:37.354;INFO;Controller;State = Running;
+02/04/21;17:02:37.432;INFO;Robot Runtime;executing:    UC_FlidLoad;
+02/04/21;17:05:23.332;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+02/04/21;17:05:23.332;INFO;Controller;State = Ready;

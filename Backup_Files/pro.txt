@@ -1,0 +1,17 @@
+Log Parse
+
+1. Seperate the dirivate smooth
+
+2. Put list of dates in order
+
+3. Add txt file to Prox Sensors
+    a. Max
+    b. Min
+    c. Delta (Max & Min)
+    d. Average
+
+4. Graphing
+
+5. Work on graphing for sample counters
+
+6. LIX mount 5 minute skip

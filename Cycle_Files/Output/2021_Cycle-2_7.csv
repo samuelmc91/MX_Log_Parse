@@ -1,0 +1,23 @@
+,AMX morning,AMX afternoon,AMX overnight,FMX morning,FMX afternoon,FMX overnight
+1,BAG,,,PR,,
+5,BLC,,,BLC,,
+7,,,,BAG,BAG,
+8,,,,,BAG,
+9,BAG,,,BAG,BAG,
+10,BAG,,,PR,PR,
+11,,,,PR,PR,
+12,GU,,,BAG,BAG,
+13,,VPN,,,VPN,
+15,BLC,Live,,BLC,Live,
+16,BAG,BAG,,PR,,
+19,BAG,,,BAG,BAG,BAG
+20,,,,bluesky/ophyd,PR,PR
+21,BLC,,,PR,PR,PR
+22,,,,BAG,PR,PR
+23,,,,bluesky/ophyd,,
+26,BLC,BAG,,BLC,RA,RA
+27,BAG,BAG,BAG,BAG,BAG,BAG
+28,BLC,PR,,BAG,BAG,BAG
+29,PR,PR,PR,blsk/oph,BAG,
+30,GU,PR,,BAG,PR,PR
+31,BAG,BAG,,PR,PR,PR

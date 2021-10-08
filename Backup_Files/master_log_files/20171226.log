@@ -1,0 +1,258 @@
+26/12/17;10:45:09.950;INFO;Controller;Instantiation;
+26/12/17;10:45:09.980;INFO;Controller;State = Initializing;
+26/12/17;10:45:10.110;WARNING;Interface;Access level set to Admin;
+26/12/17;10:45:10.196;INFO;Controller;Initialized log services - Startup: 26/12/17 10:45:09;
+26/12/17;10:45:10.203;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+26/12/17;10:45:10.484;INFO;Epics Server;Registered PV: SW:Version;
+26/12/17;10:45:10.484;INFO;Epics Server;Registered PV: SW:Status;
+26/12/17;10:45:10.485;INFO;Epics Server;Registered PV: SW:Uptime;
+26/12/17;10:45:10.508;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+26/12/17;10:45:10.508;INFO;Epics Server;Registered PV: SW:AlarmList;
+26/12/17;10:45:10.509;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+26/12/17;10:45:10.509;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+26/12/17;10:45:10.510;INFO;Epics Server;Registered PV: SW:LastTaskException;
+26/12/17;10:45:10.510;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+26/12/17;10:45:10.510;INFO;Epics Server;Registered PV: SW:RobotState;
+26/12/17;10:45:10.511;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+26/12/17;10:45:10.512;INFO;Epics Server;Registered PV: SW:JointPositions;
+26/12/17;10:45:10.512;INFO;Epics Server;Registered PV: SW:State;
+26/12/17;10:45:10.514;INFO;Epics Server;Registered PV: SW:abort;
+26/12/17;10:45:10.515;INFO;Epics Server;Registered PV: SW:restart;
+26/12/17;10:45:10.515;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+26/12/17;10:45:10.515;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+26/12/17;10:45:10.516;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+26/12/17;10:45:10.516;INFO;Epics Server;Registered PV: SW:startTestTask;
+26/12/17;10:45:10.516;INFO;Epics Server;Registered PV: SW:pauseRobot;
+26/12/17;10:45:10.517;INFO;Epics Server;Registered PV: SW:resumeRobot;
+26/12/17;10:45:10.517;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+26/12/17;10:45:10.517;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+26/12/17;10:45:10.518;INFO;Epics Server;Registered PV: SW:startRobotTask;
+26/12/17;10:45:10.518;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+26/12/17;10:45:10.518;INFO;Epics Server;Registered PV: SW:getDistance;
+26/12/17;10:45:10.519;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+26/12/17;10:45:10.521;INFO;Epics Server;Started server: ready to accept requests;
+26/12/17;10:45:11.581;INFO;Controller;Initializing Robot;
+26/12/17;10:45:11.597;INFO;Robot;Setting reference frame to: world;
+26/12/17;10:45:11.801;INFO;Controller;Initializing Bus Controller;
+26/12/17;10:45:11.802;INFO;Anti-Collision;Active = true;
+26/12/17;10:45:11.803;INFO;Controller;State = Starting;
+26/12/17;10:45:11.808;INFO;Controller;Command: Reset;
+26/12/17;10:45:12.257;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+26/12/17;10:45:12.258;INFO;Controller;Status = Reseting;
+26/12/17;10:45:12.258;INFO;Controller;State = Running;
+26/12/17;10:45:12.898;INFO;Controller;Script host: localhost:35474;
+26/12/17;10:45:12.899;INFO;Script;Starting initialization script;
+26/12/17;10:45:12.903;INFO;Script;Do nothing;
+26/12/17;10:45:12.904;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+26/12/17;10:45:12.904;INFO;Controller;State = Ready;
+26/12/17;10:46:52.916;INFO;Interface;Command: ExecRobotTask (checkToolConfig,-1);
+26/12/17;10:46:52.918;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;10:46:52.918;INFO;Controller;Status = Executing: checkToolConfig;
+26/12/17;10:46:52.918;INFO;Controller;State = Running;
+26/12/17;10:46:53.212;INFO;Robot Runtime;executing:    checkToolConfig;
+26/12/17;10:46:53.255;INFO;Robot Runtime;Invalid Gripper: C014;
+26/12/17;10:46:53.276;INFO;Robot Runtime;Invalid Gripper: C017;
+26/12/17;10:46:53.297;INFO;Robot Runtime;Valid Gripper: C015;
+26/12/17;10:46:53.318;INFO;Robot Runtime;Valid Gripper: C019;
+26/12/17;10:46:53.339;WARNING;Robot Runtime;Current tool does NOT match any registered tool;
+26/12/17;10:46:53.569;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: NO match for the Current tool;
+26/12/17;10:46:53.569;INFO;Controller;State = Ready;
+26/12/17;10:47:27.009;INFO;Interface;Command: ExecRobotTask (swapTools,-1);
+26/12/17;10:47:27.010;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;10:47:27.011;INFO;Controller;Status = Executing: swapTools;
+26/12/17;10:47:27.011;INFO;Controller;State = Running;
+26/12/17;10:47:27.192;INFO;Robot Runtime;executing:    swapTools;
+26/12/17;10:47:27.490;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;10:47:27.490;INFO;Controller;State = Ready;
+26/12/17;10:47:41.427;INFO;Interface;Command: ExecRobotTask (checkToolConfig,-1);
+26/12/17;10:47:41.428;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;10:47:41.428;INFO;Controller;Status = Executing: checkToolConfig;
+26/12/17;10:47:41.428;INFO;Controller;State = Running;
+26/12/17;10:47:41.576;INFO;Robot Runtime;executing:    checkToolConfig;
+26/12/17;10:47:41.619;INFO;Robot Runtime;Invalid Gripper: C014;
+26/12/17;10:47:41.642;INFO;Robot Runtime;Invalid Gripper: C017;
+26/12/17;10:47:41.663;INFO;Robot Runtime;Valid Gripper: C015;
+26/12/17;10:47:41.684;INFO;Robot Runtime;Valid Gripper: C019;
+26/12/17;10:47:41.705;INFO;Robot Runtime;Current Tool: C015 (Valid);
+26/12/17;10:47:41.830;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;10:47:41.831;INFO;Controller;State = Ready;
+26/12/17;11:05:54.807;WARNING;Robot;Alarm active: Device is offline;
+26/12/17;11:05:54.810;INFO;Controller;State = Communication Error;
+26/12/17;11:47:33.518;INFO;Robot Runtime;Failed to construct puck frame from its name;
+26/12/17;11:50:41.056;INFO;Robot Runtime;Failed to construct puck frame;
+26/12/17;13:06:58.054;INFO;Interface;Command: Abort;
+26/12/17;13:06:58.060;INFO;Robot;Abort;
+26/12/17;13:06:58.062;WARNING;Interface;Exception: Robot not connected
+Stack trace:
+org.embl.ctrl.ConnectedDevice$NotConnectedException: Not connected
+	at org.embl.ctrl.ConnectedDevice.assertConnected(ConnectedDevice.java:112)
+	at org.embl.dev.staubli.StaubliRobot.sendReceive(StaubliRobot.java:1263)
+	at org.embl.dev.staubli.StaubliRobot.execute(StaubliRobot.java:1089)
+	at org.embl.dev.staubli.StaubliRobot.abort(StaubliRobot.java:709)
+	at org.embl.sw.Control.doAbort(Control.java:357)
+	at org.embl.ctrl.Controller.abort(Controller.java:1372)
+	at org.embl.ctrl.MainFrame.onAbort(MainFrame.java:1033)
+	at org.embl.ctrl.MainFrame$20.actionPerformed(MainFrame.java:421)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6535)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+;
+26/12/17;13:07:50.912;INFO;Robot;Alarm inactive: Device is offline;
+26/12/17;13:07:50.913;WARNING;Controller;Communication resumed, trying updating devices;
+26/12/17;13:07:50.916;INFO;Controller;Finished device updating;
+26/12/17;13:07:50.916;INFO;Controller;State = Ready;
+26/12/17;13:07:59.750;INFO;Interface;Command: ExecRobotTask (checkToolConfig,-1);
+26/12/17;13:07:59.751;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;13:07:59.751;INFO;Controller;Status = Executing: checkToolConfig;
+26/12/17;13:07:59.751;INFO;Controller;State = Running;
+26/12/17;13:07:59.973;INFO;Robot Runtime;executing:    checkToolConfig;
+26/12/17;13:08:00.014;INFO;Robot Runtime;Invalid Gripper: C014;
+26/12/17;13:08:00.037;INFO;Robot Runtime;Invalid Gripper: C017;
+26/12/17;13:08:00.058;INFO;Robot Runtime;Valid Gripper: C015;
+26/12/17;13:08:00.078;INFO;Robot Runtime;Valid Gripper: C019;
+26/12/17;13:08:00.100;INFO;Robot Runtime;Current Tool: C015 (Valid);
+26/12/17;13:08:00.341;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;13:08:00.341;INFO;Controller;State = Ready;
+26/12/17;13:08:14.949;INFO;Interface;Command: ExecRobotTask (swapTools,-1);
+26/12/17;13:08:14.950;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;13:08:14.950;INFO;Controller;Status = Executing: swapTools;
+26/12/17;13:08:14.950;INFO;Controller;State = Running;
+26/12/17;13:08:15.135;INFO;Robot Runtime;executing:    swapTools;
+26/12/17;13:08:15.587;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;13:08:15.588;INFO;Controller;State = Ready;
+26/12/17;13:08:30.465;INFO;Interface;Command: ExecRobotTask (checkToolConfig,-1);
+26/12/17;13:08:30.466;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;13:08:30.466;INFO;Controller;Status = Executing: checkToolConfig;
+26/12/17;13:08:30.466;INFO;Controller;State = Running;
+26/12/17;13:08:30.609;INFO;Robot Runtime;executing:    checkToolConfig;
+26/12/17;13:08:30.653;INFO;Robot Runtime;Invalid Gripper: C014;
+26/12/17;13:08:30.674;INFO;Robot Runtime;Invalid Gripper: C017;
+26/12/17;13:08:30.695;INFO;Robot Runtime;Valid Gripper: C015;
+26/12/17;13:08:30.715;INFO;Robot Runtime;Valid Gripper: C019;
+26/12/17;13:08:30.736;INFO;Robot Runtime;Current Tool: C019 (Valid);
+26/12/17;13:08:31.066;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;13:08:31.067;INFO;Controller;State = Ready;
+26/12/17;13:25:44.042;INFO;Interface;Command: ExecRobotTask (checkToolConfig,-1);
+26/12/17;13:25:44.050;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;13:25:44.051;INFO;Controller;Status = Executing: checkToolConfig;
+26/12/17;13:25:44.051;INFO;Controller;State = Running;
+26/12/17;13:25:44.262;INFO;Robot Runtime;executing:    checkToolConfig;
+26/12/17;13:25:44.311;INFO;Robot Runtime;Invalid Gripper: C014;
+26/12/17;13:25:44.332;INFO;Robot Runtime;Invalid Gripper: C017;
+26/12/17;13:25:44.352;INFO;Robot Runtime;Valid Gripper: C015;
+26/12/17;13:25:44.373;INFO;Robot Runtime;Valid Gripper: C019;
+26/12/17;13:25:44.394;WARNING;Robot Runtime;Current tool does NOT match any registered tool;
+26/12/17;13:25:44.675;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: NO match for the Current tool;
+26/12/17;13:25:44.676;INFO;Controller;State = Ready;
+26/12/17;13:26:36.408;INFO;Interface;Command: ExecRobotTask (swapTools,-1);
+26/12/17;13:26:36.409;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;13:26:36.409;INFO;Controller;Status = Executing: swapTools;
+26/12/17;13:26:36.410;INFO;Controller;State = Running;
+26/12/17;13:26:36.575;INFO;Robot Runtime;executing:    swapTools;
+26/12/17;13:26:36.824;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;13:26:36.824;INFO;Controller;State = Ready;
+26/12/17;13:26:38.090;INFO;Interface;Command: ExecRobotTask (swapTools,-1);
+26/12/17;13:26:38.091;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;13:26:38.091;INFO;Controller;Status = Executing: swapTools;
+26/12/17;13:26:38.091;INFO;Controller;State = Running;
+26/12/17;13:26:38.265;INFO;Robot Runtime;executing:    swapTools;
+26/12/17;13:26:38.509;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;13:26:38.509;INFO;Controller;State = Ready;
+26/12/17;13:26:47.188;INFO;Interface;Command: ExecRobotTask (checkToolConfig,-1);
+26/12/17;13:26:47.188;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;13:26:47.189;INFO;Controller;Status = Executing: checkToolConfig;
+26/12/17;13:26:47.189;INFO;Controller;State = Running;
+26/12/17;13:26:47.337;INFO;Robot Runtime;executing:    checkToolConfig;
+26/12/17;13:26:47.378;INFO;Robot Runtime;Invalid Gripper: C014;
+26/12/17;13:26:47.398;INFO;Robot Runtime;Invalid Gripper: C017;
+26/12/17;13:26:47.419;INFO;Robot Runtime;Valid Gripper: C015;
+26/12/17;13:26:47.439;INFO;Robot Runtime;Valid Gripper: C019;
+26/12/17;13:26:47.460;INFO;Robot Runtime;Current Tool: C019 (Valid);
+26/12/17;13:26:47.787;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;13:26:47.787;INFO;Controller;State = Ready;
+26/12/17;13:29:52.868;INFO;Interface;Command: ExecRobotTask (swapTools,-1);
+26/12/17;13:29:52.869;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;13:29:52.869;INFO;Controller;Status = Executing: swapTools;
+26/12/17;13:29:52.870;INFO;Controller;State = Running;
+26/12/17;13:29:53.016;INFO;Robot Runtime;executing:    swapTools;
+26/12/17;13:29:53.062;WARNING;Robot Runtime;Tool (C017) Configuration is INVALID.;
+26/12/17;13:29:53.475;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;13:29:53.475;INFO;Controller;State = Ready;
+26/12/17;13:30:09.721;INFO;Interface;Command: ExecRobotTask (checkToolConfig,-1);
+26/12/17;13:30:09.722;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;13:30:09.723;INFO;Controller;Status = Executing: checkToolConfig;
+26/12/17;13:30:09.723;INFO;Controller;State = Running;
+26/12/17;13:30:09.894;INFO;Robot Runtime;executing:    checkToolConfig;
+26/12/17;13:30:09.935;INFO;Robot Runtime;Invalid Gripper: C014;
+26/12/17;13:30:09.955;INFO;Robot Runtime;Invalid Gripper: C017;
+26/12/17;13:30:09.975;INFO;Robot Runtime;Valid Gripper: C015;
+26/12/17;13:30:09.996;INFO;Robot Runtime;Valid Gripper: C019;
+26/12/17;13:30:10.017;INFO;Robot Runtime;Current Tool: C017 (Invalid);
+26/12/17;13:30:10.283;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;13:30:10.283;INFO;Controller;State = Ready;
+26/12/17;14:45:57.992;INFO;Interface;Command: ExecRobotTask (checkToolConfig,-1);
+26/12/17;14:45:58.029;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;14:45:58.029;INFO;Controller;Status = Executing: checkToolConfig;
+26/12/17;14:45:58.029;INFO;Controller;State = Running;
+26/12/17;14:45:58.277;INFO;Robot Runtime;executing:    checkToolConfig;
+26/12/17;14:45:58.323;INFO;Robot Runtime;Invalid Gripper: C014;
+26/12/17;14:45:58.343;INFO;Robot Runtime;Invalid Gripper: C017;
+26/12/17;14:45:58.364;INFO;Robot Runtime;Valid Gripper: C015;
+26/12/17;14:45:58.385;INFO;Robot Runtime;Valid Gripper: C019;
+26/12/17;14:45:58.405;INFO;Robot Runtime;Current Tool: C017 (Invalid);
+26/12/17;14:45:58.663;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;14:45:58.664;INFO;Controller;State = Ready;
+26/12/17;14:46:26.412;INFO;Interface;Command: ExecRobotTask (swapTools,-1);
+26/12/17;14:46:26.413;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;14:46:26.413;INFO;Controller;Status = Executing: swapTools;
+26/12/17;14:46:26.413;INFO;Controller;State = Running;
+26/12/17;14:46:26.569;INFO;Robot Runtime;executing:    swapTools;
+26/12/17;14:46:26.612;WARNING;Robot Runtime;Tool (C014) Configuration is INVALID.;
+26/12/17;14:46:27.224;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;14:46:27.224;INFO;Controller;State = Ready;
+26/12/17;14:46:48.452;INFO;Interface;Command: ExecRobotTask (checkToolConfig,-1);
+26/12/17;14:46:48.453;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/12/17;14:46:48.453;INFO;Controller;Status = Executing: checkToolConfig;
+26/12/17;14:46:48.453;INFO;Controller;State = Running;
+26/12/17;14:46:48.610;INFO;Robot Runtime;executing:    checkToolConfig;
+26/12/17;14:46:48.652;INFO;Robot Runtime;Invalid Gripper: C014;
+26/12/17;14:46:48.673;INFO;Robot Runtime;Invalid Gripper: C017;
+26/12/17;14:46:48.699;INFO;Robot Runtime;Valid Gripper: C015;
+26/12/17;14:46:48.719;INFO;Robot Runtime;Valid Gripper: C019;
+26/12/17;14:46:48.740;INFO;Robot Runtime;Current Tool: C014 (Invalid);
+26/12/17;14:46:48.844;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/12/17;14:46:48.844;INFO;Controller;State = Ready;

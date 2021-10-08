@@ -1,0 +1,223 @@
+15/10/18;08:01:50.968;INFO;Server;Command: ExecRobotTask (EnableTScreen,500000);
+15/10/18;08:01:50.969;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/10/18;08:01:50.969;INFO;Controller;Status = Executing: EnableTScreen;
+15/10/18;08:01:50.969;INFO;Controller;State = Running;
+15/10/18;08:01:51.830;INFO;Robot Runtime;executing:    EnableTScreen;
+15/10/18;08:01:52.030;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+15/10/18;08:01:52.030;INFO;Controller;State = Ready;
+15/10/18;12:14:06.107;INFO;Interface;Command: ExecRobotTask (turnOnAutofill,-1);
+15/10/18;12:14:06.107;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/10/18;12:14:06.107;INFO;Controller;Status = Executing: turnOnAutofill;
+15/10/18;12:14:06.108;INFO;Controller;State = Running;
+15/10/18;12:14:07.078;INFO;Robot Runtime;executing:    turnOnAutofill;
+15/10/18;12:14:07.824;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+15/10/18;12:14:07.824;INFO;Controller;State = Ready;
+15/10/18;12:14:29.264;INFO;Interface;Command: ExecRobotTask (enableTscreen,-1);
+15/10/18;12:14:29.264;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/10/18;12:14:29.264;INFO;Controller;Status = Executing: enableTscreen;
+15/10/18;12:14:29.265;INFO;Controller;State = Running;
+15/10/18;12:14:30.450;INFO;Robot Runtime;executing:    enableTscreen;
+15/10/18;12:14:30.671;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+15/10/18;12:14:30.671;INFO;Controller;State = Ready;
+15/10/18;12:15:54.600;INFO;Interface;Command: ExecRobotTask (closeports,-1);
+15/10/18;12:15:54.600;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/10/18;12:15:54.600;INFO;Controller;Status = Executing: closeports;
+15/10/18;12:15:54.600;INFO;Controller;State = Running;
+15/10/18;12:15:55.535;INFO;Robot Runtime;executing:    closeports;
+15/10/18;12:15:55.821;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+15/10/18;12:15:55.821;INFO;Controller;State = Ready;
+15/10/18;12:16:17.350;INFO;Interface;Command: ExecRobotTask (turnoffautofill,-1);
+15/10/18;12:16:17.350;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/10/18;12:16:17.350;INFO;Controller;Status = Executing: turnoffautofill;
+15/10/18;12:16:17.350;INFO;Controller;State = Running;
+15/10/18;12:16:18.223;INFO;Robot Runtime;executing:    turnoffautofill;
+15/10/18;12:16:18.392;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+15/10/18;12:16:18.392;INFO;Controller;State = Ready;
+15/10/18;12:16:51.484;INFO;Interface;Command: ExecRobotTask (enableTscreen,-1);
+15/10/18;12:16:51.485;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/10/18;12:16:51.485;INFO;Controller;Status = Executing: enableTscreen;
+15/10/18;12:16:51.485;INFO;Controller;State = Running;
+15/10/18;12:16:52.539;INFO;Robot Runtime;executing:    enableTscreen;
+15/10/18;12:16:52.693;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+15/10/18;12:16:52.693;INFO;Controller;State = Ready;
+15/10/18;12:17:17.351;INFO;Interface;Command: ExecRobotTask (closeports,-1);
+15/10/18;12:17:17.352;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/10/18;12:17:17.352;INFO;Controller;Status = Executing: closeports;
+15/10/18;12:17:17.352;INFO;Controller;State = Running;
+15/10/18;12:17:18.597;INFO;Robot Runtime;executing:    closeports;
+15/10/18;12:17:18.781;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+15/10/18;12:17:18.782;INFO;Controller;State = Ready;
+15/10/18;12:18:52.371;INFO;Interface;Command: ExecRobotTask (turnoffautofill,-1);
+15/10/18;12:18:52.371;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/10/18;12:18:52.371;INFO;Controller;Status = Executing: turnoffautofill;
+15/10/18;12:18:52.371;INFO;Controller;State = Running;
+15/10/18;12:18:53.359;INFO;Robot Runtime;executing:    turnoffautofill;
+15/10/18;12:18:54.062;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+15/10/18;12:18:54.062;INFO;Controller;State = Ready;
+15/10/18;12:19:07.953;INFO;Interface;Command: ExecRobotTask (enableTscreen,-1);
+15/10/18;12:19:07.953;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/10/18;12:19:07.953;INFO;Controller;Status = Executing: enableTscreen;
+15/10/18;12:19:07.953;INFO;Controller;State = Running;
+15/10/18;12:19:08.847;INFO;Robot Runtime;executing:    enableTscreen;
+15/10/18;12:19:09.199;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+15/10/18;12:19:09.199;INFO;Controller;State = Ready;
+15/10/18;12:19:18.207;INFO;Controller;State = Closing;
+15/10/18;12:19:19.213;INFO;Epics Server;Exiting running thread;
+15/10/18;12:19:19.217;INFO;Controller;Stopping log services - Startup: 04/10/18 09:26:36;
+15/10/18;12:19:56.294;INFO;Controller;Instantiation;
+15/10/18;12:19:56.312;INFO;Controller;State = Initializing;
+15/10/18;12:19:56.489;WARNING;Interface;Access level set to Admin;
+15/10/18;12:19:56.588;INFO;Controller;Initialized log services - Startup: 15/10/18 12:19:56;
+15/10/18;12:19:56.595;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+15/10/18;12:19:56.813;INFO;Epics Server;Registered PV: SW:Version;
+15/10/18;12:19:56.814;INFO;Epics Server;Registered PV: SW:Status;
+15/10/18;12:19:56.814;INFO;Epics Server;Registered PV: SW:Uptime;
+15/10/18;12:19:56.829;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+15/10/18;12:19:56.830;INFO;Epics Server;Registered PV: SW:AlarmList;
+15/10/18;12:19:56.830;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+15/10/18;12:19:56.830;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+15/10/18;12:19:56.831;INFO;Epics Server;Registered PV: SW:LastTaskException;
+15/10/18;12:19:56.831;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+15/10/18;12:19:56.831;INFO;Epics Server;Registered PV: SW:RobotState;
+15/10/18;12:19:56.832;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+15/10/18;12:19:56.833;INFO;Epics Server;Registered PV: SW:JointPositions;
+15/10/18;12:19:56.834;INFO;Epics Server;Registered PV: SW:State;
+15/10/18;12:19:56.836;INFO;Epics Server;Registered PV: SW:abort;
+15/10/18;12:19:56.837;INFO;Epics Server;Registered PV: SW:restart;
+15/10/18;12:19:56.837;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+15/10/18;12:19:56.838;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+15/10/18;12:19:56.838;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+15/10/18;12:19:56.838;INFO;Epics Server;Registered PV: SW:startTestTask;
+15/10/18;12:19:56.839;INFO;Epics Server;Registered PV: SW:pauseRobot;
+15/10/18;12:19:56.839;INFO;Epics Server;Registered PV: SW:resumeRobot;
+15/10/18;12:19:56.839;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+15/10/18;12:19:56.839;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+15/10/18;12:19:56.840;INFO;Epics Server;Registered PV: SW:startRobotTask;
+15/10/18;12:19:56.840;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+15/10/18;12:19:56.840;INFO;Epics Server;Registered PV: SW:getDistance;
+15/10/18;12:19:56.841;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+15/10/18;12:19:56.843;INFO;Epics Server;Started server: ready to accept requests;
+15/10/18;12:19:57.465;INFO;Controller;Initializing Robot;
+15/10/18;12:19:57.474;INFO;Robot;Setting reference frame to: world;
+15/10/18;12:19:57.668;INFO;Controller;Initializing Bus Controller;
+15/10/18;12:19:57.669;INFO;Anti-Collision;Active = true;
+15/10/18;12:19:57.670;INFO;Controller;State = Starting;
+15/10/18;12:19:57.673;INFO;Controller;Command: Reset;
+15/10/18;12:19:58.011;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+15/10/18;12:19:58.011;INFO;Controller;Status = Reseting;
+15/10/18;12:19:58.012;INFO;Controller;State = Running;
+15/10/18;12:19:58.597;INFO;Controller;Script host: localhost:50127;
+15/10/18;12:19:58.597;INFO;Script;Starting initialization script;
+15/10/18;12:19:58.601;INFO;Script;Do nothing;
+15/10/18;12:19:58.602;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+15/10/18;12:19:58.603;INFO;Controller;State = Ready;
+15/10/18;14:48:04.652;INFO;Interface;Command: ExecRobotTask (mount,-1);
+15/10/18;14:48:04.654;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/10/18;14:48:04.654;INFO;Controller;Status = Executing: mount;
+15/10/18;14:48:04.654;INFO;Controller;State = Running;
+15/10/18;14:48:05.576;INFO;Robot Runtime;executing:    mount;
+15/10/18;14:50:14.230;INFO;Server;Command: ExecRobotTask (Recover,500000);
+15/10/18;14:50:14.232;WARNING;Controller;Exception: Activity still running
+Stack trace:
+org.embl.StateException: Activity still running
+	at org.embl.ctrl.Sequencer.assertActivityNotRunning(Sequencer.java:1033)
+	at org.embl.ctrl.Sequencer.assertNotExecutingTask(Sequencer.java:1054)
+	at org.embl.ctrl.Controller.assertHighLevelCommandAllowed(Controller.java:784)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1967)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1944)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1933)
+	at org.embl.sw.Control.startRobotTask(Control.java:377)
+	at org.embl.sw.Server.startRobotTask(Server.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.embl.reflection.Exposer.execute(Exposer.java:318)
+	at org.embl.protocol.EpicsServer$MethodProcessVariable.write(EpicsServer.java:421)
+	at gov.aps.jca.cas.ServerChannel.write(ServerChannel.java:126)
+	at com.cosylab.epics.caj.cas.handlers.WriteNotifyResponse.internalHandleResponse(WriteNotifyResponse.java:119)
+	at com.cosylab.epics.caj.impl.handlers.AbstractCAResponseHandler.handleResponse(AbstractCAResponseHandler.java:110)
+	at com.cosylab.epics.caj.cas.CASResponseHandler.handleResponse(CASResponseHandler.java:120)
+	at com.cosylab.epics.caj.cas.CASTransport.processRead(CASTransport.java:398)
+	at com.cosylab.epics.caj.cas.CASTransport.handleEvent(CASTransport.java:297)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.handleEvent(LeaderFollowersHandler.java:71)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.processInternal(Reactor.java:376)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.process(Reactor.java:266)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.run(LeaderFollowersHandler.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+;
+15/10/18;14:50:21.257;INFO;Server;Command: Abort;
+15/10/18;14:50:21.257;INFO;Robot;Abort;
+15/10/18;14:50:21.258;INFO;Controller;Activity ExecRobotTask was stopped;
+15/10/18;14:50:21.258;INFO;Controller;State = Ready;
+15/10/18;14:50:21.352;INFO;Server;Command: Restart;
+15/10/18;14:50:21.352;INFO;Controller;State = Initializing;
+15/10/18;14:50:21.413;INFO;Controller;Initialized log services - Startup: 15/10/18 12:19:56;
+15/10/18;14:50:22.427;INFO;Epics Server;Exiting running thread;
+15/10/18;14:50:22.431;INFO;Epics Server;Registered PV: SW:Version;
+15/10/18;14:50:22.431;INFO;Epics Server;Registered PV: SW:Status;
+15/10/18;14:50:22.432;INFO;Epics Server;Registered PV: SW:Uptime;
+15/10/18;14:50:22.432;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+15/10/18;14:50:22.432;INFO;Epics Server;Registered PV: SW:AlarmList;
+15/10/18;14:50:22.432;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+15/10/18;14:50:22.432;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+15/10/18;14:50:22.433;INFO;Epics Server;Registered PV: SW:LastTaskException;
+15/10/18;14:50:22.433;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+15/10/18;14:50:22.433;INFO;Epics Server;Registered PV: SW:RobotState;
+15/10/18;14:50:22.433;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+15/10/18;14:50:22.433;INFO;Epics Server;Registered PV: SW:JointPositions;
+15/10/18;14:50:22.433;INFO;Epics Server;Registered PV: SW:State;
+15/10/18;14:50:22.434;INFO;Epics Server;Registered PV: SW:abort;
+15/10/18;14:50:22.434;INFO;Epics Server;Registered PV: SW:restart;
+15/10/18;14:50:22.434;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+15/10/18;14:50:22.434;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+15/10/18;14:50:22.434;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+15/10/18;14:50:22.434;INFO;Epics Server;Registered PV: SW:startTestTask;
+15/10/18;14:50:22.435;INFO;Epics Server;Registered PV: SW:pauseRobot;
+15/10/18;14:50:22.435;INFO;Epics Server;Registered PV: SW:resumeRobot;
+15/10/18;14:50:22.435;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+15/10/18;14:50:22.435;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+15/10/18;14:50:22.435;INFO;Epics Server;Registered PV: SW:startRobotTask;
+15/10/18;14:50:22.435;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+15/10/18;14:50:22.436;INFO;Epics Server;Registered PV: SW:getDistance;
+15/10/18;14:50:22.436;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+15/10/18;14:50:22.437;INFO;Epics Server;Started server: ready to accept requests;
+15/10/18;14:50:23.051;INFO;Controller;Initializing Robot;
+15/10/18;14:50:23.055;INFO;Robot;Setting reference frame to: world;
+15/10/18;14:50:23.187;INFO;Controller;Initializing Bus Controller;
+15/10/18;14:50:23.187;INFO;Anti-Collision;Active = true;
+15/10/18;14:50:23.187;INFO;Controller;State = Starting;
+15/10/18;14:50:23.189;INFO;Controller;Command: Reset;
+15/10/18;14:50:23.189;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+15/10/18;14:50:23.189;INFO;Controller;Status = Reseting;
+15/10/18;14:50:23.190;INFO;Controller;State = Running;
+15/10/18;14:50:23.456;INFO;Controller;Script host: localhost:46363;
+15/10/18;14:50:23.457;INFO;Script;Starting initialization script;
+15/10/18;14:50:23.460;INFO;Script;Do nothing;
+15/10/18;14:50:23.461;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+15/10/18;14:50:23.461;INFO;Controller;State = Ready;
+15/10/18;14:50:42.802;INFO;Server;Command: ExecRobotTask (Recover,500000);
+15/10/18;14:50:42.803;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/10/18;14:50:42.803;INFO;Controller;Status = Executing: Recover;
+15/10/18;14:50:42.803;INFO;Controller;State = Running;
+15/10/18;14:50:44.169;INFO;Robot Runtime;executing:    Recover;
+15/10/18;14:50:45.081;INFO;Robot Runtime;Unrecognized Location;
+15/10/18;14:50:45.105;INFO;Robot Runtime;Near Location1 [Gonio] at distance of 0.299;
+15/10/18;14:50:45.126;INFO;Robot Runtime;Near Location2 [Heater] at distance of 521.101;
+15/10/18;14:50:45.148;INFO;Robot Runtime;Unrecognized Location;
+15/10/18;14:50:45.169;INFO;Robot Runtime;ABORT: Unrecognized Location;
+15/10/18;14:50:45.649;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Unrecognized Location;
+15/10/18;14:50:45.650;INFO;Controller;State = Ready;
+15/10/18;14:54:52.592;INFO;Server;Command: ExecRobotTask (Recover,500000);
+15/10/18;14:54:52.593;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/10/18;14:54:52.593;INFO;Controller;Status = Executing: Recover;
+15/10/18;14:54:52.593;INFO;Controller;State = Running;
+15/10/18;14:54:52.759;INFO;Robot Runtime;executing:    Recover;
+15/10/18;14:55:16.410;INFO;Robot Runtime;Unrecognized Location;
+15/10/18;14:56:05.925;INFO;Robot Runtime;Near Location1 [Gonio] at distance of 0.299;
+15/10/18;14:56:05.946;INFO;Robot Runtime;Near Location2 [Heater] at distance of 521.101;
+15/10/18;14:58:33.857;INFO;Robot Runtime;Done;
+15/10/18;14:58:34.252;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+15/10/18;14:58:34.253;INFO;Controller;State = Ready;

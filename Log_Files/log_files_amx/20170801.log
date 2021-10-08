@@ -1,0 +1,188 @@
+01/08/17;11:37:47.615;INFO;Controller;Instantiation;
+01/08/17;11:37:47.635;INFO;Controller;State = Initializing;
+01/08/17;11:37:47.772;WARNING;Interface;Access level set to Admin;
+01/08/17;11:37:47.865;INFO;Controller;Initialized log services - Startup: 01/08/17 11:37:47;
+01/08/17;11:37:47.873;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+01/08/17;11:37:48.084;INFO;Epics Server;Registered PV: SW:Version;
+01/08/17;11:37:48.085;INFO;Epics Server;Registered PV: SW:Status;
+01/08/17;11:37:48.085;INFO;Epics Server;Registered PV: SW:Uptime;
+01/08/17;11:37:48.102;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+01/08/17;11:37:48.103;INFO;Epics Server;Registered PV: SW:AlarmList;
+01/08/17;11:37:48.103;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+01/08/17;11:37:48.103;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+01/08/17;11:37:48.104;INFO;Epics Server;Registered PV: SW:LastTaskException;
+01/08/17;11:37:48.104;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+01/08/17;11:37:48.104;INFO;Epics Server;Registered PV: SW:RobotState;
+01/08/17;11:37:48.105;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+01/08/17;11:37:48.106;INFO;Epics Server;Registered PV: SW:JointPositions;
+01/08/17;11:37:48.107;INFO;Epics Server;Registered PV: SW:State;
+01/08/17;11:37:48.109;INFO;Epics Server;Registered PV: SW:abort;
+01/08/17;11:37:48.109;INFO;Epics Server;Registered PV: SW:restart;
+01/08/17;11:37:48.109;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+01/08/17;11:37:48.110;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+01/08/17;11:37:48.110;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+01/08/17;11:37:48.110;INFO;Epics Server;Registered PV: SW:startTestTask;
+01/08/17;11:37:48.111;INFO;Epics Server;Registered PV: SW:pauseRobot;
+01/08/17;11:37:48.111;INFO;Epics Server;Registered PV: SW:resumeRobot;
+01/08/17;11:37:48.111;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+01/08/17;11:37:48.111;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+01/08/17;11:37:48.112;INFO;Epics Server;Registered PV: SW:startRobotTask;
+01/08/17;11:37:48.112;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+01/08/17;11:37:48.112;INFO;Epics Server;Registered PV: SW:getDistance;
+01/08/17;11:37:48.113;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+01/08/17;11:37:48.115;INFO;Epics Server;Started server: ready to accept requests;
+01/08/17;11:37:49.037;INFO;Controller;Initializing Robot;
+01/08/17;11:37:49.046;INFO;Robot;Setting reference frame to: world;
+01/08/17;11:37:49.058;WARNING;Robot;Exception: Robot connection error (Error connecting to device)
+Stack trace:
+org.embl.ctrl.ConnectedDevice$ConnectionFailureException: Connection error
+	at org.embl.ctrl.ConnectedDevice.connect(ConnectedDevice.java:136)
+	at org.embl.ctrl.ConnectedDevice.doInitialize(ConnectedDevice.java:85)
+	at org.embl.dev.staubli.StaubliRobot.doInitialize(StaubliRobot.java:491)
+	at org.embl.ctrl.Device.initialize(Device.java:678)
+	at org.embl.ctrl.Device.initialize(Device.java:644)
+	at org.embl.ctrl.Sequencer.initializeDevices(Sequencer.java:611)
+	at org.embl.ctrl.Controller.initializeDevices(Controller.java:2664)
+	at org.embl.ctrl.Sequencer.initializeDevices(Sequencer.java:597)
+	at org.embl.ctrl.Sequencer.initializeDevices(Sequencer.java:592)
+	at org.embl.sw.Control.doInitialize(Control.java:183)
+	at org.embl.ctrl.Sequencer.initialize(Sequencer.java:259)
+	at org.embl.ctrl.Controller.initialize(Controller.java:514)
+	at org.embl.ctrl.Sequencer$1.run(Sequencer.java:312)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.embl.ctrl.Device$DeviceException: Error connecting to device
+	at org.embl.dev.staubli.StaubliRobot.doConnect(StaubliRobot.java:592)
+	at org.embl.ctrl.ConnectedDevice.connect(ConnectedDevice.java:125)
+	... 13 more
+Caused by: org.embl.net.NetException$NetOutputException: Error sending data
+	at org.embl.net.SocketWorker.send(SocketWorker.java:55)
+	at org.embl.net.SocketClient.sendStream(SocketClient.java:302)
+	at org.embl.net.SocketClient.send(SocketClient.java:363)
+	at org.embl.net.SocketClient.sendReceive(SocketClient.java:449)
+	at org.embl.dev.staubli.StaubliRobot.doConnect(StaubliRobot.java:588)
+	... 14 more
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:116)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:141)
+	at org.embl.net.SocketWorker.send(SocketWorker.java:51)
+	... 18 more
+;
+01/08/17;11:37:49.139;INFO;Controller;Initializing Bus Controller;
+01/08/17;11:37:49.140;INFO;Anti-Collision;Active = true;
+01/08/17;11:37:49.140;INFO;Controller;State = Starting;
+01/08/17;11:37:49.143;INFO;Controller;State = Communication Error;
+01/08/17;11:37:49.144;SEVERE;Controller;Exception: Communication timeout with the devices: 
+Robot
+Stack trace:
+org.embl.BaseException: Communication timeout with the devices: 
+Robot
+	at org.embl.ctrl.Controller.onStart(Controller.java:1323)
+	at org.embl.ctrl.Sequencer.start(Sequencer.java:1192)
+	at org.embl.ctrl.Sequencer.initialize(Sequencer.java:287)
+	at org.embl.ctrl.Controller.initialize(Controller.java:514)
+	at org.embl.ctrl.Sequencer$1.run(Sequencer.java:312)
+	at java.lang.Thread.run(Thread.java:745)
+;
+01/08/17;11:37:50.144;WARNING;Robot;Alarm active: Device is offline;
+01/08/17;11:38:32.222;INFO;Controller;Instantiation;
+01/08/17;11:38:32.242;INFO;Controller;State = Initializing;
+01/08/17;11:38:32.300;WARNING;Interface;Access level set to Admin;
+01/08/17;11:38:32.384;INFO;Controller;Initialized log services - Startup: 01/08/17 11:38:32;
+01/08/17;11:38:32.391;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+01/08/17;11:38:32.606;INFO;Epics Server;Registered PV: SW:Version;
+01/08/17;11:38:32.607;INFO;Epics Server;Registered PV: SW:Status;
+01/08/17;11:38:32.607;INFO;Epics Server;Registered PV: SW:Uptime;
+01/08/17;11:38:32.624;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+01/08/17;11:38:32.625;INFO;Epics Server;Registered PV: SW:AlarmList;
+01/08/17;11:38:32.626;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+01/08/17;11:38:32.626;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+01/08/17;11:38:32.626;INFO;Epics Server;Registered PV: SW:LastTaskException;
+01/08/17;11:38:32.627;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+01/08/17;11:38:32.627;INFO;Epics Server;Registered PV: SW:RobotState;
+01/08/17;11:38:32.628;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+01/08/17;11:38:32.629;INFO;Epics Server;Registered PV: SW:JointPositions;
+01/08/17;11:38:32.629;INFO;Epics Server;Registered PV: SW:State;
+01/08/17;11:38:32.632;INFO;Epics Server;Registered PV: SW:abort;
+01/08/17;11:38:32.633;INFO;Epics Server;Registered PV: SW:restart;
+01/08/17;11:38:32.633;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+01/08/17;11:38:32.633;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+01/08/17;11:38:32.634;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+01/08/17;11:38:32.634;INFO;Epics Server;Registered PV: SW:startTestTask;
+01/08/17;11:38:32.634;INFO;Epics Server;Registered PV: SW:pauseRobot;
+01/08/17;11:38:32.635;INFO;Epics Server;Registered PV: SW:resumeRobot;
+01/08/17;11:38:32.635;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+01/08/17;11:38:32.635;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+01/08/17;11:38:32.636;INFO;Epics Server;Registered PV: SW:startRobotTask;
+01/08/17;11:38:32.637;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+01/08/17;11:38:32.638;INFO;Epics Server;Registered PV: SW:getDistance;
+01/08/17;11:38:32.638;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+01/08/17;11:38:32.641;INFO;Epics Server;Started server: ready to accept requests;
+01/08/17;11:38:33.616;INFO;Controller;Initializing Robot;
+01/08/17;11:38:33.630;INFO;Robot;Setting reference frame to: world;
+01/08/17;11:38:33.817;INFO;Controller;Initializing Bus Controller;
+01/08/17;11:38:33.818;INFO;Anti-Collision;Active = true;
+01/08/17;11:38:33.818;INFO;Controller;State = Starting;
+01/08/17;11:38:33.822;INFO;Controller;Command: Reset;
+01/08/17;11:38:34.228;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+01/08/17;11:38:34.228;INFO;Controller;Status = Reseting;
+01/08/17;11:38:34.228;INFO;Controller;State = Running;
+01/08/17;11:38:34.878;INFO;Controller;Script host: localhost:57039;
+01/08/17;11:38:34.879;INFO;Script;Starting initialization script;
+01/08/17;11:38:34.882;INFO;Script;Do nothing;
+01/08/17;11:38:34.883;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+01/08/17;11:38:34.884;INFO;Controller;State = Ready;
+01/08/17;13:48:29.432;INFO;Controller;Instantiation;
+01/08/17;13:48:29.471;INFO;Controller;State = Initializing;
+01/08/17;13:48:29.675;WARNING;Interface;Access level set to Admin;
+01/08/17;13:48:29.919;INFO;Controller;Initialized log services - Startup: 01/08/17 13:48:29;
+01/08/17;13:48:29.927;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+01/08/17;13:48:30.239;INFO;Epics Server;Registered PV: SW:Version;
+01/08/17;13:48:30.240;INFO;Epics Server;Registered PV: SW:Status;
+01/08/17;13:48:30.240;INFO;Epics Server;Registered PV: SW:Uptime;
+01/08/17;13:48:30.279;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+01/08/17;13:48:30.279;INFO;Epics Server;Registered PV: SW:AlarmList;
+01/08/17;13:48:30.280;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+01/08/17;13:48:30.280;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+01/08/17;13:48:30.280;INFO;Epics Server;Registered PV: SW:LastTaskException;
+01/08/17;13:48:30.281;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+01/08/17;13:48:30.281;INFO;Epics Server;Registered PV: SW:RobotState;
+01/08/17;13:48:30.282;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+01/08/17;13:48:30.282;INFO;Epics Server;Registered PV: SW:JointPositions;
+01/08/17;13:48:30.283;INFO;Epics Server;Registered PV: SW:State;
+01/08/17;13:48:30.286;INFO;Epics Server;Registered PV: SW:abort;
+01/08/17;13:48:30.286;INFO;Epics Server;Registered PV: SW:restart;
+01/08/17;13:48:30.287;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+01/08/17;13:48:30.287;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+01/08/17;13:48:30.287;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+01/08/17;13:48:30.288;INFO;Epics Server;Registered PV: SW:startTestTask;
+01/08/17;13:48:30.288;INFO;Epics Server;Registered PV: SW:pauseRobot;
+01/08/17;13:48:30.288;INFO;Epics Server;Registered PV: SW:resumeRobot;
+01/08/17;13:48:30.289;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+01/08/17;13:48:30.289;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+01/08/17;13:48:30.289;INFO;Epics Server;Registered PV: SW:startRobotTask;
+01/08/17;13:48:30.289;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+01/08/17;13:48:30.290;INFO;Epics Server;Registered PV: SW:getDistance;
+01/08/17;13:48:30.290;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+01/08/17;13:48:30.293;INFO;Epics Server;Started server: ready to accept requests;
+01/08/17;13:48:31.381;INFO;Controller;Initializing Robot;
+01/08/17;13:48:31.396;INFO;Robot;Setting reference frame to: world;
+01/08/17;13:48:31.648;INFO;Controller;Initializing Bus Controller;
+01/08/17;13:48:31.649;INFO;Anti-Collision;Active = true;
+01/08/17;13:48:31.649;INFO;Controller;State = Starting;
+01/08/17;13:48:31.654;INFO;Controller;Command: Reset;
+01/08/17;13:48:33.086;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+01/08/17;13:48:33.086;INFO;Controller;Status = Reseting;
+01/08/17;13:48:33.087;INFO;Controller;State = Running;
+01/08/17;13:48:34.182;INFO;Controller;Script host: localhost:45998;
+01/08/17;13:48:34.182;INFO;Script;Starting initialization script;
+01/08/17;13:48:34.186;INFO;Script;Do nothing;
+01/08/17;13:48:34.188;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+01/08/17;13:48:34.188;INFO;Controller;State = Ready;
+01/08/17;13:48:53.909;INFO;Interface;Command: ExecRobotTask (Initialize,-1);
+01/08/17;13:48:53.912;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+01/08/17;13:48:53.913;INFO;Controller;Status = Executing: Initialize;
+01/08/17;13:48:53.913;INFO;Controller;State = Running;
+01/08/17;13:48:54.688;INFO;Robot Runtime;executing:    Initialize;
+01/08/17;13:48:55.729;INFO;Robot Runtime;Failed to turn on robot power;
+01/08/17;13:48:55.882;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Failed to turn on robot power;
+01/08/17;13:48:55.882;INFO;Controller;State = Ready;

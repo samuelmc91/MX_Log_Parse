@@ -1,0 +1,147 @@
+,,,,,,Maintenance,,,,Commissioning,,,xxxx,,Cancelled due to Machine problem,,xxxxx,rescheduled due to machine pb,,,,,,USER Rescheduled,,
+,,,,,,Study,,,,Available,,,xxxx,,Cancelled due to beam line problem ,,xxxxx,rescheduled due to beamline problem pb,,,,,,User did not finish,,
+,,,,,,,,,,Proprietary,,,,Reserved for groups with MANY Crystals,,,,,,,,,,User Cancelled,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MONTH,DATE,WeekDay,Operation,,AMX morning,Local,AMX afternoon,Local,AMX overnight,Local,,FMX morning,Local ,FMX afternoon,Local ,FMX overnight,Local ,,NYX morning,Local,NYX afternoon,Local,NYX overnight,Local,DATE
+,,,,,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7 am,Contact,,9 am - 3 pm,Contact,4 pm-10 pm,Contact,10 pm - 7am,Contact,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7 am,Contact,
+,MAY,1,Sat,S,,,,,,,,,,,,,,,,,,,,,,1
+,,2,Sun,S,,,,,,,,,,,,,,,,,,,,,,2
+,,3,Mon,S/O,,BLC,,,,,,,BLC,,,,,,,,,,,,,3
+,,4,Tue,O,,BLC,,VPN Connection Tests,,,,,BLC,,VPN Connection Tests,,,,,,,,,,,4
+,,5,Wed,O,,BLC,,,,,,,BLC,,,,,,,,,,,,,5
+,,6,Thu,O,,BLC,,,,,,,BLC,,,,,,,,,,,,,6
+,,7,Fri,O,,BLC,,Live ConnectionTraining,,,,,BLC,,Live ConnectionTraining,,,,,,,,,,,7
+,,8,Sat,O,,BLC,,,,,,,BLC,,,,,,,,,,,,,8
+,,9,Sun,O,,BLC,,,,,,,BLC,,,,,,,,,,,,,9
+,,10,Mon,O,,BLC,,,,,,,BLC,,,,,,,,,,,,,10
+,,11,Tue,O/M,,,,,,,,,,,,,,,,,,,,,,11
+,,12,Wed,M/S,,,,,,,,,,,,,,,,,,,,,,12
+,,13,Thu,S/O,,BLC,,,,,,,BLC,,,,,,,,,,,,,13
+,,14,Fri,O,,BLC,,,,,,,BLC,,,,,,,,,,,,,14
+,,15,Sat,O,,BLC,,,,,,,BLC,,,,,,,,,,,,,15
+,,16,Sun,O,,BLC,,,,,,,BLC,,,,,,,,,,,,,16
+,,17,Mon,O,,BLC,,,,,,,BLC,,,,,,,,,,,,,17
+,,18,Tue,O,,BLC,,,,,,,BLC,,,,,,,,,,,,,18
+,,19,Wed,O,,BLC,,,,,,,BLC,,,,,,,,,,,,,19
+,,20,Thu,O,,BLC,,,,,,,BLC,,,,,,,,,,,,,20
+,,21,Fri,I/S,,,,,,,,,,,,,,,,,,,,,,21
+,,22,Sat,S,,,,,,,,,,,,,,,,,,,,,,22
+,,23,Sun,S,,,,,,,,,,,,,,,,,,,,,,23
+,,24,Mon,S/O,,BLC,,,,,,,,,,,,,,,,,,,,24
+,,25,Tue,O,,BLC,,,,,,,,,,,,,,,,,,,,25
+,,26,Wed,O,,BLC,,,,,,,,,,,,,,,,,,,,26
+,,27,Thu,O,,BAG 305046,,,AS,,,,BAG 308291,,,WS,,,,,,,,,,27
+,,28,Fri,O,,BLC,,,,,,,,,,,,,,,,,,,,28
+,,29,Sat,O,,BLC,,,,,,,,,,,,,,,,,,,,29
+,,30,Sun,O,,BLC,,,,,,,,,,,,,,,,,,,,30
+,,31,Mon,O,,BLC,,,,,,,,,,,,,,,,,,,,31
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MONTH,DATE,WeekDay,Operation,,AMX morning,Local,AMX afternoon,Local,AMX overnight,Local,,FMX morning,Local ,FMX afternoon,Local ,FMX overnight,Local ,,NYX morning,,NYX afternoon,,NYX overnight,,DATE
+,,,,,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7 am,Contact,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7am,Contact,,9 am - 6 pm,,,,10 pm - 7 am,,
+,JUNE,1,Tue,O/M,,,,,,,,,,,,,,,,,,,,,,1
+,,2,Wed,M/S,,,,VPN Connection Test,,,,,,,VPN Connection Test,,,, ,,,,,,,2
+,,3,Thu,S/O,,BLC,,,,,,,BLC,,,,,, ,,,,,,,3
+,,4,Fri,O,,BAG 308359,,,AS,,,,BAG 308164,,,BA,,, ,,,,,,,4
+,,5,Sat,O,,,,,DK,,,,PR 303851,,,MF,,,,,,,,,,5
+,,6,Sun,O,,,,,,,,,PR 303851,,,MF,,,,,,,,,,6
+,,7,Mon,O,,,,,,Workbench,,,BAG 308291,,,WS,Workbench,,,,,,,,,7
+,,8,Tue,O,,Workbench,,,,Workbench,,,Workbench,,,BA,Workbench,,,,,,,,,8
+,,9,Wed,O,,,,,,Workbench,,,PR 303851,,,BA,Workbench,,,,,,,,,9
+,,10,Thu,O,,BAG 305041 ,,,DK,,,,BAG 305036,,,WS,,,,,,,,,,10
+,,11,Fri,O/I/S,,,,,,,,,,,,,,,,,,,,,,11
+,,12,Sat,S,,,,,,,,,,,,,,,,,,,,,,12
+,,13,Sun,S,,,,,,,,,,,,,,,,,,,,,,13
+,,14,Mon,S/O, ,BLC,,,,,,,BLC,,,,,,,,,,,,,14
+,,15,Tue,O,,BAG 305046,,,DK,,,,BAG 308164,,,MF,,,,,,,,,,15
+,,16,Wed,O,,BLC,,,,,,,PR 303851,,,WS,,,,,,,,,,16
+,,17,Thu,O,,GU 308229,,,DK,,,,BLC,,,,,,,,,,,,,17
+,,18,Fri,O,,,,,AS,,,,BAG 308552,,,BA,,,,,,,,,,18
+,,19,Sat,O,,,,,EL,,,,,,,WS,,,,,,,,,,19
+,,20,Sun,O,,,,,EL,,,,PR 303851,,,WS,,,,,,,,,,20
+,,21,Mon,O,,,,,DK,,,,,,,AS,,,,,,,,,,21
+,,22,Tue,O/M,,,,,,,,,,,,,,,,,,,,,,22
+,,23,Wed,M/S,,,,,,,,,,,,,,,,,,,,,,23
+,,24,Thur,S/O,,BLC,,,,,,,BLC,,,,,,,,,,,,,24
+,,25,Fri,O,,PR 306522,,,JJ,,,,BAG 308291,,,WS,,,,,,,,,,25
+,,26,Sat,O,,BAG 305133,,,AS,,,,,,,BA,,,,,,,,,,26
+,,27,Sun,O,,INHOUSE,,,,,,,INHOUSE,,,,,,,,,,,,,27
+,,28,Mon,,,BAG 308552,,,DK,,,,BAG 305035,,,WS,,,,,,,,,,28
+,,29,Tues,,,BAG 308223,,,EL,,,,BLC,,,,,,,SPARK workshop,,,,,,29
+,,30,Wed,,,BLC,,,,,,,BAG 308552,,,MF,,,,,,,,,,30
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MONTH,DATE,WeekDay,Operation,,AMX morning,Local,AMX afternoon,Local,AMX overnight,Local,,FMX morning,Local ,FMX afternoon,Local ,FMX overnight,Local ,,NYX morning,,NYX afternoon,,NYX overnight,,DATE
+,,,,,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7 am,Contact,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7am,Contact,,9 am - 6 pm,,,,10 pm - 7 am,,
+,JULY,1,Thu,O,,BAG 305041,,,EL,,,,PR 306524,,,BA,,,,,,,,,,1
+,,2,Fri,O/I/S,,,,,,,,,,,,,,,,,,,,,,2
+,,3,Sat,S,,,,,,,,,,,,,,,,,,,,,,3
+,,4,Sun,S,,,,,,,,,,,,,,,,,,,,,,4
+,,5,Mon,S/O,,BLC,,,,,,,BLC,,,,,,,,,,,,,5
+,,6,Tue,O,,,AS,,AS,,,,,WS,,WS,,,,,,,,,,6
+,,7,Wed,O,,,EL,,EL,,,,BAG 308291,BA,BAG 308291,BA,,,,,,,,,,7
+,,8,Thur,O,,,DK,,DK,,,,,MF,BAG 306386,MF,,,,,,,,,,8
+,,9,Fri,O,,BAG 305133,AS,,AS,,,,BAG 305987,WS,BAG 305987,WS,,,,,,,,,,9
+,,10,Sat,O,,BAG 305133 (backup),AS,,AS,,,,PR 303851,MF,PR 303851,MF,,,,,,,,,,10
+,,11,Sun,O,,,,, ,,,,PR 303851,MF,PR 303851,MF,,,,,,,,,,11
+,,12,Mon,O,,GU 306367,EL,,EL,,,,BAG 308246,WS,BAG 308246,WS,,,,,,,,,,12
+,,13,Tue,O/M,,,,VPN Connection Test,,,,,,,VPN Connection Test,,,,,,,,,,,13
+,,14,Wed,M/S,,,,,,,,,,,,,,,,,,,,,,14
+,,15,Thur,S/O,,BLC,,Live ConnectionTraining,,,,,BLC,,Live ConnectionTraining,,,,,,,,,,,15
+,,16,Fri,O,,BAG 308291,DK,BAG 308291(?),DK,,,,PR 303851,BA,,BA,,,,,,,,,,16
+,,17,Sat,O,,,JJ,,JJ,,,,,BA,,BA,,,,,,,,,,17
+,,18,Sun,O,,,JJ,,JJ,,,,,BA,,BA,,,,,,,,,,18
+,,19,Mon,O,,BAG 308392,AS,,AS,,,,BAG 308552,WS,BAG 308552,WS,BAG 308552,WS,,,,,,,,19
+,,20,Tue,O,,,AS,,AS,,,,bluesky/ophyd,JA,PR 303851,BA,PR 303851,BA,,,,,,,,20
+,,21,Wed,O,,BLC,,,EL,,,,PR 303851,AS,PR 303851,AS,PR 303851,AS,,,,,,,,21
+,,22,Thu,O,,,DK,,DK,,,,BAG 307708,WS,PR 305587,WS,PR 305587,WS,,GU 306329,,,,,,22
+,,23,Fri,O/I/S,,,,,,,,,bluesky/ophyd,JA,,,,,,,,,,,,23
+,,24,Sat,S,,,,,,,,,,,,,,,,,,,,,,24
+,,25,Sun,S,,,,,,,,,,,,,,,,,,,,,,25
+,,26,Mon,S/O,,BLC,EL,BAG 308318,EL,,EL,,BLC,,RA 308923 ,BA,RA 308923 ,BA,,,,,,,,26
+,,27,Tue,O,,BAG 308359,DK,BAG 306386,DK,BAG 306386,DK,,BAG 305035,AS,BAG 305035,AS,BAG 305035,AS,,BAG 308318,,,,,,27
+,,28,Wed,O,,BLC,,PR 308027,EL,,EL,,BAG 305035,WS,BAG 305035,WS,BAG 305035,WS,,GU 306329(?),,,,,,28
+,,29,Thr,O,,PR 303851,EL,PR 303851,EL,PR 303851,EL,,blsk/oph,,BAG 305046,AS,,AS,,,,,,,,29
+,,30,Fri,O,,GU 308229,AS,PR 303851,AS,,AS,,BAG 306544,BA,PR 305587,BA,PR 305587,BA,,,,,,,,30
+,,31,Sat,O,,BAG 308164,AS,BAG 308164,AS,,AS,,PR 305587,WS,PR 303851,WS,PR 303851,WS,,,,,,,,31
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MONTH,,WeekDay,Operation,,AMX morning,Local,AMX afternoon,Local,AMX overnight,Local,,FMX morning,Local ,FMX afternoon,Local ,FMX overnight,Local ,,NYX morning,,NYX afternoon,,NYX overnight,,DATE
+,,,,,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7 am,Contact,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7am,Contact,,9 am-3 pm,,4 pm-10 pm,,10 pm - 7 am,,
+,AUGUST,1,Sun,O,,BAG 308164,EL,BAG 308164,EL,,EL,,PR 303851,,BAG 308164,WS,,,,,,,,,,1
+,,2,Mon,O,,BAG 308291,JJ,BAG 308291,JJ,BAG 308291,JJ,,PR 306522,AS,GU 308247,AS,,AS,,,,,,,,2
+,,3,Tue,O/M,,,,,,,,,blsk/oph,,,,,,,,,,,,,3
+,,4,Wed,M/S,,,,,,,,,,,,,,,,,,,,,,4
+,,5,Thur,S/O,,BLC,,BAG 307708,EL,,EL,,BLC,,BAG 308246,MF,BAG 308 246,MF,,,,,,,,5
+,,6,Fri,O,,BAG 308552,DK,BAG 305036,DK,BAG 305036,DK,,PR 303851,BA,PR 303851,BA,PR 303851,BA,,,,,,,,6
+,,7,Sat,O,,BAG 305133,JJ,PR-SPP 307505,JJ,BAG 305133,JJ,,BAG 305987,AS,PR 306519 ,AS,PR 306519,AS,,,,,,,,7
+,,8,Sun,O,,RA 308863,JJ ,RA 309332,JJ,RA 309332,JJ,,Mitegen sample,MF,BAG 308552,BA,PR 303851,BA,,,,,,,,8
+,,9,Mon,O,,GU 308247,AS,BAG 305046,AS,BAG 305046,AS,,GU 307320,WS,BAG 305036/BAG 305043,WS,BAG 305036/BAG 305043,WS,,,,,,,,9
+,,10,Tue,O,,BAG 305041,JJ,BAG 305043,JJ,BLC ,,,BAG 305421,MF,GU 308247,MF,Open FOE,MF,,,,,,,,10
+,,11,Wed,O/S,,,,305041 used it,,,,,,,,,,,,,,,,,,11
+,,12,Thur,S/M,,,,,,,,,,,,,,,,,,,,,,12
+,,13,Fri,M,,,,,,,,,,,,,,,,,,,,,,13
+,,14,Sat,M,,,,,,,,,,,,,,,,,,,,,,14
+,,15,Sun,M,,,,,,,,,,,,,,,,,,,,,,15
+,,16,Mon,M,,,,,,,,,,,,,,,,,,,,,,16
+,,17,Tue,M,,,,,,,,,Ophyd/Bluesky,JA,,,,,,,,,,,,17
+,,18,Wed,M,,,,,,,,,,,,,,,,,,,,,,18
+,,19,Thu,M,,,,,,,,,,,,,,,,,,,,,,19
+,,20,Fri,M,,,,,,,,,,,,,,,,,,,,,,20
+,,21,Sat,M,,,,,,,,,,,,,,,,,,,,,,21
+,,22,Sun,M,,,,,,,,,,,,,,,,,,,,,,22
+,,23,Mon,M,,,,,,,,,,,,,,,,,,,,,,23
+,,24,Tue,M,,,,,,,,,Ophyd/Bluesky?,JA,,,,,,,,,,,,24
+,,25,Wed,M,,,,,,,,,,,,,,,,,,,,,,25
+,,26,Thu,M,,,,,,,,,,,,,,,,,,,,,,26
+,,27,Fri,M,,,,,,,,,,,,,,,,,,,,,,27
+,,28,Sat,M,,,,,,,,,,,,,,,,,,,,,,28
+,,29,Sun,M,,,,,,,,,,,,,,,,,,,,,,29
+,,30,Mon,M,,,,,,,,,,,,,,,,,,,,,,30
+,,31,Tues,M,,,,,,,,,,,,,,,,,,,,,,31
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Total Operation ,,,,,,,Total Operation ,,,,,,,,,,,,,
+,,,,,,Total Availabe,,,,,,,Total Availabe,,,,,,,,,,,,,
+,,,,,,Total BLC,,,,,,,Total BLC,,,,,,,,,,,,,
+,,,,,,Total PR,,,,,,,Total PR,,,,,,,,,,,,,

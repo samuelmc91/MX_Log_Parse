@@ -1,0 +1,8 @@
+07/01/21;15:27:28.633;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+07/01/21;15:27:28.634;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+07/01/21;15:27:28.634;INFO;Controller;Status = Executing: Initialize;
+07/01/21;15:27:28.634;INFO;Controller;State = Running;
+07/01/21;15:27:29.654;INFO;Robot Runtime;executing:    Initialize;
+07/01/21;15:27:30.700;INFO;Robot Runtime;Failed to turn on robot power;
+07/01/21;15:27:30.850;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Failed to turn on robot power;
+07/01/21;15:27:30.850;INFO;Controller;State = Ready;

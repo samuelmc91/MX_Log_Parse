@@ -1,0 +1,12 @@
+08/08/19;17:07:09.496;WARNING;Robot;Alarm active: Device is offline;
+08/08/19;17:07:09.497;INFO;Controller;State = Communication Error;
+08/08/19;17:08:01.606;INFO;Robot;Alarm inactive: Device is offline;
+08/08/19;17:08:01.606;WARNING;Controller;Communication resumed, trying updating devices;
+08/08/19;17:08:01.607;INFO;Controller;Finished device updating;
+08/08/19;17:08:01.607;INFO;Controller;State = Ready;
+08/08/19;20:58:08.496;WARNING;Robot;Alarm active: Device is offline;
+08/08/19;20:58:08.496;INFO;Controller;State = Communication Error;
+08/08/19;20:58:39.602;INFO;Robot;Alarm inactive: Device is offline;
+08/08/19;20:58:39.602;WARNING;Controller;Communication resumed, trying updating devices;
+08/08/19;20:58:39.602;INFO;Controller;Finished device updating;
+08/08/19;20:58:39.602;INFO;Controller;State = Ready;

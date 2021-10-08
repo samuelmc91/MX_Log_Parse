@@ -1,0 +1,82 @@
+05/05/21;22:29:24.203;INFO;Server;Command: ExecRobotTask (EnableTScreen,500000);
+05/05/21;22:29:24.204;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+05/05/21;22:29:24.204;INFO;Controller;Status = Executing: EnableTScreen;
+05/05/21;22:29:24.204;INFO;Controller;State = Running;
+05/05/21;22:31:12.996;INFO;Server;Command: ExecRobotTask (TurnOnAutoFill,500000);
+05/05/21;22:31:12.997;WARNING;Controller;Exception: Activity still running
+Stack trace:
+org.embl.StateException: Activity still running
+	at org.embl.ctrl.Sequencer.assertActivityNotRunning(Sequencer.java:1033)
+	at org.embl.ctrl.Sequencer.assertNotExecutingTask(Sequencer.java:1054)
+	at org.embl.ctrl.Controller.assertHighLevelCommandAllowed(Controller.java:784)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1967)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1944)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1933)
+	at org.embl.sw.Control.startRobotTask(Control.java:377)
+	at org.embl.sw.Server.startRobotTask(Server.java:45)
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.embl.reflection.Exposer.execute(Exposer.java:318)
+	at org.embl.protocol.EpicsServer$MethodProcessVariable.write(EpicsServer.java:421)
+	at gov.aps.jca.cas.ServerChannel.write(ServerChannel.java:126)
+	at com.cosylab.epics.caj.cas.handlers.WriteNotifyResponse.internalHandleResponse(WriteNotifyResponse.java:119)
+	at com.cosylab.epics.caj.impl.handlers.AbstractCAResponseHandler.handleResponse(AbstractCAResponseHandler.java:110)
+	at com.cosylab.epics.caj.cas.CASResponseHandler.handleResponse(CASResponseHandler.java:120)
+	at com.cosylab.epics.caj.cas.CASTransport.processRead(CASTransport.java:398)
+	at com.cosylab.epics.caj.cas.CASTransport.handleEvent(CASTransport.java:297)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.handleEvent(LeaderFollowersHandler.java:71)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.processInternal(Reactor.java:376)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.process(Reactor.java:266)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.run(LeaderFollowersHandler.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+;
+05/05/21;22:32:13.669;INFO;Server;Command: ExecRobotTask (EnableTScreen,500000);
+05/05/21;22:32:13.670;WARNING;Controller;Exception: Activity still running
+Stack trace:
+org.embl.StateException: Activity still running
+	at org.embl.ctrl.Sequencer.assertActivityNotRunning(Sequencer.java:1033)
+	at org.embl.ctrl.Sequencer.assertNotExecutingTask(Sequencer.java:1054)
+	at org.embl.ctrl.Controller.assertHighLevelCommandAllowed(Controller.java:784)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1967)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1944)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1933)
+	at org.embl.sw.Control.startRobotTask(Control.java:377)
+	at org.embl.sw.Server.startRobotTask(Server.java:45)
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.embl.reflection.Exposer.execute(Exposer.java:318)
+	at org.embl.protocol.EpicsServer$MethodProcessVariable.write(EpicsServer.java:421)
+	at gov.aps.jca.cas.ServerChannel.write(ServerChannel.java:126)
+	at com.cosylab.epics.caj.cas.handlers.WriteNotifyResponse.internalHandleResponse(WriteNotifyResponse.java:119)
+	at com.cosylab.epics.caj.impl.handlers.AbstractCAResponseHandler.handleResponse(AbstractCAResponseHandler.java:110)
+	at com.cosylab.epics.caj.cas.CASResponseHandler.handleResponse(CASResponseHandler.java:120)
+	at com.cosylab.epics.caj.cas.CASTransport.processRead(CASTransport.java:398)
+	at com.cosylab.epics.caj.cas.CASTransport.handleEvent(CASTransport.java:297)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.handleEvent(LeaderFollowersHandler.java:71)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.processInternal(Reactor.java:376)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.process(Reactor.java:266)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.run(LeaderFollowersHandler.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+;
+05/05/21;22:37:44.222;INFO;Controller;Activity ExecRobotTask ended with exception: Timeout waiting ready;
+05/05/21;22:37:44.223;WARNING;Activity;Exception: Robot timeout waiting ready
+Stack trace:
+org.embl.ctrl.Device$TimeoutWaitReadyException: Timeout waiting ready
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1199)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1124)
+	at org.embl.sw.Control.execRobotTask(Control.java:489)
+	at org.embl.sw.Control$2.run(Control.java:380)
+	at org.embl.task.ActivityManager.runTask(ActivityManager.java:104)
+	at org.embl.task.ActivityManager.access$000(ActivityManager.java:22)
+	at org.embl.task.ActivityManager$ActivityThread.run(ActivityManager.java:145)
+;
+05/05/21;22:37:44.223;INFO;Controller;State = Ready;
+05/05/21;22:44:34.957;INFO;Controller;State = Closing;
+05/05/21;22:44:35.964;INFO;Epics Server;Exiting running thread;
+05/05/21;22:44:35.966;INFO;Controller;Stopping log services - Startup: 27/04/21 16:09:12;

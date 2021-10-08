@@ -1,0 +1,194 @@
+import os
+import sys
+import pandas as pd
+import matplotlib.pyplot as plt
+import importlib
+import time
+import warnings
+
+############################################# INITIALIZATION #############################################
+########################### Methods ###########################
+
+def dir_check(new_dir_path):
+    if not os.path.exists(new_dir_path):
+        os.system('mkdir -p {}'.format(new_dir_path))
+
+def csv_check(new_csv_path):
+    if not os.path.exists(new_csv_path):
+        base_df = pd.DataFrame(columns=['Date', 'Mounts'])
+        base_df.to_csv(new_csv_path)
+
+def create_output_dirs(output_dir_beam):
+    output_sub_dirs = ['m_vision', 'sensors', 'sample_counter']
+    output_sub_dirs_out = []
+    for sub_dir in output_sub_dirs:
+        new_dir_path = os.path.join(output_dir_beam, sub_dir)
+        output_sub_dirs_out.append(new_dir_path)
+        dir_check(new_dir_path)
+    return output_sub_dirs_out
+
+
+########################### Run Code ###########################
+root_dir = os.getcwd()
+
+log_files_dir_amx = os.path.join(root_dir, 'log_files_amx')
+dir_check(log_files_dir_amx)
+log_files_dir_fmx = os.path.join(root_dir, 'log_files_fmx')
+dir_check(log_files_dir_fmx)
+log_files_dir_lix = os.path.join(root_dir, 'log_files_lix')
+dir_check(log_files_dir_lix)
+
+output_dir_amx = os.path.join(root_dir, 'output_amx')
+dir_check(output_dir_amx)
+output_dir_fmx = os.path.join(root_dir, 'output_fmx')
+dir_check(output_dir_fmx)
+output_dir_lix = os.path.join(root_dir, 'output_lix')
+dir_check(output_dir_lix)
+
+master_count_csv_amx = os.path.join(output_dir_amx, 'master_count_amx.csv')
+csv_check(master_count_csv_amx)
+master_count_csv_fmx = os.path.join(output_dir_fmx, 'master_count_fmx.csv')
+csv_check(master_count_csv_fmx)
+master_count_csv_lix = os.path.join(output_dir_lix, 'master_count_lix.csv')
+csv_check(master_count_csv_lix)
+
+m_vision_amx, sensors_amx, sample_counter_amx = create_output_dirs(
+    output_dir_amx)
+m_vision_fmx, sensors_fmx, sample_counter_fmx = create_output_dirs(
+    output_dir_fmx)
+m_vision_lix, sensors_lix, sample_counter_lix = create_output_dirs(
+    output_dir_lix)
+
+log_files_amx = [os.path.join(log_files_dir_amx, log) for log in os.listdir(
+                 log_files_dir_amx) if log.split('.')[-1] == 'log']
+log_files_fmx = [os.path.join(log_files_dir_fmx, log) for log in os.listdir(
+                 log_files_dir_fmx) if log.split('.')[-1] == 'log']
+log_files_lix = [os.path.join(log_files_dir_lix, log) for log in os.listdir(
+                 log_files_dir_lix) if log.split('.')[-1] == 'log']
+total_log_files = len(log_files_amx) + len(log_files_fmx) + len(log_files_lix)
+############################################# INFORMATION EXTRACTION #############################################
+########################### Global Variables ###########################
+mount_key = 'executing:    Mount'
+unmount_key = 'executing:    Unmount'
+load_key = 'executing:    Load'
+sensor_key = 'Robot Runtime;Proximity Sensor'
+########################### Methods ###########################
+
+def make_csv_and_graph(df_list, column_title, output_dir, output_title):
+    # print(df_list)
+    log_df = pd.DataFrame(df_list, columns=["Date", "Time", column_title])
+    log_df.to_csv(os.path.join(output_dir, output_title + '.csv'))
+
+    log_df[column_title] = pd.to_numeric(log_df[column_title])
+    log_df.plot(x='Time', y=column_title)
+    plt.savefig(os.path.join(output_dir, output_title + '.png'))
+
+
+def append_master_csv(mount_count):
+    pass
+
+
+def extract_sensor_info(log_lines_in, datestamp):
+    sensor_info = [[f.split(';')[4].split(': ')[0], f.split(';')[
+        4].split(': ')[1]] for f in log_lines_in]
+
+    sensor_1_timestamp = sensor_info[0][0]
+    sensor_2_timestamp = sensor_info[1][0]
+    sensor_3_timestamp = sensor_info[2][0]
+    sensor_1 = float(sensor_info[0][1])
+    sensor_2 = float(sensor_info[1][1])
+    sensor_3 = float(sensor_info[2][1])
+
+    sensor_1_list = [datestamp, sensor_1_timestamp, sensor_1]
+    sensor_2_list = [datestamp, sensor_2_timestamp, sensor_2]
+    sensor_3_list = [datestamp, sensor_3_timestamp, sensor_3]
+    return [sensor_1_list, sensor_2_list, sensor_3_list]
+
+def extract_m_vision_info(log_line_in):
+    sample_gap_time = log_line_in.split(';')[4].split(': ')[-1]
+    try:
+        sample_gap_time = float(sample_gap_time)
+        sample_gap_output = [log_line_in.split(
+            ';')[0]] + [log_line_in.split(';')[1].split('.')[0]] + [sample_gap_time]
+        return sample_gap_output
+    except Exception as e:
+        pass
+
+
+def parse_logs(log_file_dir, m_vision_dir_in, sensor_dir_in, master_count_csv_in): 
+    for log in log_file_dir:
+        unmount_df_list = []
+        load_df_list = []
+        sensor_df_list = []
+        mount_count = 0
+
+        flog = open(log, 'r', errors='ignore')
+        log_title = log.split('/')[-1].split('.')[0]
+
+        log_lines = flog.readlines()
+        log_index = 0
+        log_datestamp = log_lines[log_index].split(';')[0]
+        while log_index < len(log_lines):
+            if unmount_key in log_lines[log_index].split(';'):
+                unmount_sample_gap = extract_m_vision_info(log_lines[log_index+1])
+                if unmount_sample_gap:
+                    unmount_df_list.append(unmount_sample_gap)
+                log_index += 1
+            if load_key in log_lines[log_index].split(';'):
+                load_sample_gap = extract_m_vision_info(log_lines[log_index+1])
+                if load_sample_gap:
+                    load_df_list.append(load_sample_gap)
+                log_index += 1
+            if sensor_key in log_lines[log_index]:
+                sensor_1 = extract_sensor_info(log_lines[log_index+1], log_datestamp)
+                sensor_2 = extract_sensor_info(log_lines[log_index+2], log_datestamp)
+                sensor_3 = extract_sensor_info(log_lines[log_index+3], log_datestamp)
+                # datestamp = log_lines[log_index].split(';')[0]
+                # sensor_check_lines = [log_lines[log_index], log_lines[log_index+1], log_lines[log_index+2]]
+                # sensor_list = extract_sensor_info(sensor_check_lines, datestamp)
+                sensor_list = [sensor_1, sensor_2, sensor_3]
+                log_index += 3
+            if mount_key in log_lines[log_index].split(';'):
+                mount_count += 1
+            log_index += 1
+
+        if unmount_df_list:
+            try:
+                make_csv_and_graph(unmount_df_list, 'Unmount', m_vision_dir_in, log_title + '_Unmount')
+            except Exception:
+                print(unmount_df_list)
+                print('Failure in Machine Vision: Unmount;\nLog File: {}'.format(log_title))
+                continue
+        if load_df_list:
+            try:
+                make_csv_and_graph(load_df_list, 'Load', m_vision_dir_in, log_title + '_Load')
+            except Exception:
+                print(load_df_list)
+                print('Failure in Machine Vision: Load;\nLog File: {}'.format(log_title))
+                continue
+        if sensor_df_list:
+            try:
+                for i in range(1,4):
+                    print(sensor_list[i-1])
+                    new_log_title = log_title + '_' + str(i)
+                    make_csv_and_graph(sensor_list[i-1], 'Proximity Sensor ' + str(i), os.path.join(sensor_dir_in, log_title), new_log_title)
+            except Exception:
+                print(sensor_df_list)
+                print('Failure in Proximity Sensors;\nLog File: {}'.format(log_title))
+                continue
+        if mount_count > 0:
+            try:
+                master_count_df = pd.read_csv(master_count_csv_in)
+                warnings.simplefilter(action='ignore', category=FutureWarning)
+                if log_title not in master_count_df['Date'].values:
+                    new_row = {'Date': log_title, 'Mounts': mount_count}
+                    master_count_df = master_count_df.append(new_row, ignore_index=True)
+                    master_count_df[['Date', 'Mounts']].to_csv(master_count_csv_in)
+            except Exception:
+                print(mount_count)
+                print('Failure in Sample Count;\nLog File: {}'.format(log_title))
+
+if __name__ == '__main__':
+    parse_logs(log_files_fmx, m_vision_fmx, sensors_fmx, master_count_csv_fmx)
+    parse_logs(log_files_amx, m_vision_amx, sensors_amx, master_count_csv_amx)
+    parse_logs(log_files_lix, m_vision_lix, sensors_lix, master_count_csv_lix)

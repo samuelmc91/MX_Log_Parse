@@ -1,0 +1,11 @@
+10/09/18;10:10:16.489;INFO;Server;Command: ExecRobotTask (Initialize,500000);
+10/09/18;10:10:16.490;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+10/09/18;10:10:16.490;INFO;Controller;Status = Executing: Initialize;
+10/09/18;10:10:16.490;INFO;Controller;State = Running;
+10/09/18;10:10:17.387;INFO;Robot Runtime;executing:    Initialize;
+10/09/18;10:10:18.224;INFO;Robot Runtime;Failed to switch MV to run mode;
+10/09/18;10:10:18.622;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: MV failed to switch to run mode;
+10/09/18;10:10:18.622;INFO;Controller;State = Ready;
+10/09/18;10:11:19.951;INFO;Controller;State = Closing;
+10/09/18;10:11:20.959;INFO;Epics Server;Exiting running thread;
+10/09/18;10:11:20.963;INFO;Controller;Stopping log services - Startup: 04/09/18 18:35:50;

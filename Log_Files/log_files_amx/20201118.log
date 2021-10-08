@@ -1,0 +1,16 @@
+18/11/20;17:18:58.342;INFO;Server;Command: ExecRobotTask (TurnOnAutoFill,500000);
+18/11/20;17:18:58.344;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+18/11/20;17:18:58.344;INFO;Controller;Status = Executing: TurnOnAutoFill;
+18/11/20;17:18:58.344;INFO;Controller;State = Running;
+18/11/20;17:18:59.487;INFO;Robot Runtime;executing:    TurnOnAutoFill;
+18/11/20;17:19:00.152;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+18/11/20;17:19:00.152;INFO;Controller;State = Ready;
+18/11/20;21:30:47.843;WARNING;Robot Runtime;update thread is down, Error Code: 125;
+18/11/20;21:30:51.873;WARNING;Robot;Alarm active: Device is offline;
+18/11/20;21:30:51.874;INFO;Controller;State = Communication Error;
+18/11/20;21:33:38.999;INFO;Robot;Alarm inactive: Device is offline;
+18/11/20;21:33:38.999;WARNING;Controller;Communication resumed, trying updating devices;
+18/11/20;21:33:39.002;INFO;Controller;Finished device updating;
+18/11/20;21:33:39.002;INFO;Controller;State = Ready;
+18/11/20;21:36:52.972;INFO;Robot;Enabling Power;
+18/11/20;21:36:57.329;INFO;Robot;Disabling Power;

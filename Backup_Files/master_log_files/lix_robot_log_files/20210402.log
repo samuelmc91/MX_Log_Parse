@@ -1,0 +1,124 @@
+02/04/21;14:51:32.596;INFO;Controller;Instantiation;
+02/04/21;14:51:32.630;INFO;Controller;State = Initializing;
+02/04/21;14:51:32.792;WARNING;Interface;Access level set to Admin;
+02/04/21;14:51:32.878;INFO;Controller;Initialized log services - Startup: 02/04/21 14:51:32;
+02/04/21;14:51:32.887;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+02/04/21;14:51:33.124;INFO;Epics Server;Registered PV: SW:Version;
+02/04/21;14:51:33.145;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+02/04/21;14:51:33.146;INFO;Epics Server;Registered PV: SW:JointPositions;
+02/04/21;14:51:33.147;INFO;Epics Server;Registered PV: SW:RobotState;
+02/04/21;14:51:33.148;INFO;Epics Server;Registered PV: SW:Status;
+02/04/21;14:51:33.148;INFO;Epics Server;Registered PV: SW:Uptime;
+02/04/21;14:51:33.149;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+02/04/21;14:51:33.149;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+02/04/21;14:51:33.150;INFO;Epics Server;Registered PV: SW:AlarmList;
+02/04/21;14:51:33.151;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+02/04/21;14:51:33.151;INFO;Epics Server;Registered PV: SW:LastTaskException;
+02/04/21;14:51:33.151;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+02/04/21;14:51:33.152;INFO;Epics Server;Registered PV: SW:State;
+02/04/21;14:51:33.154;INFO;Epics Server;Registered PV: SW:abort;
+02/04/21;14:51:33.155;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+02/04/21;14:51:33.155;INFO;Epics Server;Registered PV: SW:getDistance;
+02/04/21;14:51:33.156;INFO;Epics Server;Registered PV: SW:restart;
+02/04/21;14:51:33.156;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+02/04/21;14:51:33.156;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+02/04/21;14:51:33.157;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+02/04/21;14:51:33.157;INFO;Epics Server;Registered PV: SW:startTestTask;
+02/04/21;14:51:33.158;INFO;Epics Server;Registered PV: SW:pauseRobot;
+02/04/21;14:51:33.158;INFO;Epics Server;Registered PV: SW:resumeRobot;
+02/04/21;14:51:33.159;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+02/04/21;14:51:33.159;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+02/04/21;14:51:33.159;INFO;Epics Server;Registered PV: SW:startRobotTask;
+02/04/21;14:51:33.160;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+02/04/21;14:51:33.163;INFO;Epics Server;Started server: ready to accept requests;
+02/04/21;14:51:33.822;INFO;Controller;Initializing Robot;
+02/04/21;14:51:33.835;INFO;Robot;Setting reference frame to: world;
+02/04/21;14:51:34.025;INFO;Controller;Initializing Bus Controller;
+02/04/21;14:51:34.027;INFO;Anti-Collision;Active = true;
+02/04/21;14:51:34.027;INFO;Controller;State = Starting;
+02/04/21;14:51:34.031;INFO;Controller;Command: Reset;
+02/04/21;14:51:34.306;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+02/04/21;14:51:34.306;INFO;Controller;Status = Reseting;
+02/04/21;14:51:34.306;INFO;Controller;State = Running;
+02/04/21;14:51:34.743;INFO;Controller;Script host: localhost:42631;
+02/04/21;14:51:34.744;INFO;Script;Starting initialization script;
+02/04/21;14:51:34.747;INFO;Script;Do nothing;
+02/04/21;14:51:34.747;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+02/04/21;14:51:34.748;INFO;Controller;State = Ready;
+02/04/21;14:52:23.629;INFO;Controller;Robot configuration saved;
+02/04/21;14:52:23.639;INFO;Robot;Setting reference frame to: world;
+02/04/21;14:52:24.032;WARNING;Robot;Alarm active: Device is offline;
+02/04/21;14:52:24.033;INFO;Controller;State = Communication Error;
+02/04/21;14:52:26.262;WARNING;Robot;Exception: Robot connection error (Error connecting to device)
+Stack trace:
+org.embl.ctrl.ConnectedDevice$ConnectionFailureException: Connection error
+	at org.embl.ctrl.ConnectedDevice.connect(ConnectedDevice.java:136)
+	at org.embl.ctrl.ConnectedDevice.doInitialize(ConnectedDevice.java:85)
+	at org.embl.dev.staubli.StaubliRobot.doInitialize(StaubliRobot.java:491)
+	at org.embl.ctrl.Device.initialize(Device.java:678)
+	at org.embl.ctrl.Device.initialize(Device.java:644)
+	at org.embl.ctrl.Device.initialize(Device.java:639)
+	at org.embl.ctrl.Controller.onDeviceConfigurationSaved(Controller.java:2305)
+	at org.embl.sw.Control.onDeviceConfigurationSaved(Control.java:236)
+	at org.embl.ctrl.Device$7.run(Device.java:1485)
+	at org.embl.task.Invoker.Invoke(Invoker.java:111)
+	at org.embl.ctrl.Device.triggerConfigurationSavedEvent(Device.java:1487)
+	at org.embl.ctrl.Device.saveConfig(Device.java:1593)
+	at org.embl.ctrl.DeviceConfigPanel.actionPerformed(DeviceConfigPanel.java:487)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6535)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: org.embl.ctrl.Device$DeviceException: Error connecting to device
+	at org.embl.dev.staubli.StaubliRobot.doConnect(StaubliRobot.java:592)
+	at org.embl.ctrl.ConnectedDevice.connect(ConnectedDevice.java:125)
+	... 48 more
+Caused by: org.embl.net.NetException$NetConnectionErrorException: Connection error
+	at org.embl.net.SocketClient.connect(SocketClient.java:241)
+	at org.embl.dev.staubli.StaubliRobot.doConnect(StaubliRobot.java:584)
+	... 49 more
+Caused by: java.net.NoRouteToHostException: No route to host
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.embl.net.SocketClient.connect(SocketClient.java:235)
+	... 50 more
+;
+02/04/21;14:54:34.035;INFO;Controller;State = Closing;
+02/04/21;14:54:35.043;INFO;Epics Server;Exiting running thread;
+02/04/21;14:54:35.046;INFO;Controller;Stopping log services - Startup: 02/04/21 14:51:32;

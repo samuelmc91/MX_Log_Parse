@@ -1,0 +1,62 @@
+03/07/19;04:27:09.916;INFO;Server;Command: ExecRobotTask (TurnOffAutoFill,500000);
+03/07/19;04:27:09.918;WARNING;Controller;Exception: Command refused due to active alarms:
+- Device is offline 
+Stack trace:
+org.embl.StateException: Command refused due to active alarms:
+- Device is offline 
+	at org.embl.ctrl.Controller.assertHighLevelCommandAllowed(Controller.java:794)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1967)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1944)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1933)
+	at org.embl.sw.Control.startRobotTask(Control.java:377)
+	at org.embl.sw.Server.startRobotTask(Server.java:45)
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.embl.reflection.Exposer.execute(Exposer.java:318)
+	at org.embl.protocol.EpicsServer$MethodProcessVariable.write(EpicsServer.java:421)
+	at gov.aps.jca.cas.ServerChannel.write(ServerChannel.java:126)
+	at com.cosylab.epics.caj.cas.handlers.WriteNotifyResponse.internalHandleResponse(WriteNotifyResponse.java:119)
+	at com.cosylab.epics.caj.impl.handlers.AbstractCAResponseHandler.handleResponse(AbstractCAResponseHandler.java:110)
+	at com.cosylab.epics.caj.cas.CASResponseHandler.handleResponse(CASResponseHandler.java:120)
+	at com.cosylab.epics.caj.cas.CASTransport.processRead(CASTransport.java:398)
+	at com.cosylab.epics.caj.cas.CASTransport.handleEvent(CASTransport.java:297)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.handleEvent(LeaderFollowersHandler.java:71)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.processInternal(Reactor.java:376)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.process(Reactor.java:266)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.run(LeaderFollowersHandler.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+;
+03/07/19;04:27:27.874;INFO;Server;Command: ExecRobotTask (TurnOnAutoFill,500000);
+03/07/19;04:27:27.875;WARNING;Controller;Exception: Command refused due to active alarms:
+- Device is offline 
+Stack trace:
+org.embl.StateException: Command refused due to active alarms:
+- Device is offline 
+	at org.embl.ctrl.Controller.assertHighLevelCommandAllowed(Controller.java:794)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1967)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1944)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1933)
+	at org.embl.sw.Control.startRobotTask(Control.java:377)
+	at org.embl.sw.Server.startRobotTask(Server.java:45)
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.embl.reflection.Exposer.execute(Exposer.java:318)
+	at org.embl.protocol.EpicsServer$MethodProcessVariable.write(EpicsServer.java:421)
+	at gov.aps.jca.cas.ServerChannel.write(ServerChannel.java:126)
+	at com.cosylab.epics.caj.cas.handlers.WriteNotifyResponse.internalHandleResponse(WriteNotifyResponse.java:119)
+	at com.cosylab.epics.caj.impl.handlers.AbstractCAResponseHandler.handleResponse(AbstractCAResponseHandler.java:110)
+	at com.cosylab.epics.caj.cas.CASResponseHandler.handleResponse(CASResponseHandler.java:120)
+	at com.cosylab.epics.caj.cas.CASTransport.processRead(CASTransport.java:398)
+	at com.cosylab.epics.caj.cas.CASTransport.handleEvent(CASTransport.java:297)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.handleEvent(LeaderFollowersHandler.java:71)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.processInternal(Reactor.java:376)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.process(Reactor.java:266)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.run(LeaderFollowersHandler.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+;

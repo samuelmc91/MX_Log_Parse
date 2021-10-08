@@ -1,0 +1,17 @@
+,AMX morning,AMX afternoon,AMX overnight,FMX morning,FMX afternoon,FMX overnight
+1,BAG,BAG,,,,
+3,Colimator,BAG,BAG,BAG,,
+4,GU,,,BAG,BAG,
+6,PR,PR,,BAG,BAG305000,BAG305000
+7,,recover,,recover,,
+11,BAG,BAG,BAG,GU,,
+12,BAG,GU,GU,BAG,BAG,BAG
+13,PR,PR,,BAG,BAG,BAG
+14,GU,,,BAG,BAG,BAG
+15,,BAG,BAG,BAG,BAG,BAG
+18,LSDC,,,,,
+21,BAG,BAG,BAG,GU,BAG,BAG
+24,floating,,,LSDC,,
+26,BAG,GU,GU,,,
+27,PR,PR,,BAG,BAG,
+28,BAG,,,BAG,,

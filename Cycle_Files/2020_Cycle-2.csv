@@ -1,0 +1,103 @@
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MONTH,DATE,WeekDay,Operation,,AMX morning,Local,AMX afternoon,Local,AMX overnight,Local,,FMX morning,,FMX afternoon,,FMX overnight,,,NYX morning,,NYX afternoon,,NYX overnight,,DATE
+,,,,,,9 am -5 pm,Contact,4 pm-10 pm,Contact,10 pm - 7 am,Contact,,9 am -5 pm,,4 pm-10 pm,,10 pm - 7 am,,,9 am-3 pm,,4 pm-10 pm,,10 pm - 7 am,,
+,JULY,1,Wed,M,,,,,,,,,,,,,,,,,,,,,,1
+,,2,Thu,M,,,,,,,,,,,,,,,,,,,,,,2
+,,3,Fri,M,,,,,,,,,,,,,,,,,,,,,,3
+,,4,Sat,M/S,,,,,,,,,,,,,,,,,,,,,,4
+,,5,Sun,S,,,,,,,,,,,,,,,,,,,,,,5
+,,6,Mon,S/O,,beam commissioning,,,,,,,,,,,,,,,,,,,,6
+,,7,Tue,O,,,,,,,,,,,,,,,,,,,,,,7
+,,8,Wed,O,,amx team remote,,,,,,,BAG 305000-K,BA,,,,,,,,,,,,8
+,,9,Thur,O,,amx team remote,,,,,,,BAG 305000-K,BA,,,,,,,,,,,,9
+,,10,Fri,O,,BAG 305000-DK,,,,,,,BAG 305000-,WS,,,,,,,,,,,,10
+,,11,Sat,O,,,,,,,,,,,,,,,,,,,,,,11
+,,12,Sun,O,,,,,,,,,,,,,,,,,,,,,,12
+,,13,Mon,O/M,,,,,,,,,,,,,,,,,,,,,,13
+,,14,Tue,M/S,,,,,,,,,,,,,,,,,,,,,,14
+,,15,Wed,S/O,,robot commissioning,,,,,,,,,,,,,,,,,,,,15
+,,16,Thur,O,,BAG 305036,JJ,,,,,,PR 303851,WS,,,,,,,,,,,,16
+,,17,Fri,O,,PR 303851,AS,,,,,,RA 306532,BA,,,,,,,,,,,,17
+,,18,Sat,O,,,EL,,,,,,,WS,,,,,,,,,,,,18
+,,19,Sun,O,,,,,,,,,,,,,,,,,,,,,,19
+,,20,Mon,O,,BAG 305987,EL,,,,,,,,,,,,,,,,,,,20
+,,21,Tue,O,,BAG305034,VS,,,,,,BAG 305046,WS,,,,,,,,,,,,21
+,,22,Wed,O,,BAG 305042,DK,,,,,,BAG305421,BA,,,,,,,,,,,,22
+,,23,Thu,O/I/S,,,,,,,,,,,,,,,,,,,,,,23
+,,24,Fri,S,,,,WB slides,,,,,,,,,,,,,,,,,,24
+,,25,Sat,S,,,,,,,,,,,,,,,,,,,,,,25
+,,26,Sun,S,,,,,,,,,,,,,,,,,,,,,,26
+,,27,Mon,S/O,,,,,,,,,,,BAG 305000-K,WS/BA,,,,,,,,,,27
+,,28,Tue,O,,PR 303851,AS,,,,,,BAG 305037,WS,,,,,,,,,,,,28
+,,29,Wed,O,,BAG 305035,JJ,,,,,,PR 303851,MF,,,,,,,,,,,,29
+,,30,Thur,O,,Workbench,,,,,,,Workbench,,,,,,,,,,,,,30
+,,31,Fri,O,,BAG 305034/Workbench,VS,,,,,,PR 306535/Workbench,MF,,,,,,,,,,,,31
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MONTH,DATE,WeekDay,Operation,,AMX morning,,AMX afternoon,,AMX overnight,,,FMX morning,,FMX afternoon,,FMX overnight,,,NYX morning,,NYX afternoon,,NYX overnight,,DATE
+,,,,,,9 am - 3 pm,,4 pm-10 pm,,10 pm - 7 am,,,9 am - 3 pm,,4 pm-10 pm,,10 pm - 7 am,,,9 am-3 pm,,4 pm-10 pm,,10 pm - 7 am,,
+,AUGUST,1,Sat,O,,RA 306566,JJ,,,,,,BAG 304983,MF,,,,,,,,,,,,1
+,,2,Sun,O,,,,,,,,,,,,,,,,,,,,,,2
+,,3,Mon,O/M,,pi test,EL,foating lid ,GSM,xrf detetor test,EL,,,,,,,,,,,,,,,3
+,,4,Tue,M,,,,,,,,,,,,,,,,,,,,,,4
+,,5,Wed,S/O,,,,,,,,,,,,,,,,,,,,,,5
+,,6,Thur,O,,,,BAG 305000-DK-AS,,,,,,,BAG305000-K,WS,,,,,,,,,,6
+,,7,Fri,O,,GU 306108,EL,BAG 305018,EL,BAG 305018,,,PR 306522,WS,PR 303851,WS,PR 303851,,,,,,,,,7
+,,8,Sat,O,,BAG 305044,AS,,AS,,,,,,,,,,,,,,,,,8
+,,9,Sun,O,,,,,,,,,,,,,,,,,,,,,,9
+,,10,Mon,O,,,,BAG 305018,JJ,BAG 305018,,,,,PR 303851,MF,,,,,,,,,,10
+,,11,Tue,O,,PR 303851,AS,PR 303851,AS,PR 303851,,,PR 306522 ,WS,BAG 305043,WS,BAG 305043,,,,,,,,,11
+,,12,Wed,O,,GU 306108,VS,RA 307474 ,AS,RA 307474 ,,,BAG 305069,MF,BAG305044,MF,,,,,,,,,,12
+,,13,Thu,O/I/S,,,,,,,,,,,,,,,,,,,,,,13
+,,14,Fri,M,,,,,,,,,,,,,,,,,,,,,,14
+,,15,Sat,UO,,,,,,,,,,,,,,,,,,,,,,15
+,,16,Sun,UO,,,,,,,,,,,,,,,,,,,,,,16
+,,17,Mon,S/O,,,,GU 306108,VS,,,,,,BAG305000-K,WS,,,,,,,,,,17
+,,18,Tue,O,,BAG 305036,DK,RA 307462-Training-?),JJ,,,,BAG 305069,WS,BAG305002,WS,,,,,,,,,,18
+,,19,Wed,O,,BAG 305036 (end@noon),AS,RA 307474 (start@11am),AS,RA 307474 ,AS,,PR 306522,BA,BAG 304983,BA,BAG 304983,,,BAG 305034,,BAG 305034,,BAG 305034,,19
+,,20,Thur,O,,RA 307474,AS,PR 306519,EL,PR 306519,,,"BAG 305000-K, 12-3",WS,BAG 305043,WS,,,,,,,,,,20
+,,21,Fri,O,,BAG 305987,JJ,BAG 305041,JJ,,,,BAG 305037,WS,PR 305587,MF,PR 305587,,,,,,,,,21
+,,22,Sat,O,,BAG 305133,AS/VS,BAG 305044 ,AS/VS,,,,BAG 305990,WS,RA 307474 ,MF,RA 307474,,,,,,,,,22
+,,23,Sun,O,,GU 306108,EL,,,,,,RA 307474 until noon,MF,PR 306519 until 6pm,MF,RA 307474,,,,,,,,,23
+,,24,Mon,UO,,,,BAG 305000-DK/AS,DK,,,,,,PR 305587,BA,,,,,,,,,,24
+,,25,Tue,M,,Maintenance 6:00 am to 6:00 pm,,,,,,,,,,,,,,,,,,,,25
+,,26,Wed,UO,,,,BAG 305000-DK,DK,BAG 305000,AS,,,WS,RA 307504-training - 2h/BAG 30500-QL - 4h,,,,,,,,,,,26
+,,27,Thur,O,,RA 307484 / PR 306525training,,PR 307505,AS,,,,BAG 305000-BA,BA,RA 307504,WS,RA 307504,,,,,,,,,27
+,,28,Fri,O,,PR 303851,AS/VS,PR 303851,AS,PR 303851,AS,,BAG 305046,BA(MF),PR 305587,BA(MF),PR 305587,,,,,,,,,28
+,,29,Sat,O,,PR 306525,JJ,,JJ,,,,BAG 305007,WS,BAG 305007,WS,,,,,,,,,,29
+,,30,Sun,O,,RA 307484 ,JJ,PR 303851,JJ,,,,RA 307474 ,MF,RA 307474 ,MF,,,,,,,,,,30
+,,31,Mon,O,,RA 306558,AS/VS,PR 306519,AS,PR 306519,AS,,BAG 305069,BA(WS),BAG 305013,MF,,,,RA 306519(?),KB,,,,,31
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MONTH,DATE,WeekDay,Operation,,AMX morning,,AMX afternoon,,AMX overnight,,,FMX morning,,FMX afternoon,,FMX overnight,,,NYX morning,,NYX afternoon,,NYX overnight,,DATE
+,,,,,,9 am - 3 pm,,4 pm-10 pm,,10 pm - 7 am,,,9 am - 3 pm,,4 pm-10 pm,,10 pm - 7 am,,,9 am-3 pm,,4 pm-10 pm,,10 pm - 7 am,,
+,SEPTEMBER,1,Tue,O,,BAG 305035,DK/VS,BAG 305035,DK,,,,RA 305000-AS-DK-BA,  ,BAG 305018,WS,,,,,,,,,,1
+,,2,Wed,O,,BAG 305667,JJ/EL,BAG 305421,JJ,BAG 305421,,,BAG 305036 ,MF,PR 305587,MF,PR 305587,,,,,,,,,2
+,,3,Thur,O/I/S,,,,,,,,,,,,,,,,,,,,,,3
+,,4,Fri,S,,,,,,,,,,,,,,,,,,,,,,4
+,,5,Sat,S,,,,,,,,,,,,,,,,,,,,,,5
+,,6,Sun,S/UO,,BAG305000,AS, , ,,,,,,,,,,,,,,,,,6
+,,7,Mon,UO,,,,BAG305000,AS,,,,BAG 305000-BA,BA,BAG 305000-BA,BA,,,,,,,,,,7
+,,8,Tue,O,,BAG 30500 DK,,RA 307462,JJ,RA 307462,JJ,,BAG 305000-K,WS,BAG 305000-K,WS,,,,,,,,,,8
+,,9,Wed,O,,BAG 305990,AS/VS,PR 306519,AS,,,,PR 303851,WS,PR 303851/BAG 305000-QL,WS,PR 303851 ,,,RA 306519(?),KB,,,,,9
+,,10,Thu,O,,BAG 305046,AS/DK,RA 307466,AS,RA 307466,,,PR 305587 / BAG 305036,MF,BAG 304983,MF,BAG 304983,,,,,,,,,10
+,,11,Fri,O,,BAG 305018,VS/AS,,,,,,BAG 305037,BA(MF),,,,,,,,,,,,11
+,,12,Sat,O/S,,,,,,,,,,,,,,,,,,,,,,12
+,,13,Sun,S,,,,,,,,,,,,,,,,,,,,,,13
+,,14,Mon,S/M,,,,,,,,,,,,,,,,,,,,,,14
+,,15,Tue,M,,,,,,,,,,,,,,,,,,,,,,15
+,,16,Wed,M,,,,,,,,,,,,,,,,,,,,,,16
+,,17,Thur,M,,,,,,,,,,,,,,,,,,,,,,17
+,,18,Fri,M,,,,,,,,,,,,,,,,,,,,,,18
+,,19,Sat,M,,,,,,,,,,,,,,,,,,,,,,19
+,,20,Sun,M,,,,,,,,,,,,,,,,,,,,,,20
+,,21,Mon,M,,,,,,,,,,,,,,,,,,,,,,21
+,,22,Tue,M,,,,,,,,,,,,,,,,,,,,,,22
+,,23,Wed,M,,,,,,,,,,,,,,,,,,,,,,23
+,,24,Thur,M,,,,,,,,,,,,,,,,,,,,,,24
+,,25,Fri,M,,,,,,,,,,,,,,,,,,,,,,25
+,,26,Sat,M,,,,,,,,,,,,,,,,,,,,,,26
+,,27,Sun,M,,,,,,,,,,,,,,,,,,,,,,27
+,,28,Mon,M,,,,,,,,,,,,,,,,,,,,,,28
+,,29,Tue,M,,,,,,,,,,,,,,,,,,,,,,29
+,,30,Wed,M,,,,,,,,,,,,,,,,,,,,,,30

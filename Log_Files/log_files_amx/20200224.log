@@ -1,0 +1,14 @@
+24/02/20;11:07:31.808;INFO;Server;Command: ExecRobotTask (ClosePorts,500000);
+24/02/20;11:07:31.808;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+24/02/20;11:07:31.809;INFO;Controller;Status = Executing: ClosePorts;
+24/02/20;11:07:31.809;INFO;Controller;State = Running;
+24/02/20;11:07:32.696;INFO;Robot Runtime;executing:    ClosePorts;
+24/02/20;11:07:32.950;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+24/02/20;11:07:32.950;INFO;Controller;State = Ready;
+24/02/20;11:07:32.977;INFO;Server;Command: ExecRobotTask (EnableTScreen,500000);
+24/02/20;11:07:32.977;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+24/02/20;11:07:32.977;INFO;Controller;Status = Executing: EnableTScreen;
+24/02/20;11:07:32.978;INFO;Controller;State = Running;
+24/02/20;11:07:33.873;INFO;Robot Runtime;executing:    EnableTScreen;
+24/02/20;11:07:34.206;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+24/02/20;11:07:34.206;INFO;Controller;State = Ready;

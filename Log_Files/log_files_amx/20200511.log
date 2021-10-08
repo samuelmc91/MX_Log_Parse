@@ -1,0 +1,6 @@
+11/05/20;15:50:37.465;WARNING;Robot;Alarm active: Device is offline;
+11/05/20;15:50:37.466;INFO;Controller;State = Communication Error;
+11/05/20;15:50:40.575;INFO;Robot;Alarm inactive: Device is offline;
+11/05/20;15:50:40.575;WARNING;Controller;Communication resumed, trying updating devices;
+11/05/20;15:50:40.576;INFO;Controller;Finished device updating;
+11/05/20;15:50:40.576;INFO;Controller;State = Ready;

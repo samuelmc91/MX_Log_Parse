@@ -1,0 +1,294 @@
+20/01/21;14:26:13.222;INFO;Interface;Command: ExecRobotTask (mt_dewarcalib,-1);
+20/01/21;14:26:13.222;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+20/01/21;14:26:13.222;INFO;Controller;Status = Executing: mt_dewarcalib;
+20/01/21;14:26:13.222;INFO;Controller;State = Running;
+20/01/21;14:26:14.639;INFO;Robot Runtime;executing:    mt_dewarcalib;
+20/01/21;14:26:14.683;INFO;Robot Runtime;0;
+20/01/21;14:32:11.291;INFO;Robot Runtime;Puck A Center Adjustment: {-0.004, 0.007,, ,,};
+20/01/21;14:32:11.313;INFO;Robot Runtime;Puck B Center Adjustment: {-0.024, 0.003,, ,,};
+20/01/21;14:32:11.335;INFO;Robot Runtime;Puck C Center Adjustment: {-0.007, 0.011,, ,,};
+20/01/21;14:32:11.357;INFO;Robot Runtime;Puck A Fx (Min~Max,Ref): -1.074 ~ 0.531, =>-0.236;
+20/01/21;14:32:11.378;INFO;Robot Runtime;Puck A Fy (Min~Max,Ref): -0.637 ~ -0.083, =>-0.427;
+20/01/21;14:32:11.399;INFO;Robot Runtime;Puck B Fx (Min~Max,Ref): -1.062 ~ 0.118, =>-0.236;
+20/01/21;14:32:11.421;INFO;Robot Runtime;Puck B Fy (Min~Max,Ref): -0.708 ~ -0.083, =>-0.427;
+20/01/21;14:32:11.445;INFO;Robot Runtime;Puck C Fx (Min~Max,Ref): -1.038 ~ 0.425, =>-0.236;
+20/01/21;14:32:11.466;INFO;Robot Runtime;Puck C Fy (Min~Max,Ref): -0.791 ~ 0.153, =>-0.427;
+20/01/21;14:38:01.044;INFO;Robot Runtime;Puck A Center Adjustment: {-0.023, 0.006,, ,,};
+20/01/21;14:38:01.065;INFO;Robot Runtime;Puck B Center Adjustment: {-0.017, 0.022,, ,,};
+20/01/21;14:38:01.087;INFO;Robot Runtime;Puck C Center Adjustment: {0.004, -0.01 ,, ,,};
+20/01/21;14:38:01.108;INFO;Robot Runtime;Puck A Fx (Min~Max,Ref): -0.791 ~ 0.177, =>-0.073;
+20/01/21;14:38:01.130;INFO;Robot Runtime;Puck A Fy (Min~Max,Ref): -1.086 ~ -0.732, =>-0.972;
+20/01/21;14:38:01.151;INFO;Robot Runtime;Puck B Fx (Min~Max,Ref): -0.897 ~ 0.401, =>-0.073;
+20/01/21;14:38:01.174;INFO;Robot Runtime;Puck B Fy (Min~Max,Ref): -1.215 ~ -0.295, =>-0.972;
+20/01/21;14:38:01.195;INFO;Robot Runtime;Puck C Fx (Min~Max,Ref): -0.779 ~ 0.708, =>-0.073;
+20/01/21;14:38:01.217;INFO;Robot Runtime;Puck C Fy (Min~Max,Ref): -1.451 ~ -0.684, =>-0.972;
+20/01/21;14:43:06.285;INFO;Robot Runtime;Puck A Center Adjustment: {-0.005, 0.003,, ,,};
+20/01/21;14:43:06.307;INFO;Robot Runtime;Puck B Center Adjustment: {-0.009, 0.01 ,, ,,};
+20/01/21;14:43:06.329;INFO;Robot Runtime;Puck C Center Adjustment: {0.017, -0.007,, ,,};
+20/01/21;14:43:06.350;INFO;Robot Runtime;Puck A Fx (Min~Max,Ref): -0.566 ~ 0.743, =>0.139;
+20/01/21;14:43:06.372;INFO;Robot Runtime;Puck A Fy (Min~Max,Ref): -1.699 ~ -1.322, =>-1.536;
+20/01/21;14:43:06.393;INFO;Robot Runtime;Puck B Fx (Min~Max,Ref): -0.602 ~ 0.696, =>0.139;
+20/01/21;14:43:06.417;INFO;Robot Runtime;Puck B Fy (Min~Max,Ref): -1.865 ~ -1.003, =>-1.536;
+20/01/21;14:43:06.438;INFO;Robot Runtime;Puck C Fx (Min~Max,Ref): -0.555 ~ 1.168, =>0.139;
+20/01/21;14:43:06.460;INFO;Robot Runtime;Puck C Fy (Min~Max,Ref): -2.042 ~ -1.168, =>-1.536;
+20/01/21;14:48:04.795;INFO;Robot Runtime;Puck A Center Adjustment: {-0.014, -0.01 ,, ,,};
+20/01/21;14:48:04.817;INFO;Robot Runtime;Puck B Center Adjustment: {-0.009, -0.005,, ,,};
+20/01/21;14:48:04.838;INFO;Robot Runtime;Puck C Center Adjustment: {-0.014, -0.01 ,, ,,};
+20/01/21;14:48:04.859;INFO;Robot Runtime;Puck A Fx (Min~Max,Ref): -0.094 ~ 0.578, =>0.378;
+20/01/21;14:48:04.881;INFO;Robot Runtime;Puck A Fy (Min~Max,Ref): -2.726 ~ -1.534, =>-2.034;
+20/01/21;14:48:04.903;INFO;Robot Runtime;Puck B Fx (Min~Max,Ref): -0.201 ~ 0.767, =>0.378;
+20/01/21;14:48:04.925;INFO;Robot Runtime;Puck B Fy (Min~Max,Ref): -2.903 ~ -1.263, =>-2.034;
+20/01/21;14:48:04.948;INFO;Robot Runtime;Puck C Fx (Min~Max,Ref): -0.165 ~ 0.637, =>0.378;
+20/01/21;14:48:04.970;INFO;Robot Runtime;Puck C Fy (Min~Max,Ref): -2.738 ~ -1.522, =>-2.034;
+20/01/21;14:48:18.344;INFO;Controller;Activity ExecRobotTask ended. Return value: ;
+20/01/21;14:48:18.344;INFO;Controller;State = Ready;
+20/01/21;14:48:59.323;INFO;Interface;Command: ExecRobotTask (finish,-1);
+20/01/21;14:48:59.323;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+20/01/21;14:48:59.332;INFO;Controller;Status = Executing: finish;
+20/01/21;14:48:59.332;INFO;Controller;State = Running;
+20/01/21;14:49:00.563;INFO;Robot Runtime;executing:    finish;
+20/01/21;14:51:11.846;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+20/01/21;14:51:11.847;INFO;Controller;State = Ready;
+20/01/21;14:59:05.675;INFO;Interface;Command: Restart;
+20/01/21;14:59:05.675;INFO;Controller;State = Initializing;
+20/01/21;14:59:05.754;INFO;Controller;Initialized log services - Startup: 04/01/21 15:09:11;
+20/01/21;14:59:06.759;INFO;Epics Server;Exiting running thread;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:Version;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:Status;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:Uptime;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:AlarmList;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:LastTaskException;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:RobotState;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:JointPositions;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:State;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:abort;
+20/01/21;14:59:06.761;INFO;Epics Server;Registered PV: SW:restart;
+20/01/21;14:59:06.762;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+20/01/21;14:59:06.762;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+20/01/21;14:59:06.762;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+20/01/21;14:59:06.762;INFO;Epics Server;Registered PV: SW:startTestTask;
+20/01/21;14:59:06.762;INFO;Epics Server;Registered PV: SW:pauseRobot;
+20/01/21;14:59:06.762;INFO;Epics Server;Registered PV: SW:resumeRobot;
+20/01/21;14:59:06.762;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+20/01/21;14:59:06.762;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+20/01/21;14:59:06.762;INFO;Epics Server;Registered PV: SW:startRobotTask;
+20/01/21;14:59:06.762;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+20/01/21;14:59:06.762;INFO;Epics Server;Registered PV: SW:getDistance;
+20/01/21;14:59:06.762;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+20/01/21;14:59:06.762;INFO;Epics Server;Started server: ready to accept requests;
+20/01/21;14:59:07.344;INFO;Controller;Initializing Robot;
+20/01/21;14:59:07.347;INFO;Robot;Setting reference frame to: world;
+20/01/21;14:59:07.465;INFO;Controller;Initializing Bus Controller;
+20/01/21;14:59:07.465;INFO;Anti-Collision;Active = true;
+20/01/21;14:59:07.465;INFO;Controller;State = Starting;
+20/01/21;14:59:07.466;INFO;Controller;Command: Reset;
+20/01/21;14:59:07.466;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+20/01/21;14:59:07.466;INFO;Controller;Status = Reseting;
+20/01/21;14:59:07.466;INFO;Controller;State = Running;
+20/01/21;14:59:07.625;INFO;Controller;Script host: localhost:50192;
+20/01/21;14:59:07.625;INFO;Script;Starting initialization script;
+20/01/21;14:59:07.627;INFO;Script;Do nothing;
+20/01/21;14:59:07.628;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+20/01/21;14:59:07.628;INFO;Controller;State = Ready;
+20/01/21;15:00:35.430;INFO;Server;Command: Set LocalLockout=true;
+20/01/21;15:00:35.431;INFO;Controller;Status = Lockout;
+20/01/21;15:01:01.979;INFO;Server;Command: Set LocalLockout=false;
+20/01/21;15:02:07.225;INFO;Server;Command: Set speed: 50.0;
+20/01/21;15:02:07.225;INFO;Robot;Setting speed to : 50.0;
+20/01/21;15:04:39.894;INFO;Controller;Instantiation;
+20/01/21;15:04:39.913;INFO;Controller;State = Initializing;
+20/01/21;15:04:39.970;WARNING;Interface;Access level set to Admin;
+20/01/21;15:04:40.045;INFO;Controller;Initialized log services - Startup: 20/01/21 15:04:39;
+20/01/21;15:04:40.052;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+20/01/21;15:04:40.288;INFO;Epics Server;Registered PV: SW:Status;
+20/01/21;15:04:40.289;INFO;Epics Server;Registered PV: SW:Version;
+20/01/21;15:04:40.289;INFO;Epics Server;Registered PV: SW:Uptime;
+20/01/21;15:04:40.304;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+20/01/21;15:04:40.305;INFO;Epics Server;Registered PV: SW:AlarmList;
+20/01/21;15:04:40.306;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+20/01/21;15:04:40.306;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+20/01/21;15:04:40.306;INFO;Epics Server;Registered PV: SW:LastTaskException;
+20/01/21;15:04:40.306;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+20/01/21;15:04:40.307;INFO;Epics Server;Registered PV: SW:RobotState;
+20/01/21;15:04:40.307;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+20/01/21;15:04:40.308;INFO;Epics Server;Registered PV: SW:JointPositions;
+20/01/21;15:04:40.309;INFO;Epics Server;Registered PV: SW:State;
+20/01/21;15:04:40.311;INFO;Epics Server;Registered PV: SW:abort;
+20/01/21;15:04:40.312;INFO;Epics Server;Registered PV: SW:restart;
+20/01/21;15:04:40.312;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+20/01/21;15:04:40.312;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+20/01/21;15:04:40.313;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+20/01/21;15:04:40.313;INFO;Epics Server;Registered PV: SW:startTestTask;
+20/01/21;15:04:40.313;INFO;Epics Server;Registered PV: SW:pauseRobot;
+20/01/21;15:04:40.314;INFO;Epics Server;Registered PV: SW:resumeRobot;
+20/01/21;15:04:40.314;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+20/01/21;15:04:40.314;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+20/01/21;15:04:40.315;INFO;Epics Server;Registered PV: SW:startRobotTask;
+20/01/21;15:04:40.315;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+20/01/21;15:04:40.315;INFO;Epics Server;Registered PV: SW:getDistance;
+20/01/21;15:04:40.316;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+20/01/21;15:04:40.318;INFO;Epics Server;Started server: ready to accept requests;
+20/01/21;15:04:40.941;INFO;Controller;Initializing Robot;
+20/01/21;15:04:40.950;INFO;Robot;Setting reference frame to: world;
+20/01/21;15:04:41.133;INFO;Controller;Initializing Bus Controller;
+20/01/21;15:04:41.134;INFO;Anti-Collision;Active = true;
+20/01/21;15:04:41.135;INFO;Controller;State = Starting;
+20/01/21;15:04:41.138;INFO;Controller;Command: Reset;
+20/01/21;15:04:41.526;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+20/01/21;15:04:41.526;INFO;Controller;Status = Reseting;
+20/01/21;15:04:41.526;INFO;Controller;State = Running;
+20/01/21;15:04:42.137;INFO;Controller;Script host: localhost:59257;
+20/01/21;15:04:42.138;INFO;Script;Starting initialization script;
+20/01/21;15:04:42.142;INFO;Script;Do nothing;
+20/01/21;15:04:42.143;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+20/01/21;15:04:42.143;INFO;Controller;State = Ready;
+20/01/21;15:07:51.497;INFO;Controller;Robot configuration saved;
+20/01/21;15:07:51.503;INFO;Robot;Setting reference frame to: world;
+20/01/21;15:07:51.511;WARNING;Robot;Exception: Robot connection error (Error connecting to device)
+Stack trace:
+org.embl.ctrl.ConnectedDevice$ConnectionFailureException: Connection error
+	at org.embl.ctrl.ConnectedDevice.connect(ConnectedDevice.java:136)
+	at org.embl.ctrl.ConnectedDevice.doInitialize(ConnectedDevice.java:85)
+	at org.embl.dev.staubli.StaubliRobot.doInitialize(StaubliRobot.java:491)
+	at org.embl.ctrl.Device.initialize(Device.java:678)
+	at org.embl.ctrl.Device.initialize(Device.java:644)
+	at org.embl.ctrl.Device.initialize(Device.java:639)
+	at org.embl.ctrl.Controller.onDeviceConfigurationSaved(Controller.java:2305)
+	at org.embl.sw.Control.onDeviceConfigurationSaved(Control.java:236)
+	at org.embl.ctrl.Device$7.run(Device.java:1485)
+	at org.embl.task.Invoker.Invoke(Invoker.java:111)
+	at org.embl.ctrl.Device.triggerConfigurationSavedEvent(Device.java:1487)
+	at org.embl.ctrl.Device.saveConfig(Device.java:1593)
+	at org.embl.ctrl.DeviceConfigPanel.actionPerformed(DeviceConfigPanel.java:487)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6535)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: org.embl.ctrl.Device$DeviceException: Error connecting to device
+	at org.embl.dev.staubli.StaubliRobot.doConnect(StaubliRobot.java:592)
+	at org.embl.ctrl.ConnectedDevice.connect(ConnectedDevice.java:125)
+	... 48 more
+Caused by: org.embl.net.NetException$NetConnectionErrorException: Connection error
+	at org.embl.net.SocketClient.connect(SocketClient.java:241)
+	at org.embl.dev.staubli.StaubliRobot.doConnect(StaubliRobot.java:584)
+	... 49 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.embl.net.SocketClient.connect(SocketClient.java:235)
+	... 50 more
+;
+20/01/21;15:07:51.511;WARNING;Robot;Alarm active: Device is offline;
+20/01/21;15:07:51.512;INFO;Controller;State = Communication Error;
+20/01/21;15:08:30.578;INFO;Interface;Command: Abort;
+20/01/21;15:08:30.579;INFO;Robot;Abort;
+20/01/21;15:08:30.580;WARNING;Interface;Exception: Robot not connected
+Stack trace:
+org.embl.ctrl.ConnectedDevice$NotConnectedException: Not connected
+	at org.embl.ctrl.ConnectedDevice.assertConnected(ConnectedDevice.java:112)
+	at org.embl.dev.staubli.StaubliRobot.sendReceive(StaubliRobot.java:1263)
+	at org.embl.dev.staubli.StaubliRobot.execute(StaubliRobot.java:1089)
+	at org.embl.dev.staubli.StaubliRobot.abort(StaubliRobot.java:709)
+	at org.embl.sw.Control.doAbort(Control.java:357)
+	at org.embl.ctrl.Controller.abort(Controller.java:1372)
+	at org.embl.ctrl.MainFrame.onAbort(MainFrame.java:1033)
+	at org.embl.ctrl.MainFrame$20.actionPerformed(MainFrame.java:421)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6535)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+;
+20/01/21;15:09:46.904;INFO;Controller;Robot configuration saved;
+20/01/21;15:09:46.910;INFO;Robot;Setting reference frame to: world;
+20/01/21;15:09:47.139;INFO;Robot;Alarm inactive: Device is offline;
+20/01/21;15:09:47.139;WARNING;Controller;Communication resumed, trying updating devices;
+20/01/21;15:09:47.141;INFO;Controller;Finished device updating;
+20/01/21;15:09:47.141;INFO;Controller;State = Ready;
+20/01/21;15:10:06.212;INFO;Interface;Command: ExecRobotTask (initialize,-1);
+20/01/21;15:10:06.213;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+20/01/21;15:10:06.213;INFO;Controller;Status = Executing: initialize;
+20/01/21;15:10:06.213;INFO;Controller;State = Running;
+20/01/21;15:10:07.142;INFO;Robot Runtime;executing:    initialize;
+20/01/21;15:10:08.105;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+20/01/21;15:10:08.106;INFO;Controller;State = Ready;
+20/01/21;15:10:12.626;INFO;Interface;Command: ExecRobotTask (finish,-1);
+20/01/21;15:10:12.626;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+20/01/21;15:10:12.626;INFO;Controller;Status = Executing: finish;
+20/01/21;15:10:12.627;INFO;Controller;State = Running;
+20/01/21;15:10:13.560;INFO;Robot Runtime;executing:    finish;
+20/01/21;15:10:15.695;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+20/01/21;15:10:15.695;INFO;Controller;State = Ready;

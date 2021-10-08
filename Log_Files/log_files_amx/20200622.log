@@ -1,0 +1,291 @@
+22/06/20;11:45:38.163;INFO;Interface;Command: ExecRobotTask (MT_toolCalib,-1);
+22/06/20;11:45:38.164;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;11:45:38.164;INFO;Controller;Status = Executing: MT_toolCalib;
+22/06/20;11:45:38.164;INFO;Controller;State = Running;
+22/06/20;11:45:39.673;INFO;Robot Runtime;executing:    MT_toolCalib;
+22/06/20;11:45:39.717;INFO;Robot Runtime;Current Tool Name: C019;
+22/06/20;11:46:36.945;INFO;Robot Runtime;Gripper calibration seems Good @ angle 0   ;
+22/06/20;11:46:36.967;INFO;Robot Runtime;Last Delta_Force:-0.142,0.92 ,-5.358;
+22/06/20;11:47:31.369;INFO;Robot Runtime;Gripper calibration seems Good @ angle -179   ;
+22/06/20;11:47:31.392;INFO;Robot Runtime;Last Delta_Force:0.047,1.369,-6.88 ;
+22/06/20;11:57:57.096;INFO;Robot Runtime;Gripper is Weakly calibrated @ angle 0   ;
+22/06/20;11:57:57.117;INFO;Robot Runtime;Last Delta_Force:-0.059,0.932,-6.715;
+22/06/20;11:58:07.262;INFO;Robot Runtime;Last Delta_Force:-1.227,0.354,-1.286;
+22/06/20;12:00:23.575;INFO;Robot Runtime;Gripper calibration seems Good @ angle 0   ;
+22/06/20;12:00:23.596;INFO;Robot Runtime;Last Delta_Force:-0.118,1.062,-5.735;
+22/06/20;12:00:46.164;INFO;Robot Runtime;Gripper is Weakly calibrated @ angle -179   ;
+22/06/20;12:00:46.185;INFO;Robot Runtime;Last Delta_Force:0.177,0.92 ,-6.077;
+22/06/20;12:01:43.619;INFO;Robot Runtime;NoTouch #0 Delta_Force:-0.083,1.086;
+22/06/20;12:01:44.065;INFO;Robot Runtime;l_trsf(x)0.004 (y)-0.054 (rz)0    ;
+22/06/20;12:01:44.086;INFO;Robot Runtime;tCalib:(x)0.549 (y)-1.143;
+22/06/20;12:01:51.480;INFO;Robot Runtime;NoTouch #1 Delta_Force:-0.201,-0.189;
+22/06/20;12:01:51.942;INFO;Robot Runtime;l_trsf(x)-0.01  (y)-0.009 (rz)-179    ;
+22/06/20;12:01:51.963;INFO;Robot Runtime;tCalib:(x)0.538 (y)-1.152;
+22/06/20;12:01:58.183;INFO;Robot Runtime;NoTouch #2 Delta_Force:-0.212,-0.047;
+22/06/20;12:01:58.610;INFO;Robot Runtime;l_trsf(x)0.011 (y)0.002 (rz)0    ;
+22/06/20;12:01:58.632;INFO;Robot Runtime;tCalib:(x)0.549 (y)-1.15 ;
+22/06/20;12:01:58.655;INFO;Robot Runtime;Tool validation Succeed;
+22/06/20;12:29:29.605;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:29:29.606;WARNING;Controller;Exception: Activity still running
+Stack trace:
+org.embl.StateException: Activity still running
+	at org.embl.ctrl.Sequencer.assertActivityNotRunning(Sequencer.java:1033)
+	at org.embl.ctrl.Sequencer.assertNotExecutingTask(Sequencer.java:1054)
+	at org.embl.ctrl.Controller.assertHighLevelCommandAllowed(Controller.java:784)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1967)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1944)
+	at org.embl.ctrl.Controller.executeTask(Controller.java:1933)
+	at org.embl.sw.Control.startRobotTask(Control.java:377)
+	at org.embl.sw.Server.startRobotTask(Server.java:45)
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.embl.reflection.Exposer.execute(Exposer.java:318)
+	at org.embl.protocol.EpicsServer$MethodProcessVariable.write(EpicsServer.java:421)
+	at gov.aps.jca.cas.ServerChannel.write(ServerChannel.java:126)
+	at com.cosylab.epics.caj.cas.handlers.WriteNotifyResponse.internalHandleResponse(WriteNotifyResponse.java:119)
+	at com.cosylab.epics.caj.impl.handlers.AbstractCAResponseHandler.handleResponse(AbstractCAResponseHandler.java:110)
+	at com.cosylab.epics.caj.cas.CASResponseHandler.handleResponse(CASResponseHandler.java:120)
+	at com.cosylab.epics.caj.cas.CASTransport.processRead(CASTransport.java:398)
+	at com.cosylab.epics.caj.cas.CASTransport.handleEvent(CASTransport.java:297)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.handleEvent(LeaderFollowersHandler.java:71)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.processInternal(Reactor.java:376)
+	at com.cosylab.epics.caj.impl.reactor.Reactor.process(Reactor.java:266)
+	at com.cosylab.epics.caj.impl.reactor.lf.LeaderFollowersHandler.run(LeaderFollowersHandler.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+;
+22/06/20;12:29:45.256;INFO;Controller;Activity ExecRobotTask ended. Return value: ;
+22/06/20;12:29:45.256;INFO;Controller;State = Ready;
+22/06/20;12:30:30.528;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:30:30.528;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:30:30.529;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:30:30.529;INFO;Controller;State = Running;
+22/06/20;12:30:30.652;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:31:36.243;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+22/06/20;12:31:36.250;INFO;Controller;State = Ready;
+22/06/20;12:32:17.755;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:32:17.755;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:32:17.755;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:32:17.755;INFO;Controller;State = Running;
+22/06/20;12:32:17.891;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:32:47.371;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:32:47.371;INFO;Controller;State = Ready;
+22/06/20;12:33:15.501;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:33:15.501;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:33:15.501;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:33:15.501;INFO;Controller;State = Running;
+22/06/20;12:33:15.634;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:33:48.406;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+22/06/20;12:33:48.406;INFO;Controller;State = Ready;
+22/06/20;12:33:48.617;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:33:48.617;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:33:48.618;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:33:48.618;INFO;Controller;State = Running;
+22/06/20;12:33:48.733;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:34:07.469;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:34:07.469;INFO;Controller;State = Ready;
+22/06/20;12:34:07.670;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:34:07.670;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:34:07.670;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:34:07.670;INFO;Controller;State = Running;
+22/06/20;12:34:07.752;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:34:24.313;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+22/06/20;12:34:24.313;INFO;Controller;State = Ready;
+22/06/20;12:34:24.518;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:34:24.518;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:34:24.518;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:34:24.518;INFO;Controller;State = Running;
+22/06/20;12:34:24.602;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:34:39.944;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:34:39.944;INFO;Controller;State = Ready;
+22/06/20;12:34:40.145;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:34:40.145;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:34:40.145;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:34:40.145;INFO;Controller;State = Running;
+22/06/20;12:34:40.231;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:35:03.052;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+22/06/20;12:35:03.052;INFO;Controller;State = Ready;
+22/06/20;12:35:03.259;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:35:03.259;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:35:03.259;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:35:03.259;INFO;Controller;State = Running;
+22/06/20;12:35:03.373;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:35:17.932;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:35:17.932;INFO;Controller;State = Ready;
+22/06/20;12:35:18.135;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:35:18.135;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:35:18.135;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:35:18.135;INFO;Controller;State = Running;
+22/06/20;12:35:18.220;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:35:43.088;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:35:43.089;INFO;Controller;State = Ready;
+22/06/20;12:35:43.297;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:35:43.298;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:35:43.298;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:35:43.298;INFO;Controller;State = Running;
+22/06/20;12:35:43.386;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:35:58.209;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:35:58.209;INFO;Controller;State = Ready;
+22/06/20;12:35:58.415;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:35:58.415;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:35:58.415;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:35:58.415;INFO;Controller;State = Running;
+22/06/20;12:35:58.498;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:36:20.536;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+22/06/20;12:36:20.537;INFO;Controller;State = Ready;
+22/06/20;12:36:20.741;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:36:20.741;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:36:20.741;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:36:20.741;INFO;Controller;State = Running;
+22/06/20;12:36:20.824;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:36:39.832;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:36:39.832;INFO;Controller;State = Ready;
+22/06/20;12:36:40.053;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:36:40.053;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:36:40.053;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:36:40.053;INFO;Controller;State = Running;
+22/06/20;12:36:40.134;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:37:14.775;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+22/06/20;12:37:14.775;INFO;Controller;State = Ready;
+22/06/20;12:37:14.987;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:37:14.988;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:37:14.988;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:37:14.988;INFO;Controller;State = Running;
+22/06/20;12:37:15.071;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:37:32.681;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:37:32.681;INFO;Controller;State = Ready;
+22/06/20;12:37:32.885;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:37:32.885;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:37:32.885;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:37:32.885;INFO;Controller;State = Running;
+22/06/20;12:37:32.974;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:37:48.302;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+22/06/20;12:37:48.302;INFO;Controller;State = Ready;
+22/06/20;12:37:48.519;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:37:48.520;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:37:48.520;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:37:48.520;INFO;Controller;State = Running;
+22/06/20;12:37:48.601;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:37:58.772;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:37:58.772;INFO;Controller;State = Ready;
+22/06/20;12:37:58.984;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:37:58.985;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:37:58.985;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:37:58.985;INFO;Controller;State = Running;
+22/06/20;12:37:59.095;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:38:28.188;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:38:28.188;INFO;Controller;State = Ready;
+22/06/20;12:38:28.399;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:38:28.400;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:38:28.400;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:38:28.400;INFO;Controller;State = Running;
+22/06/20;12:38:28.487;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:38:36.159;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:38:36.159;INFO;Controller;State = Ready;
+22/06/20;12:38:36.366;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:38:36.367;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:38:36.367;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:38:36.367;INFO;Controller;State = Running;
+22/06/20;12:38:36.455;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:38:45.068;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+22/06/20;12:38:45.068;INFO;Controller;State = Ready;
+22/06/20;12:38:45.278;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:38:45.278;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:38:45.278;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:38:45.278;INFO;Controller;State = Running;
+22/06/20;12:38:45.361;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:38:53.386;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:38:53.386;INFO;Controller;State = Ready;
+22/06/20;12:38:53.590;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:38:53.591;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:38:53.591;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:38:53.591;INFO;Controller;State = Running;
+22/06/20;12:38:53.675;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:39:07.163;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+22/06/20;12:39:07.163;INFO;Controller;State = Ready;
+22/06/20;12:39:07.370;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:39:07.370;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:39:07.370;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:39:07.370;INFO;Controller;State = Running;
+22/06/20;12:39:07.455;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:39:16.062;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:39:16.063;INFO;Controller;State = Ready;
+22/06/20;12:39:16.272;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:39:16.272;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:39:16.273;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:39:16.273;INFO;Controller;State = Running;
+22/06/20;12:39:16.384;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:39:31.355;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:39:31.355;INFO;Controller;State = Ready;
+22/06/20;12:39:31.566;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:39:31.566;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:39:31.566;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:39:31.566;INFO;Controller;State = Running;
+22/06/20;12:39:31.677;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:39:39.734;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:39:39.734;INFO;Controller;State = Ready;
+22/06/20;12:39:39.939;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:39:39.939;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:39:39.939;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:39:39.939;INFO;Controller;State = Running;
+22/06/20;12:39:40.025;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:39:49.400;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+22/06/20;12:39:49.400;INFO;Controller;State = Ready;
+22/06/20;12:39:49.608;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:39:49.609;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:39:49.609;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:39:49.609;INFO;Controller;State = Running;
+22/06/20;12:39:49.693;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:40:01.662;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:40:01.662;INFO;Controller;State = Ready;
+22/06/20;12:40:01.876;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:40:01.876;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:40:01.876;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:40:01.876;INFO;Controller;State = Running;
+22/06/20;12:40:01.962;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:40:19.700;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+22/06/20;12:40:19.700;INFO;Controller;State = Ready;
+22/06/20;12:40:19.911;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:40:19.912;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:40:19.912;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:40:19.912;INFO;Controller;State = Running;
+22/06/20;12:40:19.998;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:40:27.396;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:40:27.396;INFO;Controller;State = Ready;
+22/06/20;12:40:27.645;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:40:27.646;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:40:27.646;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:40:27.646;INFO;Controller;State = Running;
+22/06/20;12:40:27.731;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:40:42.924;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:40:42.924;INFO;Controller;State = Ready;
+22/06/20;12:40:43.134;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:40:43.135;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:40:43.135;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:40:43.135;INFO;Controller;State = Running;
+22/06/20;12:40:43.222;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:40:51.143;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:40:51.143;INFO;Controller;State = Ready;
+22/06/20;12:40:51.351;INFO;Server;Command: ExecRobotTask (loadSpecial,500000);
+22/06/20;12:40:51.351;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:40:51.351;INFO;Controller;Status = Executing: loadSpecial;
+22/06/20;12:40:51.351;INFO;Controller;State = Running;
+22/06/20;12:40:51.435;INFO;Robot Runtime;executing:    loadSpecial;
+22/06/20;12:41:01.007;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+22/06/20;12:41:01.007;INFO;Controller;State = Ready;
+22/06/20;12:41:01.240;INFO;Server;Command: ExecRobotTask (unloadSpecial,500000);
+22/06/20;12:41:01.241;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:41:01.241;INFO;Controller;Status = Executing: unloadSpecial;
+22/06/20;12:41:01.241;INFO;Controller;State = Running;
+22/06/20;12:41:01.326;INFO;Robot Runtime;executing:    unloadSpecial;
+22/06/20;12:41:11.476;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+22/06/20;12:41:11.476;INFO;Controller;State = Ready;
+22/06/20;12:41:40.777;INFO;Server;Command: ExecRobotTask (Home,500000);
+22/06/20;12:41:40.777;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+22/06/20;12:41:40.777;INFO;Controller;Status = Executing: Home;
+22/06/20;12:41:40.777;INFO;Controller;State = Running;
+22/06/20;12:41:40.874;INFO;Robot Runtime;executing:    Home;
+22/06/20;12:41:53.618;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+22/06/20;12:41:53.618;INFO;Controller;State = Ready;

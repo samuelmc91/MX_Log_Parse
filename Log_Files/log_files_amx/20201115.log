@@ -1,0 +1,7 @@
+15/11/20;19:08:26.647;INFO;Server;Command: ExecRobotTask (TurnOnAutoFill,500000);
+15/11/20;19:08:26.648;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+15/11/20;19:08:26.648;INFO;Controller;Status = Executing: TurnOnAutoFill;
+15/11/20;19:08:26.648;INFO;Controller;State = Running;
+15/11/20;19:08:27.912;INFO;Robot Runtime;executing:    TurnOnAutoFill;
+15/11/20;19:08:28.522;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+15/11/20;19:08:28.522;INFO;Controller;State = Ready;

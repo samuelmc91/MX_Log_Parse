@@ -1,0 +1,14 @@
+02/03/19;01:09:39.881;WARNING;Robot;Alarm active: Device is offline;
+02/03/19;01:09:39.882;INFO;Controller;State = Communication Error;
+02/03/19;01:09:44.985;INFO;Robot;Alarm inactive: Device is offline;
+02/03/19;01:09:44.986;WARNING;Controller;Communication resumed, trying updating devices;
+02/03/19;01:09:44.987;INFO;Controller;Finished device updating;
+02/03/19;01:09:44.987;INFO;Controller;State = Ready;
+02/03/19;13:19:08.713;INFO;Interface;Command: ExecRobotTask (initialize,-1);
+02/03/19;13:19:08.713;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+02/03/19;13:19:08.713;INFO;Controller;Status = Executing: initialize;
+02/03/19;13:19:08.713;INFO;Controller;State = Running;
+02/03/19;13:19:09.664;INFO;Robot Runtime;executing:    initialize;
+02/03/19;13:19:12.309;INFO;Robot Runtime;Failed to turn on robot power;
+02/03/19;13:19:12.582;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Failed to turn on robot power;
+02/03/19;13:19:12.582;INFO;Controller;State = Ready;

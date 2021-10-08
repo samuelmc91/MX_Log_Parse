@@ -1,0 +1,6 @@
+23/10/19;19:15:55.057;WARNING;Robot;Alarm active: Device is offline;
+23/10/19;19:15:55.057;INFO;Controller;Command: Abort;
+23/10/19;19:15:55.057;INFO;Robot;Abort;
+23/10/19;19:15:55.057;INFO;Controller;Status = Alarm - Device is offline;
+23/10/19;19:15:55.057;INFO;Controller;State = Alarm;
+23/10/19;19:16:17.675;INFO;Controller;Activity ExecRobotTask was stopped;

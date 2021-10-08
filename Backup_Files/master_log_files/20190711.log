@@ -1,0 +1,346 @@
+11/07/19;12:57:30.836;WARNING;Robot;Alarm active: Device is offline;
+11/07/19;12:57:30.837;INFO;Controller;State = Communication Error;
+11/07/19;12:58:10.608;INFO;Robot Runtime;Unsupported Movement Dewar->Gonio;
+11/07/19;12:58:13.172;INFO;Robot Runtime;Unsupported Movement Dewar->Heater;
+11/07/19;12:58:41.448;INFO;Robot Runtime;Unsupported Movement Dewar->Park;
+11/07/19;12:59:15.194;INFO;Robot Runtime;Unsupported Movement Gonio->Dewar;
+11/07/19;12:59:20.305;INFO;Robot Runtime;Unsupported Movement Gonio->Heater;
+11/07/19;13:00:08.235;INFO;Robot Runtime;Unsupported Movement Gonio->Park;
+11/07/19;13:00:24.965;INFO;Robot Runtime;Unsupported Loacation: Heater;
+11/07/19;13:00:27.531;INFO;Robot Runtime;Unsupported Movement Heater->Gonio;
+11/07/19;13:03:46.845;INFO;Robot Runtime;Unsupported Movement Dewar->Park;
+11/07/19;13:04:17.599;INFO;Robot Runtime;Unsupported Movement Gonio->Park;
+11/07/19;13:05:24.815;INFO;Robot Runtime;Robot power is on manual;
+11/07/19;13:07:50.941;INFO;Robot;Alarm inactive: Device is offline;
+11/07/19;13:07:50.941;WARNING;Controller;Communication resumed, trying updating devices;
+11/07/19;13:07:50.942;INFO;Controller;Finished device updating;
+11/07/19;13:07:50.942;INFO;Controller;State = Ready;
+11/07/19;13:12:28.444;INFO;Interface;Command: ExecRobotTask (openGripper,-1);
+11/07/19;13:12:28.445;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;13:12:28.453;INFO;Controller;Status = Executing: openGripper;
+11/07/19;13:12:28.454;INFO;Controller;State = Running;
+11/07/19;13:12:29.456;INFO;Robot Runtime;executing:    openGripper;
+11/07/19;13:12:29.861;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;13:12:29.862;INFO;Controller;State = Ready;
+11/07/19;13:12:38.513;INFO;Interface;Command: ExecRobotTask (openGripper,-1);
+11/07/19;13:12:38.513;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;13:12:38.514;INFO;Controller;Status = Executing: openGripper;
+11/07/19;13:12:38.514;INFO;Controller;State = Running;
+11/07/19;13:12:39.600;INFO;Robot Runtime;executing:    openGripper;
+11/07/19;13:12:39.849;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;13:12:39.849;INFO;Controller;State = Ready;
+11/07/19;13:12:47.727;INFO;Interface;Command: ExecRobotTask (openGripper,-1);
+11/07/19;13:12:47.728;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;13:12:47.728;INFO;Controller;Status = Executing: openGripper;
+11/07/19;13:12:47.728;INFO;Controller;State = Running;
+11/07/19;13:12:48.518;INFO;Robot Runtime;executing:    openGripper;
+11/07/19;13:12:48.776;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;13:12:48.777;INFO;Controller;State = Ready;
+11/07/19;13:12:55.883;INFO;Interface;Command: ExecRobotTask (openGripper,-1);
+11/07/19;13:12:55.884;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;13:12:55.884;INFO;Controller;Status = Executing: openGripper;
+11/07/19;13:12:55.884;INFO;Controller;State = Running;
+11/07/19;13:12:56.674;INFO;Robot Runtime;executing:    openGripper;
+11/07/19;13:12:56.942;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;13:12:56.943;INFO;Controller;State = Ready;
+11/07/19;14:50:06.335;INFO;Interface;Command: ExecRobotTask (mount,-1);
+11/07/19;14:50:06.335;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;14:50:06.335;INFO;Controller;Status = Executing: mount;
+11/07/19;14:50:06.335;INFO;Controller;State = Running;
+11/07/19;14:50:07.210;INFO;Robot Runtime;executing:    mount;
+11/07/19;14:52:17.334;INFO;Robot Runtime;Failed to read data from machine vision. ER,T1,03;
+11/07/19;14:52:17.444;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Failed to read from machine vision;
+11/07/19;14:52:17.444;INFO;Controller;State = Ready;
+11/07/19;15:20:17.310;INFO;Interface;Command: ExecRobotTask (checktoolconfig,-1);
+11/07/19;15:20:17.310;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:20:17.316;INFO;Controller;Status = Executing: checktoolconfig;
+11/07/19;15:20:17.316;INFO;Controller;State = Running;
+11/07/19;15:20:17.608;INFO;Robot Runtime;executing:    checktoolconfig;
+11/07/19;15:20:17.652;INFO;Robot Runtime;Invalid Gripper: C014;
+11/07/19;15:20:17.674;INFO;Robot Runtime;Invalid Gripper: C017;
+11/07/19;15:20:17.694;INFO;Robot Runtime;Valid Gripper: C015;
+11/07/19;15:20:17.720;INFO;Robot Runtime;Valid Gripper: C019;
+11/07/19;15:20:17.740;INFO;Robot Runtime;Current Tool: C015 (Valid);
+11/07/19;15:20:18.067;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;15:20:18.068;INFO;Controller;State = Ready;
+11/07/19;15:20:29.051;INFO;Interface;Command: ExecRobotTask (swaptools,-1);
+11/07/19;15:20:29.052;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:20:29.053;INFO;Controller;Status = Executing: swaptools;
+11/07/19;15:20:29.053;INFO;Controller;State = Running;
+11/07/19;15:20:29.277;INFO;Robot Runtime;executing:    swaptools;
+11/07/19;15:20:29.323;INFO;Robot Runtime;Unrecognized Location;
+11/07/19;15:20:29.620;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Unrecognized Location;
+11/07/19;15:20:29.620;INFO;Controller;State = Ready;
+11/07/19;15:20:36.007;INFO;Interface;Command: ExecRobotTask (checktoolconfig,-1);
+11/07/19;15:20:36.008;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:20:36.008;INFO;Controller;Status = Executing: checktoolconfig;
+11/07/19;15:20:36.008;INFO;Controller;State = Running;
+11/07/19;15:20:36.190;INFO;Robot Runtime;executing:    checktoolconfig;
+11/07/19;15:20:36.232;INFO;Robot Runtime;Invalid Gripper: C014;
+11/07/19;15:20:36.254;INFO;Robot Runtime;Invalid Gripper: C017;
+11/07/19;15:20:36.275;INFO;Robot Runtime;Valid Gripper: C015;
+11/07/19;15:20:36.306;INFO;Robot Runtime;Valid Gripper: C019;
+11/07/19;15:20:36.369;INFO;Robot Runtime;Current Tool: C015 (Valid);
+11/07/19;15:20:36.646;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;15:20:36.646;INFO;Controller;State = Ready;
+11/07/19;15:21:25.935;INFO;Interface;Command: ExecRobotTask (swaptools,-1);
+11/07/19;15:21:25.936;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:21:25.936;INFO;Controller;Status = Executing: swaptools;
+11/07/19;15:21:25.936;INFO;Controller;State = Running;
+11/07/19;15:21:26.133;INFO;Robot Runtime;executing:    swaptools;
+11/07/19;15:22:21.914;INFO;Robot;Abort;
+11/07/19;15:22:22.024;INFO;Controller;Activity ExecRobotTask ended with exception: Staubli task error: 150  --  Cannot run this movement instruction: a previous movement request could not be completed (point out of reach, singularity, configuration problem, etc.);
+11/07/19;15:22:22.024;WARNING;Activity;Exception: Robot staubli task error: 150  --  Cannot run this movement instruction: a previous movement request could not be completed (point out of reach, singularity, configuration problem, etc.)
+Stack trace:
+org.embl.dev.staubli.StaubliRobot$StaubliTaskException: Staubli task error: 150  --  Cannot run this movement instruction: a previous movement request could not be completed (point out of reach, singularity, configuration problem, etc.)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1190)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1124)
+	at org.embl.sw.Control.execRobotTask(Control.java:489)
+	at org.embl.sw.Control$2.run(Control.java:380)
+	at org.embl.task.ActivityManager.runTask(ActivityManager.java:104)
+	at org.embl.task.ActivityManager.access$000(ActivityManager.java:22)
+	at org.embl.task.ActivityManager$ActivityThread.run(ActivityManager.java:145)
+;
+11/07/19;15:22:40.316;INFO;Controller;State = Ready;
+11/07/19;15:23:05.678;INFO;Interface;Command: Restart;
+11/07/19;15:23:05.678;INFO;Controller;State = Initializing;
+11/07/19;15:23:05.789;INFO;Controller;Initialized log services - Startup: 09/07/19 18:48:02;
+11/07/19;15:23:06.794;INFO;Epics Server;Exiting running thread;
+11/07/19;15:23:06.798;INFO;Epics Server;Registered PV: SW:Version;
+11/07/19;15:23:06.799;INFO;Epics Server;Registered PV: SW:Status;
+11/07/19;15:23:06.799;INFO;Epics Server;Registered PV: SW:Uptime;
+11/07/19;15:23:06.799;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+11/07/19;15:23:06.799;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+11/07/19;15:23:06.799;INFO;Epics Server;Registered PV: SW:AlarmList;
+11/07/19;15:23:06.799;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+11/07/19;15:23:06.800;INFO;Epics Server;Registered PV: SW:LastTaskException;
+11/07/19;15:23:06.800;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+11/07/19;15:23:06.800;INFO;Epics Server;Registered PV: SW:RobotState;
+11/07/19;15:23:06.800;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+11/07/19;15:23:06.800;INFO;Epics Server;Registered PV: SW:JointPositions;
+11/07/19;15:23:06.800;INFO;Epics Server;Registered PV: SW:State;
+11/07/19;15:23:06.800;INFO;Epics Server;Registered PV: SW:abort;
+11/07/19;15:23:06.801;INFO;Epics Server;Registered PV: SW:restart;
+11/07/19;15:23:06.801;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+11/07/19;15:23:06.801;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+11/07/19;15:23:06.801;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+11/07/19;15:23:06.801;INFO;Epics Server;Registered PV: SW:startTestTask;
+11/07/19;15:23:06.801;INFO;Epics Server;Registered PV: SW:pauseRobot;
+11/07/19;15:23:06.801;INFO;Epics Server;Registered PV: SW:resumeRobot;
+11/07/19;15:23:06.801;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+11/07/19;15:23:06.802;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+11/07/19;15:23:06.802;INFO;Epics Server;Registered PV: SW:startRobotTask;
+11/07/19;15:23:06.802;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+11/07/19;15:23:06.802;INFO;Epics Server;Registered PV: SW:getDistance;
+11/07/19;15:23:06.802;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+11/07/19;15:23:06.803;INFO;Epics Server;Started server: ready to accept requests;
+11/07/19;15:23:07.534;INFO;Controller;Initializing Robot;
+11/07/19;15:23:07.539;INFO;Robot;Setting reference frame to: world;
+11/07/19;15:23:07.677;INFO;Controller;Initializing Bus Controller;
+11/07/19;15:23:07.677;INFO;Anti-Collision;Active = true;
+11/07/19;15:23:07.677;INFO;Controller;State = Starting;
+11/07/19;15:23:07.679;INFO;Controller;Command: Reset;
+11/07/19;15:23:07.680;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+11/07/19;15:23:07.680;INFO;Controller;Status = Reseting;
+11/07/19;15:23:07.680;INFO;Controller;State = Running;
+11/07/19;15:23:07.924;INFO;Controller;Script host: localhost:39017;
+11/07/19;15:23:07.925;INFO;Script;Starting initialization script;
+11/07/19;15:23:07.929;INFO;Script;Do nothing;
+11/07/19;15:23:07.930;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+11/07/19;15:23:07.930;INFO;Controller;State = Ready;
+11/07/19;15:23:09.861;INFO;Interface;Command: ExecRobotTask (swaptools,-1);
+11/07/19;15:23:09.861;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:23:09.862;INFO;Controller;Status = Executing: swaptools;
+11/07/19;15:23:09.862;INFO;Controller;State = Running;
+11/07/19;15:23:10.067;INFO;Robot Runtime;executing:    swaptools;
+11/07/19;15:23:30.924;INFO;Robot;Abort;
+11/07/19;15:23:31.016;INFO;Controller;Activity ExecRobotTask ended with exception: Staubli task error: 150  --  Cannot run this movement instruction: a previous movement request could not be completed (point out of reach, singularity, configuration problem, etc.);
+11/07/19;15:23:31.016;WARNING;Activity;Exception: Robot staubli task error: 150  --  Cannot run this movement instruction: a previous movement request could not be completed (point out of reach, singularity, configuration problem, etc.)
+Stack trace:
+org.embl.dev.staubli.StaubliRobot$StaubliTaskException: Staubli task error: 150  --  Cannot run this movement instruction: a previous movement request could not be completed (point out of reach, singularity, configuration problem, etc.)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1190)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1124)
+	at org.embl.sw.Control.execRobotTask(Control.java:489)
+	at org.embl.sw.Control$2.run(Control.java:380)
+	at org.embl.task.ActivityManager.runTask(ActivityManager.java:104)
+	at org.embl.task.ActivityManager.access$000(ActivityManager.java:22)
+	at org.embl.task.ActivityManager$ActivityThread.run(ActivityManager.java:145)
+;
+11/07/19;15:23:51.539;INFO;Controller;State = Ready;
+11/07/19;15:24:02.200;INFO;Interface;Command: Abort;
+11/07/19;15:24:02.201;INFO;Robot;Abort;
+11/07/19;15:24:03.521;INFO;Interface;Command: Abort;
+11/07/19;15:24:03.521;INFO;Robot;Abort;
+11/07/19;15:24:05.613;INFO;Interface;Command: Restart;
+11/07/19;15:24:05.613;INFO;Controller;State = Initializing;
+11/07/19;15:24:05.721;INFO;Controller;Initialized log services - Startup: 09/07/19 18:48:02;
+11/07/19;15:24:06.730;INFO;Epics Server;Exiting running thread;
+11/07/19;15:24:06.734;INFO;Epics Server;Registered PV: SW:Version;
+11/07/19;15:24:06.735;INFO;Epics Server;Registered PV: SW:Status;
+11/07/19;15:24:06.735;INFO;Epics Server;Registered PV: SW:Uptime;
+11/07/19;15:24:06.735;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+11/07/19;15:24:06.735;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+11/07/19;15:24:06.735;INFO;Epics Server;Registered PV: SW:AlarmList;
+11/07/19;15:24:06.735;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+11/07/19;15:24:06.735;INFO;Epics Server;Registered PV: SW:LastTaskException;
+11/07/19;15:24:06.735;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+11/07/19;15:24:06.736;INFO;Epics Server;Registered PV: SW:RobotState;
+11/07/19;15:24:06.736;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+11/07/19;15:24:06.736;INFO;Epics Server;Registered PV: SW:JointPositions;
+11/07/19;15:24:06.736;INFO;Epics Server;Registered PV: SW:State;
+11/07/19;15:24:06.736;INFO;Epics Server;Registered PV: SW:abort;
+11/07/19;15:24:06.736;INFO;Epics Server;Registered PV: SW:restart;
+11/07/19;15:24:06.736;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+11/07/19;15:24:06.736;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+11/07/19;15:24:06.736;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+11/07/19;15:24:06.736;INFO;Epics Server;Registered PV: SW:startTestTask;
+11/07/19;15:24:06.736;INFO;Epics Server;Registered PV: SW:pauseRobot;
+11/07/19;15:24:06.737;INFO;Epics Server;Registered PV: SW:resumeRobot;
+11/07/19;15:24:06.737;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+11/07/19;15:24:06.737;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+11/07/19;15:24:06.737;INFO;Epics Server;Registered PV: SW:startRobotTask;
+11/07/19;15:24:06.737;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+11/07/19;15:24:06.737;INFO;Epics Server;Registered PV: SW:getDistance;
+11/07/19;15:24:06.737;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+11/07/19;15:24:06.738;INFO;Epics Server;Started server: ready to accept requests;
+11/07/19;15:24:07.320;INFO;Controller;Initializing Robot;
+11/07/19;15:24:07.326;INFO;Robot;Setting reference frame to: world;
+11/07/19;15:24:07.447;INFO;Controller;Initializing Bus Controller;
+11/07/19;15:24:07.447;INFO;Anti-Collision;Active = true;
+11/07/19;15:24:07.447;INFO;Controller;State = Starting;
+11/07/19;15:24:07.448;INFO;Controller;Command: Reset;
+11/07/19;15:24:07.449;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+11/07/19;15:24:07.449;INFO;Controller;Status = Reseting;
+11/07/19;15:24:07.449;INFO;Controller;State = Running;
+11/07/19;15:24:07.793;INFO;Controller;Script host: localhost:49514;
+11/07/19;15:24:07.794;INFO;Script;Starting initialization script;
+11/07/19;15:24:07.798;INFO;Script;Do nothing;
+11/07/19;15:24:07.799;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+11/07/19;15:24:07.799;INFO;Controller;State = Ready;
+11/07/19;15:24:18.854;INFO;Interface;Command: ExecRobotTask (checktoolconfig,-1);
+11/07/19;15:24:18.854;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:24:18.854;INFO;Controller;Status = Executing: checktoolconfig;
+11/07/19;15:24:18.855;INFO;Controller;State = Running;
+11/07/19;15:24:19.069;INFO;Robot Runtime;executing:    checktoolconfig;
+11/07/19;15:24:19.111;INFO;Robot Runtime;Invalid Gripper: C014;
+11/07/19;15:24:19.132;INFO;Robot Runtime;Invalid Gripper: C017;
+11/07/19;15:24:19.154;INFO;Robot Runtime;Valid Gripper: C015;
+11/07/19;15:24:19.175;INFO;Robot Runtime;Valid Gripper: C019;
+11/07/19;15:24:19.196;INFO;Robot Runtime;Current Tool: C015 (Valid);
+11/07/19;15:24:19.459;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;15:24:19.459;INFO;Controller;State = Ready;
+11/07/19;15:24:31.961;INFO;Interface;Command: ExecRobotTask (swaptools,-1);
+11/07/19;15:24:31.961;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:24:31.961;INFO;Controller;Status = Executing: swaptools;
+11/07/19;15:24:31.961;INFO;Controller;State = Running;
+11/07/19;15:24:32.150;INFO;Robot Runtime;executing:    swaptools;
+11/07/19;15:26:01.593;INFO;Robot;Abort;
+11/07/19;15:26:04.106;INFO;Controller;Activity ExecRobotTask ended with exception: Staubli task error: 150  --  Cannot run this movement instruction: a previous movement request could not be completed (point out of reach, singularity, configuration problem, etc.);
+11/07/19;15:26:04.106;WARNING;Activity;Exception: Robot staubli task error: 150  --  Cannot run this movement instruction: a previous movement request could not be completed (point out of reach, singularity, configuration problem, etc.)
+Stack trace:
+org.embl.dev.staubli.StaubliRobot$StaubliTaskException: Staubli task error: 150  --  Cannot run this movement instruction: a previous movement request could not be completed (point out of reach, singularity, configuration problem, etc.)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1190)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1124)
+	at org.embl.sw.Control.execRobotTask(Control.java:489)
+	at org.embl.sw.Control$2.run(Control.java:380)
+	at org.embl.task.ActivityManager.runTask(ActivityManager.java:104)
+	at org.embl.task.ActivityManager.access$000(ActivityManager.java:22)
+	at org.embl.task.ActivityManager$ActivityThread.run(ActivityManager.java:145)
+;
+11/07/19;15:28:53.161;INFO;Controller;State = Ready;
+11/07/19;15:29:01.202;INFO;Interface;Command: ExecRobotTask (checktoolconfig,-1);
+11/07/19;15:29:01.202;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:29:01.202;INFO;Controller;Status = Executing: checktoolconfig;
+11/07/19;15:29:01.202;INFO;Controller;State = Running;
+11/07/19;15:29:01.303;INFO;Robot Runtime;executing:    checktoolconfig;
+11/07/19;15:29:01.346;INFO;Robot Runtime;Invalid Gripper: C014;
+11/07/19;15:29:01.367;INFO;Robot Runtime;Invalid Gripper: C017;
+11/07/19;15:29:01.388;INFO;Robot Runtime;Valid Gripper: C015;
+11/07/19;15:29:01.409;INFO;Robot Runtime;Valid Gripper: C019;
+11/07/19;15:29:01.431;INFO;Robot Runtime;Current Tool: C015 (Valid);
+11/07/19;15:29:01.626;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;15:29:01.626;INFO;Controller;State = Ready;
+11/07/19;15:30:38.017;INFO;Interface;Command: ExecRobotTask (swaptools,-1);
+11/07/19;15:30:38.017;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:30:38.017;INFO;Controller;Status = Executing: swaptools;
+11/07/19;15:30:38.017;INFO;Controller;State = Running;
+11/07/19;15:30:38.129;INFO;Robot Runtime;executing:    swaptools;
+11/07/19;15:30:38.171;INFO;Robot Runtime;Unrecognized Location;
+11/07/19;15:30:38.284;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Unrecognized Location;
+11/07/19;15:30:38.285;INFO;Controller;State = Ready;
+11/07/19;15:31:11.354;INFO;Interface;Command: ExecRobotTask (swaptools,-1);
+11/07/19;15:31:11.354;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:31:11.354;INFO;Controller;Status = Executing: swaptools;
+11/07/19;15:31:11.354;INFO;Controller;State = Running;
+11/07/19;15:31:11.438;INFO;Robot Runtime;executing:    swaptools;
+11/07/19;15:32:23.721;INFO;Robot;Abort;
+11/07/19;15:32:25.654;INFO;Controller;Activity ExecRobotTask ended with exception: Staubli task error: 150  --  Cannot run this movement instruction: a previous movement request could not be completed (point out of reach, singularity, configuration problem, etc.);
+11/07/19;15:32:25.655;WARNING;Activity;Exception: Robot staubli task error: 150  --  Cannot run this movement instruction: a previous movement request could not be completed (point out of reach, singularity, configuration problem, etc.)
+Stack trace:
+org.embl.dev.staubli.StaubliRobot$StaubliTaskException: Staubli task error: 150  --  Cannot run this movement instruction: a previous movement request could not be completed (point out of reach, singularity, configuration problem, etc.)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1190)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1124)
+	at org.embl.sw.Control.execRobotTask(Control.java:489)
+	at org.embl.sw.Control$2.run(Control.java:380)
+	at org.embl.task.ActivityManager.runTask(ActivityManager.java:104)
+	at org.embl.task.ActivityManager.access$000(ActivityManager.java:22)
+	at org.embl.task.ActivityManager$ActivityThread.run(ActivityManager.java:145)
+;
+11/07/19;15:45:34.058;INFO;Controller;State = Ready;
+11/07/19;15:47:28.134;INFO;Interface;Command: ExecRobotTask (swaptools,-1);
+11/07/19;15:47:28.134;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:47:28.134;INFO;Controller;Status = Executing: swaptools;
+11/07/19;15:47:28.134;INFO;Controller;State = Running;
+11/07/19;15:47:28.173;INFO;Robot Runtime;executing:    swaptools;
+11/07/19;15:48:35.673;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;15:48:35.673;INFO;Controller;State = Ready;
+11/07/19;15:49:10.611;INFO;Interface;Command: ExecRobotTask (swaptools,-1);
+11/07/19;15:49:10.611;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:49:10.611;INFO;Controller;Status = Executing: swaptools;
+11/07/19;15:49:10.611;INFO;Controller;State = Running;
+11/07/19;15:49:10.660;INFO;Robot Runtime;executing:    swaptools;
+11/07/19;15:49:51.806;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;15:49:51.806;INFO;Controller;State = Ready;
+11/07/19;15:50:17.565;INFO;Interface;Command: ExecRobotTask (checktoolconfig,-1);
+11/07/19;15:50:17.565;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:50:17.565;INFO;Controller;Status = Executing: checktoolconfig;
+11/07/19;15:50:17.565;INFO;Controller;State = Running;
+11/07/19;15:50:17.664;INFO;Robot Runtime;executing:    checktoolconfig;
+11/07/19;15:50:17.707;INFO;Robot Runtime;Invalid Gripper: C014;
+11/07/19;15:50:17.732;INFO;Robot Runtime;Invalid Gripper: C017;
+11/07/19;15:50:17.752;INFO;Robot Runtime;Valid Gripper: C015;
+11/07/19;15:50:17.773;INFO;Robot Runtime;Valid Gripper: C019;
+11/07/19;15:50:17.795;INFO;Robot Runtime;Current Tool: C015 (Valid);
+11/07/19;15:50:18.050;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;15:50:18.050;INFO;Controller;State = Ready;
+11/07/19;15:50:46.364;INFO;Interface;Command: ExecRobotTask (swaptools,-1);
+11/07/19;15:50:46.364;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:50:46.364;INFO;Controller;Status = Executing: swaptools;
+11/07/19;15:50:46.364;INFO;Controller;State = Running;
+11/07/19;15:50:46.406;INFO;Robot Runtime;executing:    swaptools;
+11/07/19;15:51:00.271;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;15:51:00.271;INFO;Controller;State = Ready;
+11/07/19;15:51:26.116;INFO;Interface;Command: ExecRobotTask (checktoolconfig,-1);
+11/07/19;15:51:26.116;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;15:51:26.116;INFO;Controller;Status = Executing: checktoolconfig;
+11/07/19;15:51:26.116;INFO;Controller;State = Running;
+11/07/19;15:51:26.210;INFO;Robot Runtime;executing:    checktoolconfig;
+11/07/19;15:51:26.305;INFO;Robot Runtime;Invalid Gripper: C014;
+11/07/19;15:51:26.327;INFO;Robot Runtime;Invalid Gripper: C017;
+11/07/19;15:51:26.348;INFO;Robot Runtime;Valid Gripper: C015;
+11/07/19;15:51:26.369;INFO;Robot Runtime;Valid Gripper: C019;
+11/07/19;15:51:26.390;INFO;Robot Runtime;Current Tool: C019 (Valid);
+11/07/19;15:51:26.693;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;15:51:26.693;INFO;Controller;State = Ready;
+11/07/19;17:00:04.250;INFO;Interface;Command: ExecRobotTask (checktoolconfig,-1);
+11/07/19;17:00:04.250;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/07/19;17:00:04.250;INFO;Controller;Status = Executing: checktoolconfig;
+11/07/19;17:00:04.250;INFO;Controller;State = Running;
+11/07/19;17:00:04.486;INFO;Robot Runtime;executing:    checktoolconfig;
+11/07/19;17:00:04.528;INFO;Robot Runtime;Invalid Gripper: C014;
+11/07/19;17:00:04.549;INFO;Robot Runtime;Invalid Gripper: C017;
+11/07/19;17:00:04.570;INFO;Robot Runtime;Valid Gripper: C015;
+11/07/19;17:00:04.591;INFO;Robot Runtime;Valid Gripper: C019;
+11/07/19;17:00:04.612;INFO;Robot Runtime;Current Tool: C019 (Valid);
+11/07/19;17:00:04.929;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/07/19;17:00:04.930;INFO;Controller;State = Ready;

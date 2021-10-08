@@ -1,0 +1,21 @@
+,AMX morning,AMX afternoon,AMX overnight,FMX morning,FMX afternoon,FMX overnight
+2,LSDC,,remote,,,
+3,,BAG,BAG,GU,BAG,BAG
+4,GU,BAG,BAG,GU304104,BAG,BAG
+5,PR,BAG,PR,BAG305000,BAG,
+6,BAG,BAG,,BAG,BAG,
+9,LSDC,,,Dewar,,
+10,LSDC,,,Dewar,,
+12,PR,RA,PR,BAG,BAG,BAG
+13,GU,BAG,BAG,GU,BAG,BAG
+14,BAG,BAG,BAG,BAG,BAG,BAG
+15,BAG,GU,GU,,,
+16,,,,LSDC,,
+17,,BAG,,,,
+18,GU,GU,GU,BAG,BAG,BAG
+19,PR,PR,PR,BAG,BAG,BAG
+20,PR,,,GU,,
+25,PR,,,,,
+27,PR,,,PR,,
+30,cryo,GSM,,,,
+31,,,,cryo,GSM,

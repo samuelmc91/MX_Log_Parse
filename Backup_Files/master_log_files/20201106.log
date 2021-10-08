@@ -1,0 +1,13 @@
+06/11/20;18:04:43.111;WARNING;Robot;Alarm active: Device is offline;
+06/11/20;18:04:43.111;INFO;Controller;State = Communication Error;
+06/11/20;18:04:48.217;INFO;Robot;Alarm inactive: Device is offline;
+06/11/20;18:04:48.217;WARNING;Controller;Communication resumed, trying updating devices;
+06/11/20;18:04:48.217;INFO;Controller;Finished device updating;
+06/11/20;18:04:48.217;INFO;Controller;State = Ready;
+06/11/20;18:12:38.727;INFO;Server;Command: ExecRobotTask (TurnOffAutoFill,500000);
+06/11/20;18:12:38.727;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+06/11/20;18:12:38.727;INFO;Controller;Status = Executing: TurnOffAutoFill;
+06/11/20;18:12:38.727;INFO;Controller;State = Running;
+06/11/20;18:12:39.731;INFO;Robot Runtime;executing:    TurnOffAutoFill;
+06/11/20;18:12:40.462;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+06/11/20;18:12:40.462;INFO;Controller;State = Ready;

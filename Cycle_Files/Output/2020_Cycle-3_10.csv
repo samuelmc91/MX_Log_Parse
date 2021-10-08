@@ -1,0 +1,13 @@
+,AMX morning,AMX afternoon,AMX overnight,FMX morning,FMX afternoon,FMX overnight
+16,,Connection,,,,
+19,,Connection,,,,
+21,commissioning,CBMS,,commissioning,,
+22,commissioning,,,commissioning,,
+23,commissioning,,,commissioning,,
+24,In-house,,,In-house,,
+25,In-house,BAG,,In-house,,
+26,RAC,BAG,BAG,BAG,BAG305018,BAG305018
+27,,Connection,,Jupyter,,
+29,,BAG,BAG305002,,,
+30,BAG,BAG305046,BAG305046-beamdumpfor,PR,PR,PR
+31,BAG,BAG,,BAG,BAG,BAG

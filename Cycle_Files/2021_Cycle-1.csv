@@ -1,0 +1,176 @@
+exit,,,,,,Maintenance,,,,Commissioning,,,xxxx,,Cancelled due to Machine problem,,xxxxx,rescheduled due to machine pb,,,,,,USER Rescheduled,,
+,,,,,,Study,,,,Available,,,xxxx,,Cancelled due to beam line problem ,,xxxxx,rescheduled due to beamline problem pb,,,,,,User did not finish,,
+,,,,,,,,,,Proprietary,,,,,,,,,,,,,,User Cancelled,,
+,,,,,,,,,,Reserved for groups with MANY Crystals,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MONTH,DATE,WeekDay,Operation,,AMX morning,Local,AMX afternoon,Local,AMX overnight,Local,,FMX morning,Local ,FMX afternoon,Local ,FMX overnight,Local ,,NYX morning,,NYX afternoon,,NYX overnight,,DATE
+,,,,,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7 am,Contact,,9 am - 3 pm,Contact,4 pm-10 pm,Contact,10 pm - 7am,Contact,,9 am - 3 pm,,4 pm -10 pm,,10 pm - 7 am,,
+,JANUARY,1,Fri,M - Holiday,,,,,,,,,,,,,,,,,,,,,,1
+,,2,Sat,M,,,,,,,,,,,,,,,,,,,,,,2
+,,3,Sun,M,,,,,,,,,,,,,,,,,,,,,,3
+,,4,Mon,M,,,,,,,,,,,,,,,,,,,,,,4
+,,5,Tue,M,,,,,,,,,,,,,,,,,,,,,,5
+,,6,Wed,M,,,,,,,,,,,,,,,,,,,,,,6
+,,7,Thu,M,,,,,,,,,,,,,,,,,,,,,,7
+,,8,Fri,M,,,,,,,,,,,,,,,,,,,,,,8
+,,9,Sat,M,,,,,,,,,,,,,,,,,,,,,,9
+,,10,Sun,M,,,,,,,,,,,,,,,,,,,,,,10
+,,11,Mon,M,,,,,,,,,,,,,,,,,,,,,,11
+,,12,Tue,M,,,,,,,,,,,,,,,,,,,,,,12
+,,13,Wed,M,,FMX testing,,,,,,,FMX testing,,,,,,,,,,,,,13
+,,14,Thu,M,,,,,,,,,,,,,,,,,,,,,,14
+,,15,Fri,M,,,,,,,,,,,,,,,,,,,,,,15
+,,16,Sat,M,,,,,,,,,,,,,,,,,,,,,,16
+,,17,Sun,M,,,,,,,,,,,,,,,,,,,,,,17
+,,18,Mon,M - Holiday,,,,,,,,,,,,,,,,,,,,,,18
+,,19,Tue,M,,AMX dewar teaching,,,,,,,,,,,,,,,,,,,,19
+,,20,Wed,M,,CBMS Lecture Series - Cancelled,,,,,,,,,,,,,,,,,,,,20
+,,21,Thu,M/S,,,,,,,,,,,,,,,,,,,,,,21
+,,22,Fri,S,,AMX testing,,Connection Tests,,,,,,,Connection Tests,,Connection Tests,,,,,,,,,22
+,,23,Sat,S,,,,,,,,,,,,,,,,,,,,,,23
+,,24,Sun,S,,,,,,,,,,,,,,,,,,,,,,24
+,,25,Mon,S/O,,,,BLC,,BLC,,,,,BLC,,BLC,,,,,,,,,25
+,,26,Tue,O,,BLC,,BLC,,BLC,,,BLC,,BLC,,BLC,,,,,,,,,26
+,,27,Wed,O,,BLC: Robot,,BLC,,BLC,,,BLC,,BLC: Robot,,BLC: Robot,,,,,,,,,27
+,,28,Thu,O,,BLC,,BAG 305000,AS,BLC,,,BLC: He path,,BLC,,BLC,,,,,,,,,28
+,,29,Fri,O,,BLC,,BLC,,BLC,,,BLC,,BLC,,BLC,,,,,,,,,29
+,,30,Sat,O,,BLC,,GU 308082,,BLC,,,BLC,,BLC,,BLC,,,,,,,,,30
+,,31,Sun,O,,BLC,,BAG 305000,AS,BLC,DEWAR,,BLC,,BLC,,BLC,,,,,,,,,31
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MONTH,DATE,WeekDay,Operation,,AMX morning,Local,AMX afternoon,Local,AMX overnight,Local,,FMX morning,Local ,FMX afternoon,Local ,FMX overnight,Local ,,NYX morning,,NYX afternoon,,NYX overnight,,DATE
+,,,,,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7 am,Contact,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7am,Contact,,9 am-3 pm,,4 pm-10 pm,,10 pm - 7 am,,
+,FEBRUARY,1,Mon,O,,BAG 305133,JJ,BAG 305013,JJ,BAG 305013,JJ,,BAG 305037,WS,BAG 305007,WS,BAG 305007,WS,,,,,,,,1
+,,2,Tue,O/M,,,,,,,,,JA - vector definition,,,,,,,,,,,,,2
+,,3,Wed,M/S,,,,,,,,,,,,,,, ,,,,,,,3
+,,4,Thu,S/O,,BLC,,BAG305046,EL,BAG305046,EL,,BLC: He path,,BAG 306386,MF,BAG 306386,MF, ,,,,,,,4
+,,5,Fri,O,,BAG 305987,AS,BAG 305987,AS,,AS,,BAG 305037,WS,PR 303851,WS,PR 303851,WS, ,,,,,,,5
+,,6,Sat,O,,BAG 305018,DK,,DK,,DK,,GU 307857/RA 307539,BA,GU 307857,BA,GU 307857,BA,,,,,,,,6
+,,7,Sun,O,,,,,,,DEWAR,,PR 303851,WS,,,,,,,,,,,,7
+,,8,Mon,O,,BAG 305002,DK,BAG 305018,DK,BAG 305018,DK,,BAG 305000,WS,BAG 305421,WS,BAG 305421,WS,,,,,,,,8
+,,9,Tue,O,,,WB,GU 305779,WB,GU 305779,WB,,,WB,GU 305779,WB,GU 305779,WB,,,,,,,,9
+,,10,Wed,O,,BLC,,BAG 304983,EL,BAG 304983,EL,,"BLC: Snaphot, Bluesky",,PR 303851,AS,PR 303851,AS,,,,,,,,10
+,,11,Thu,O,,PR 306524,AS,,AS,,AS,,PR 304319,MF,CRLs(?),MF,,MF,,,,,,,,11
+,,12,Fri,O/I/S,,,,Connection Tests,,,,,JA/MF - Annealer,,Connection Tests,,Connection Tests,,,,,,,,,12
+,,13,Sat,S,,,,,,,,,,,,,,,,,,,,,,13
+,,14,Sun,S,,,,,,,DEWAR,,,,,,,,,,,,,,,14
+,,15,Mon,S/O - Holiday, ,BLC,,,EL,,EL,,BLC,,BAG 305036,WS,BAG 305036,WS,,,,,,,,15
+,,16,Tue,O,,GU 307870,AS,GU 307870,AS,,AS,,Mirror opt,WS,,WS,,WS,,,,,,,,16
+,,17,Wed,O,,CBMS Lecture Series - Hugh O'Neil,,,EL, ,EL,,BAG 305040,MF,PR 303851,MF,PR 303851,MF,,,,,,,,17
+,,18,Thu,O,,GU 306367,DK,BAG 305034,DK,,DK,,BLC,,BAG 305000,BA,BAG 305000,BA,,,,,,,,18
+,,19,Fri,O,,BAG 305041,JJ,BAG 307708,JJ,,JJ,,PR 306522,AS,GU 306137,AS,GU 306137,AS,,,,,,,,19
+,,20,Sat,O,,BAG 305035,AS,BAG 305035,AS,BAG 305035,AS,,PR 306522,BA,,BA,,BA,,,,,,,,20
+,,21,Sun,O,,BAG 305035,AS,BAG 305035,AS,,DEWAR,,,BA,,BA,,BA,,,,,,,,21
+,,22,Mon,O,,GU 307870/BAG 305447,DK/AS,GU 307870,AS,GU 307870,AS,,"JA - prefix valid., strat. computer",WS,,WS,,WS,,,,,,,,22
+,,23,Tue,O/M,,puck vis Sam,,gap value log KQ,,,,,,,gap value log KQ,,,,,,,,,,,23
+,,24,Wed,M/S,,,,,,,,,,,,,,,,,,,,,,24
+,,25,Thur,S/O,,BLC,,BAG 305000,VS,,VS,,BLC,,PR 303851,BA,PR 303851,BA,,,,,,,,25
+,,26,Fri,O,,PR 304319,AS,PR 303851,AS,PR 303851,AS,,BAG305 018,WS,BAG305 018,WS,BAG305 018,WS,,,,,,,,26
+,,27,Sat,O,,BAG 305034,JJ,Puck Vis (Sam),JJ,,JJ,,RA 307462,MF,RA 307462,MF,RA 307462,MF,,,,,,,,27
+,,28,Sun,O,,PR 303851,AS,BAG 305000,AS,,DEWAR,,RA 307462,MF,RA 307462,MF,RA 307462,MF,,,,,,,,28
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MONTH,DATE,WeekDay,Operation,,AMX morning,Local,AMX afternoon,Local,AMX overnight,Local,,FMX morning,Local ,FMX afternoon,Local ,FMX overnight,Local ,,NYX morning,,NYX afternoon,,NYX overnight,,DATE
+,,,,,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7 am,Contact,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7am,Contact,,9 am-3 pm,,4 pm-10 pm,,10 pm - 7 am,,
+,MARCH,1,Mon,O,,,AS,BAG 305042,AS,BAG 305042,AS,,GU 307857/RA 307539,BA,GU 307857/RA 307539 Till 5pm?,BA,,BA,,,,,,,,1
+,,2,Tue,O,,BAG 305040,DK,,DK,,DK,,BLC,,BAG 306544,WS,BAG 306544,WS,,,,,,,,2
+,,3,Wed,O,,BLC,,,VS,,VS,,BAG 305000,MF/BA,BAG 305000,MF/BA,BAG 305000,MF/BA,,,,,,,,3
+,,4,Thu,O,,BAG 305598,AS,BAG 305044,AS,,AS,,BAG 305037,MF+KB,BAG 305037,MF,,MF,,,,,,,,4
+,,5,Fri,O/I/S,,,,Connection Tests,,add TraceSample to recover (KQ) 2-4pm,,,Jun (Eiger),,Connection Tests,,add TraceSample to recover (KQ) 2-4pm,,,,,,,,,5
+,,6,Sat,S,,Puck Vis (Sam), ,Puck Vis (Sam),,,,,,,,,,,,,,,,,,6
+,,7,Sun,S,,Puck Vis (Sam),,Puck Vis (Sam),,,DEWAR,,,,,,,,,,,,,,,7
+,,8,Mon,S/O,,BLC,,,EL,,EL,,BLC,,BLC, WS,BLC,WS,,,,,,,,8
+,,9,Tue,O,,BAG 305000,JJ,BAG 305987,JJ,BAG 305987,JJ,,available- GU 307344,BA,BAG 305018,BA,BAG 305018,BA,,,,,,,,9
+,,10,Wed,O,,BLC,,BAG30500 - BAG306386,EL,BAG 306386 - BAG 306386,EL,,GU 307773/RA307520,AS,GU 307773/RA307520,AS,,AS,,,,,,,,10
+,,11,Thur,O,,BLC,,,,,,,PR 304319,BA/MF,BAG 305000-BA,BA/MF,BAG 305000-BA/MF,BA,,,,,,,,11
+,,12,Fri,O,,BAG 305034,VS,GU 306268,VS,GU 306268,VS,,BAG 305046,AS,PR 303851,AS,PR 303851,AS,,,,,,,,12
+,,13,Sat,O,,BAG 305987,DK,,DK,,DK,,BAG 304983,WS,BAG 304983,WS,PR 303851,WS,,,,,,,,13
+,,14,Sun,O,,BAG 306386,DK,BAG 306386,DK,,DEWAR,,BAG 304983,WS,BAG 304983,WS,PR 303851,WS,,,,,,,,14
+,,15,Mon,O,,GU 306108,JJ,BAG 305036,JJ,BAG 305036,JJ,,PR 303851,BA,GU 307857/RA 307539,BA,,Dewar,,,,,,,,15
+,,16,Tue,O/M,,,,,,,,,10am-12pm ODH repair,,,,,,,,,,,,,16
+,,17,Wed,M/S,,,,,,,,,,,,,,,,,,,,,,17
+,,18,Thur,S/O,,BLC,,,,,,,BLC will be shorter PR will start @12:00,,PR 305587,WS/AS,PR 305587,AS,,,,,,,,18
+,,19,Fri,O,,BAG 305987 9am - 1pm ,AS,GU 306268,AS,GU 306268,AS,,BAG 305035,MF,BAG 305035,MF,PR 305587,MF,,BAG 305598,,,,,,19
+,,20,Sat,O,,BAG 307847,VS/as,BAG 306386,VS,,,,BAG 305044,WS,GU 307344,WS,,WS,,,,,,,,20
+,,21,Sun,O,,BAG 305036,AS,BAG 305036,AS,,DEWAR,,BAG 305046(2h)- BAG 305000-BA,BA,BAG 305000-BA,BA,,,,,,,,,,21
+,,22,Mon,O,,BAG 305447,DK,BAG 305007,DK,BAG 305007,DK,,BAG 305002,BA,BAG 307708,BA,Dewar,BA,,,,,,,,22
+,,23,Tue,O,,PR 306524,VS,PR 303851,VS/EL,PR 303851,EL,,BLC - GU 306108 Starts at noon,WS,BAG 305007,WS,BAG 305007,WS,,,,,,,,23
+,,24,Wed,O,,GU 307320,VS*,BAG 305421,VS,BAG 305421,VS,,PR 304319,BA*,BAG 305000-BA,BA,,,,,,,,,,24
+,,25,Thu,O,,BAG 305133,JJ,DB-backup (Jun),,,Dewar,,BAG 305040,MF,DB-backup (Jun),,,,,,,,,,,25
+,,26,Fri,O/I/S,,,*CBMS Lecture Series March 24 - Tara MacCulloch/Chad Simmons (Biodesign ASU),,,,,,,,,,,,,,,,,,,26
+,,27,Sat,S,,,,,,,,,,,,,,,,,,,,,,27
+,,28,Sun,S,,,,,,,,,,,,,,,,,,,,,,28
+,,29,Mon,S/M,,,,,,,,,,,,,,,,,,,,,,29
+,,30,Tue,M,,,,,,,,,,,,,,,,,,,,,,30
+,,31,Wed,M,,,,,,,,,,,,,,,,,,,,,,31
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MONTH,DATE,WeekDay,Operation,,AMX morning,Local,AMX afternoon,Local,AMX overnight,Local,,FMX morning,Local ,FMX afternoon,Local ,FMX overnight,Local ,,NYX morning,,NYX afternoon,,NYX overnight,,DATE
+,,,,,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7 am,Contact,,9 am - 3 pm,Contact,4 pm -10 pm,Contact,10 pm - 7am,Contact,,9 am-3 pm,,4 pm-10 pm,,10 pm - 7 am,,
+,APRIL,1,Thu,M,,,,,,,,,,,,,,,,,,,,,,1
+,,2,Fri,M,,,,,,,,,,,,,,,,,,,,,,2
+,,3,Sat,M,,,,,,,,,,,,,,,,,,,,,,3
+,,4,Sun,M,,,,,,,,,,,,,,,,,,,,,,4
+,,5,Mon,M,,,,,,,,,,,,,,,,,,,,,,5
+,,6,Tue,M,,,,,,,,,,,,,,,,,,,,,,6
+,,7,Wed,M,,,,,,,,,,,,,,,,,,,,,,7
+,,8,Thur,M,,,,,,,,,,,,,,,,,,,,,,8
+,,9,Fri,M,,,,,,,,,,,,,,,,,,,,,,9
+,,10,Sat,M,,,,,,,,,,,,,,,,,,,,,,10
+,,11,Sun,M,,,,,,,,,,,,,,,,,,,,,,11
+,,12,Mon,M,,,,,,,,,,,,,,,,,,,,,,12
+,,13,Tue,M,,,,,,,,,,,,,,,,,,,,,,13
+,,14,Wed,M,,,,,,,,,,,,,,,,,,,,,,14
+,,15,Thur,M,,,,,,,,,,,,,,,,,,,,,,15
+,,16,Fri,M,,,,,,,,,,,,,,,,,,,,,,16
+,,17,Sat,M,,,,,,,,,,,,,,,,,,,,,,17
+,,18,Sun,M,,,,,,,,,,,,,,,,,,,,,,18
+,,19,Mon,M,,,,,,,,,,,,,,,,,,,,,,19
+,,20,Tue,M,,,,,,,,,,,,,,,,,,,,,,20
+,,21,Wed,M,,CBMS Lecture Series Lisa Miller (NSLS II),,,,,,,CBMS Lecture Series Lisa Miller (NSLS II),,,,,,,CBMS Lecture Series Lisa Miller (NSLS II),,,,,,21
+,,22,Thu,M,,,,,,,,,,,,,,,,,,,,,,22
+,,23,Fri,M,,,,,,,,,,,,,,,,,,,,,,23
+,,24,Sat,M,,,,,,,,,,,,,,,,,,,,,,24
+,,25,Sun,M,,,,,,,,,,,,,,,,,,,,,,25
+,,26,Mon,M,,,,,,,,,,,,,,,,,,,,,,26
+,,27,Tue,M,,,,,,,,,,,,,,,,,,,,,,27
+,,28,Wed,M,,,,,,,,,,,,,,,,,,,,,,28
+,,29,Thu,M,,,,,,,,,,,,,,,,,,,,,,29
+,,30,Fri,M/S,,,,,,,,,,,,,,,,,,,,,,30
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Total #shifts available for operation,,138,,shifts,,,,,Total #shifts available for operation,,138,shifts,,,,requested shifts ~182,,,,,,
+,,,,Operation/BL time,,58,,shits,42%,,,,Operation/BL time,,64,shifts,46%,,,,,,,,,
+,,,,Proprietary,,15,,shifts,11%,,,,Proprietary,,12,shifts,9%,,,available for academics,~127,,,,,
+,,,,Academic,,65,,shifts,47%,,,,Academic,,62,shifts,45%,,,,,,,,,
+,IF ADDING ,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Blocked overnight shifts,,Academic,73,shitts,53%,,,,Blocked overnight shifts,,8,shifts,53%,,,,,,,,,
+,,,,DT+development shifts,,Academic,79,shitts,57%,,,,DT+development shifts,,9,shifts,57%,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,REDUCING COMMISSIONING/In House at START UP,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Academic,88,,64%,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,INCLUDING FLEX TIME,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Academic,94,,68%,,,,,,,,,,,,,,,,,

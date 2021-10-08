@@ -1,0 +1,148 @@
+08/04/19;11:31:06.855;WARNING;Robot;Alarm active: Device is offline;
+08/04/19;11:31:06.856;INFO;Controller;State = Communication Error;
+08/04/19;11:32:55.933;INFO;Interface;Command: Restart;
+08/04/19;11:32:55.934;INFO;Controller;State = Initializing;
+08/04/19;11:32:56.028;INFO;Controller;Initialized log services - Startup: 02/04/19 12:13:00;
+08/04/19;11:32:56.028;INFO;Robot;Alarm removed: Device is offline;
+08/04/19;11:32:57.035;INFO;Epics Server;Exiting running thread;
+08/04/19;11:32:57.038;INFO;Epics Server;Registered PV: SW:Version;
+08/04/19;11:32:57.038;INFO;Epics Server;Registered PV: SW:Status;
+08/04/19;11:32:57.038;INFO;Epics Server;Registered PV: SW:Uptime;
+08/04/19;11:32:57.038;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+08/04/19;11:32:57.038;INFO;Epics Server;Registered PV: SW:AlarmList;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:LastTaskException;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:RobotState;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:JointPositions;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:State;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:abort;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:restart;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:startTestTask;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:pauseRobot;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:resumeRobot;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+08/04/19;11:32:57.039;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+08/04/19;11:32:57.040;INFO;Epics Server;Registered PV: SW:startRobotTask;
+08/04/19;11:32:57.040;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+08/04/19;11:32:57.040;INFO;Epics Server;Registered PV: SW:getDistance;
+08/04/19;11:32:57.040;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+08/04/19;11:32:57.040;INFO;Epics Server;Started server: ready to accept requests;
+08/04/19;11:32:57.639;INFO;Controller;Initializing Robot;
+08/04/19;11:32:57.643;INFO;Robot;Setting reference frame to: world;
+08/04/19;11:32:57.645;WARNING;Robot;Exception: Robot connection error (Error connecting to device)
+Stack trace:
+org.embl.ctrl.ConnectedDevice$ConnectionFailureException: Connection error
+	at org.embl.ctrl.ConnectedDevice.connect(ConnectedDevice.java:136)
+	at org.embl.ctrl.ConnectedDevice.doInitialize(ConnectedDevice.java:85)
+	at org.embl.dev.staubli.StaubliRobot.doInitialize(StaubliRobot.java:491)
+	at org.embl.ctrl.Device.initialize(Device.java:678)
+	at org.embl.ctrl.Device.initialize(Device.java:644)
+	at org.embl.ctrl.Sequencer.initializeDevices(Sequencer.java:611)
+	at org.embl.ctrl.Controller.initializeDevices(Controller.java:2664)
+	at org.embl.ctrl.Sequencer.initializeDevices(Sequencer.java:597)
+	at org.embl.ctrl.Sequencer.initializeDevices(Sequencer.java:592)
+	at org.embl.sw.Control.doInitialize(Control.java:183)
+	at org.embl.ctrl.Sequencer.initialize(Sequencer.java:259)
+	at org.embl.ctrl.Controller.initialize(Controller.java:514)
+	at org.embl.ctrl.Sequencer$1.run(Sequencer.java:312)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.embl.ctrl.Device$DeviceException: Error connecting to device
+	at org.embl.dev.staubli.StaubliRobot.doConnect(StaubliRobot.java:592)
+	at org.embl.ctrl.ConnectedDevice.connect(ConnectedDevice.java:125)
+	... 13 more
+Caused by: org.embl.net.NetException$NetConnectionErrorException: Connection error
+	at org.embl.net.SocketClient.connect(SocketClient.java:241)
+	at org.embl.dev.staubli.StaubliRobot.doConnect(StaubliRobot.java:584)
+	... 14 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.embl.net.SocketClient.connect(SocketClient.java:235)
+	... 15 more
+;
+08/04/19;11:32:57.695;INFO;Controller;Initializing Bus Controller;
+08/04/19;11:32:57.696;INFO;Anti-Collision;Active = true;
+08/04/19;11:32:57.696;INFO;Controller;State = Starting;
+08/04/19;11:32:57.697;INFO;Controller;State = Communication Error;
+08/04/19;11:32:57.697;SEVERE;Controller;Exception: Communication timeout with the devices: 
+Robot
+Stack trace:
+org.embl.BaseException: Communication timeout with the devices: 
+Robot
+	at org.embl.ctrl.Controller.onStart(Controller.java:1323)
+	at org.embl.ctrl.Sequencer.start(Sequencer.java:1192)
+	at org.embl.ctrl.Sequencer.initialize(Sequencer.java:287)
+	at org.embl.ctrl.Controller.initialize(Controller.java:514)
+	at org.embl.ctrl.Sequencer$1.run(Sequencer.java:312)
+	at java.lang.Thread.run(Thread.java:745)
+;
+08/04/19;11:32:58.696;WARNING;Robot;Alarm active: Device is offline;
+08/04/19;11:33:10.806;INFO;Robot;Alarm inactive: Device is offline;
+08/04/19;11:33:10.806;WARNING;Controller;Communication resumed, trying updating devices;
+08/04/19;11:33:10.806;INFO;Controller;Finished device updating;
+08/04/19;11:33:10.806;INFO;Controller;Alarm condition ceased but controller has not been started: retrying a start;
+08/04/19;11:33:10.806;INFO;Controller;State = Starting;
+08/04/19;11:33:10.807;INFO;Controller;Command: Reset;
+08/04/19;11:33:10.807;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+08/04/19;11:33:10.808;INFO;Controller;Status = Reseting;
+08/04/19;11:33:10.808;INFO;Controller;State = Running;
+08/04/19;11:33:10.977;INFO;Controller;Script host: localhost:49614;
+08/04/19;11:33:10.977;INFO;Script;Starting initialization script;
+08/04/19;11:33:10.979;INFO;Script;Do nothing;
+08/04/19;11:33:10.980;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+08/04/19;11:33:10.980;INFO;Controller;State = Ready;
+08/04/19;11:34:04.558;INFO;Interface;Command: ExecRobotTask (Mount,-1);
+08/04/19;11:34:04.558;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+08/04/19;11:34:04.558;INFO;Controller;Status = Executing: Mount;
+08/04/19;11:34:04.558;INFO;Controller;State = Running;
+08/04/19;11:34:05.444;INFO;Robot Runtime;executing:    Mount;
+08/04/19;11:35:09.815;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+08/04/19;11:35:09.815;INFO;Controller;State = Ready;
+08/04/19;14:59:15.764;INFO;Interface;Command: ExecRobotTask (MT_updateStaff,-1);
+08/04/19;14:59:15.765;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+08/04/19;14:59:15.765;INFO;Controller;Status = Executing: MT_updateStaff;
+08/04/19;14:59:15.765;INFO;Controller;State = Running;
+08/04/19;14:59:15.913;INFO;Robot Runtime;executing:    MT_updateStaff;
+08/04/19;14:59:15.956;INFO;Robot Runtime;Staff Screen A_dewarhome is updated;
+08/04/19;14:59:15.978;INFO;Robot Runtime;Staff Screen E_Gonio is updated;
+08/04/19;14:59:16.147;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+08/04/19;14:59:16.148;INFO;Controller;State = Ready;
+08/04/19;15:03:22.128;INFO;Interface;Command: ExecRobotTask (MT_teachGonio,-1);
+08/04/19;15:03:22.128;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+08/04/19;15:03:22.128;INFO;Controller;Status = Executing: MT_teachGonio;
+08/04/19;15:03:22.128;INFO;Controller;State = Running;
+08/04/19;15:03:22.216;INFO;Robot Runtime;executing:    MT_teachGonio;
+08/04/19;15:03:22.263;INFO;Robot Runtime;Distance between current Gonio and previous Gonio:5.001;
+08/04/19;15:03:22.598;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+08/04/19;15:03:22.598;INFO;Controller;State = Ready;
+08/04/19;15:09:31.159;INFO;Interface;Command: ExecRobotTask (MT_updateStaff,-1);
+08/04/19;15:09:31.159;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+08/04/19;15:09:31.159;INFO;Controller;Status = Executing: MT_updateStaff;
+08/04/19;15:09:31.159;INFO;Controller;State = Running;
+08/04/19;15:09:31.239;INFO;Robot Runtime;executing:    MT_updateStaff;
+08/04/19;15:09:31.280;INFO;Robot Runtime;Staff Screen A_dewarhome is updated;
+08/04/19;15:09:31.304;INFO;Robot Runtime;Staff Screen E_Gonio is updated;
+08/04/19;15:09:31.687;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+08/04/19;15:09:31.687;INFO;Controller;State = Ready;
+08/04/19;15:10:18.939;INFO;Interface;Command: ExecRobotTask (checkToolconfig,-1);
+08/04/19;15:10:18.940;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+08/04/19;15:10:18.940;INFO;Controller;Status = Executing: checkToolconfig;
+08/04/19;15:10:18.940;INFO;Controller;State = Running;
+08/04/19;15:10:19.201;INFO;Robot Runtime;executing:    checkToolconfig;
+08/04/19;15:10:19.243;INFO;Robot Runtime;Invalid Gripper: C014;
+08/04/19;15:10:19.264;INFO;Robot Runtime;Invalid Gripper: C017;
+08/04/19;15:10:19.284;INFO;Robot Runtime;Valid Gripper: C015;
+08/04/19;15:10:19.305;INFO;Robot Runtime;Valid Gripper: C019;
+08/04/19;15:10:19.327;INFO;Robot Runtime;Current Tool: C015 (Valid);
+08/04/19;15:10:19.665;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+08/04/19;15:10:19.665;INFO;Controller;State = Ready;

@@ -1,0 +1,17 @@
+04/05/21;18:20:56.681;INFO;Server;Command: ExecRobotTask (EnableTScreen,500000);
+04/05/21;18:20:56.681;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+04/05/21;18:20:56.681;INFO;Controller;Status = Executing: EnableTScreen;
+04/05/21;18:20:56.681;INFO;Controller;State = Running;
+04/05/21;18:29:16.699;INFO;Controller;Activity ExecRobotTask ended with exception: Timeout waiting ready;
+04/05/21;18:29:16.699;WARNING;Activity;Exception: Robot timeout waiting ready
+Stack trace:
+org.embl.ctrl.Device$TimeoutWaitReadyException: Timeout waiting ready
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1199)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1124)
+	at org.embl.sw.Control.execRobotTask(Control.java:489)
+	at org.embl.sw.Control$2.run(Control.java:380)
+	at org.embl.task.ActivityManager.runTask(ActivityManager.java:104)
+	at org.embl.task.ActivityManager.access$000(ActivityManager.java:22)
+	at org.embl.task.ActivityManager$ActivityThread.run(ActivityManager.java:145)
+;
+04/05/21;18:29:16.699;INFO;Controller;State = Ready;

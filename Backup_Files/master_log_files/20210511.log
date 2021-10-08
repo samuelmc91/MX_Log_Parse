@@ -1,0 +1,383 @@
+11/05/21;11:54:54.864;INFO;Controller;Instantiation;
+11/05/21;11:54:54.883;INFO;Controller;State = Initializing;
+11/05/21;11:54:55.005;WARNING;Interface;Access level set to Admin;
+11/05/21;11:54:55.060;INFO;Controller;Initialized log services - Startup: 11/05/21 11:54:54;
+11/05/21;11:54:55.068;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+11/05/21;11:54:55.284;INFO;Epics Server;Registered PV: SW:Version;
+11/05/21;11:54:55.285;INFO;Epics Server;Registered PV: SW:Status;
+11/05/21;11:54:55.285;INFO;Epics Server;Registered PV: SW:Uptime;
+11/05/21;11:54:55.301;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+11/05/21;11:54:55.301;INFO;Epics Server;Registered PV: SW:AlarmList;
+11/05/21;11:54:55.302;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+11/05/21;11:54:55.302;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+11/05/21;11:54:55.302;INFO;Epics Server;Registered PV: SW:LastTaskException;
+11/05/21;11:54:55.303;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+11/05/21;11:54:55.303;INFO;Epics Server;Registered PV: SW:RobotState;
+11/05/21;11:54:55.304;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+11/05/21;11:54:55.306;INFO;Epics Server;Registered PV: SW:JointPositions;
+11/05/21;11:54:55.306;INFO;Epics Server;Registered PV: SW:State;
+11/05/21;11:54:55.308;INFO;Epics Server;Registered PV: SW:abort;
+11/05/21;11:54:55.309;INFO;Epics Server;Registered PV: SW:restart;
+11/05/21;11:54:55.309;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+11/05/21;11:54:55.309;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+11/05/21;11:54:55.310;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+11/05/21;11:54:55.310;INFO;Epics Server;Registered PV: SW:startTestTask;
+11/05/21;11:54:55.310;INFO;Epics Server;Registered PV: SW:pauseRobot;
+11/05/21;11:54:55.311;INFO;Epics Server;Registered PV: SW:resumeRobot;
+11/05/21;11:54:55.311;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+11/05/21;11:54:55.311;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+11/05/21;11:54:55.312;INFO;Epics Server;Registered PV: SW:startRobotTask;
+11/05/21;11:54:55.312;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+11/05/21;11:54:55.312;INFO;Epics Server;Registered PV: SW:getDistance;
+11/05/21;11:54:55.313;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+11/05/21;11:54:55.315;INFO;Epics Server;Started server: ready to accept requests;
+11/05/21;11:54:56.007;INFO;Controller;Initializing Robot;
+11/05/21;11:54:56.021;INFO;Robot;Setting reference frame to: world;
+11/05/21;11:54:56.207;INFO;Controller;Initializing Bus Controller;
+11/05/21;11:54:56.208;INFO;Anti-Collision;Active = true;
+11/05/21;11:54:56.209;INFO;Controller;State = Starting;
+11/05/21;11:54:56.212;INFO;Controller;Command: Reset;
+11/05/21;11:54:56.538;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+11/05/21;11:54:56.539;INFO;Controller;Status = Reseting;
+11/05/21;11:54:56.539;INFO;Controller;State = Running;
+11/05/21;11:54:57.082;INFO;Controller;Script host: localhost:43271;
+11/05/21;11:54:57.083;INFO;Script;Starting initialization script;
+11/05/21;11:54:57.086;INFO;Script;Do nothing;
+11/05/21;11:54:57.087;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+11/05/21;11:54:57.088;INFO;Controller;State = Ready;
+11/05/21;11:56:55.816;INFO;Server;Command: ExecRobotTask (EnableTScreen,500000);
+11/05/21;11:56:55.817;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;11:56:55.817;INFO;Controller;Status = Executing: EnableTScreen;
+11/05/21;11:56:55.817;INFO;Controller;State = Running;
+11/05/21;11:56:56.767;INFO;Robot Runtime;executing:    EnableTScreen;
+11/05/21;11:56:56.941;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;11:56:56.942;INFO;Controller;State = Ready;
+11/05/21;13:06:37.932;INFO;Server;Command: ExecRobotTask (TurnOnAutoFill,500000);
+11/05/21;13:06:37.933;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;13:06:37.933;INFO;Controller;Status = Executing: TurnOnAutoFill;
+11/05/21;13:06:37.934;INFO;Controller;State = Running;
+11/05/21;13:06:39.240;INFO;Robot Runtime;executing:    TurnOnAutoFill;
+11/05/21;13:06:39.902;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;13:06:39.902;INFO;Controller;State = Ready;
+11/05/21;13:06:52.392;INFO;Server;Command: ExecRobotTask (EnableTScreen,500000);
+11/05/21;13:06:52.393;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;13:06:52.393;INFO;Controller;Status = Executing: EnableTScreen;
+11/05/21;13:06:52.393;INFO;Controller;State = Running;
+11/05/21;13:06:53.291;INFO;Robot Runtime;executing:    EnableTScreen;
+11/05/21;13:06:53.572;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;13:06:53.573;INFO;Controller;State = Ready;
+11/05/21;13:36:42.369;INFO;Server;Command: ExecRobotTask (CloseGripper,500000);
+11/05/21;13:36:42.369;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;13:36:42.370;INFO;Controller;Status = Executing: CloseGripper;
+11/05/21;13:36:42.370;INFO;Controller;State = Running;
+11/05/21;13:36:43.339;INFO;Robot Runtime;executing:    CloseGripper;
+11/05/21;13:36:43.575;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;13:36:43.575;INFO;Controller;State = Ready;
+11/05/21;13:36:44.573;INFO;Server;Command: ExecRobotTask (OpenGripper,500000);
+11/05/21;13:36:44.573;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;13:36:44.574;INFO;Controller;Status = Executing: OpenGripper;
+11/05/21;13:36:44.574;INFO;Controller;State = Running;
+11/05/21;13:36:45.472;INFO;Robot Runtime;executing:    OpenGripper;
+11/05/21;13:36:45.881;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;13:36:45.881;INFO;Controller;State = Ready;
+11/05/21;13:38:48.106;INFO;Server;Command: ExecRobotTask (CloseGripper,500000);
+11/05/21;13:38:48.106;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;13:38:48.107;INFO;Controller;Status = Executing: CloseGripper;
+11/05/21;13:38:48.107;INFO;Controller;State = Running;
+11/05/21;13:38:49.048;INFO;Robot Runtime;executing:    CloseGripper;
+11/05/21;13:38:49.250;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;13:38:49.251;INFO;Controller;State = Ready;
+11/05/21;13:38:55.615;INFO;Server;Command: ExecRobotTask (OpenGripper,500000);
+11/05/21;13:38:55.616;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;13:38:55.616;INFO;Controller;Status = Executing: OpenGripper;
+11/05/21;13:38:55.616;INFO;Controller;State = Running;
+11/05/21;13:38:56.506;INFO;Robot Runtime;executing:    OpenGripper;
+11/05/21;13:38:56.749;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;13:38:56.749;INFO;Controller;State = Ready;
+11/05/21;13:39:33.454;INFO;Server;Command: ExecRobotTask (CloseGripper,500000);
+11/05/21;13:39:33.455;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;13:39:33.455;INFO;Controller;Status = Executing: CloseGripper;
+11/05/21;13:39:33.455;INFO;Controller;State = Running;
+11/05/21;13:39:34.340;INFO;Robot Runtime;executing:    CloseGripper;
+11/05/21;13:39:34.578;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;13:39:34.579;INFO;Controller;State = Ready;
+11/05/21;13:40:08.483;INFO;Server;Command: ExecRobotTask (OpenGripper,500000);
+11/05/21;13:40:08.484;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;13:40:08.484;INFO;Controller;Status = Executing: OpenGripper;
+11/05/21;13:40:08.484;INFO;Controller;State = Running;
+11/05/21;13:40:09.370;INFO;Robot Runtime;executing:    OpenGripper;
+11/05/21;13:40:09.555;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;13:40:09.556;INFO;Controller;State = Ready;
+11/05/21;13:40:48.784;INFO;Server;Command: ExecRobotTask (CloseGripper,500000);
+11/05/21;13:40:48.785;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;13:40:48.785;INFO;Controller;Status = Executing: CloseGripper;
+11/05/21;13:40:48.786;INFO;Controller;State = Running;
+11/05/21;13:40:49.721;INFO;Robot Runtime;executing:    CloseGripper;
+11/05/21;13:40:50.042;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;13:40:50.042;INFO;Controller;State = Ready;
+11/05/21;13:41:47.786;INFO;Server;Command: ExecRobotTask (OpenGripper,500000);
+11/05/21;13:41:47.786;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;13:41:47.787;INFO;Controller;Status = Executing: OpenGripper;
+11/05/21;13:41:47.787;INFO;Controller;State = Running;
+11/05/21;13:41:48.725;INFO;Robot Runtime;executing:    OpenGripper;
+11/05/21;13:41:48.910;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;13:41:48.910;INFO;Controller;State = Ready;
+11/05/21;13:44:53.273;INFO;Server;Command: ExecRobotTask (CloseGripper,500000);
+11/05/21;13:44:53.273;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;13:44:53.274;INFO;Controller;Status = Executing: CloseGripper;
+11/05/21;13:44:53.274;INFO;Controller;State = Running;
+11/05/21;13:44:54.162;INFO;Robot Runtime;executing:    CloseGripper;
+11/05/21;13:44:54.514;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;13:44:54.515;INFO;Controller;State = Ready;
+11/05/21;13:45:02.475;INFO;Server;Command: ExecRobotTask (OpenGripper,500000);
+11/05/21;13:45:02.476;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;13:45:02.476;INFO;Controller;Status = Executing: OpenGripper;
+11/05/21;13:45:02.476;INFO;Controller;State = Running;
+11/05/21;13:45:03.414;INFO;Robot Runtime;executing:    OpenGripper;
+11/05/21;13:45:03.573;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;13:45:03.573;INFO;Controller;State = Ready;
+11/05/21;14:02:46.152;INFO;Server;Command: ExecRobotTask (CloseGripper,500000);
+11/05/21;14:02:46.152;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;14:02:46.152;INFO;Controller;Status = Executing: CloseGripper;
+11/05/21;14:02:46.153;INFO;Controller;State = Running;
+11/05/21;14:02:47.042;INFO;Robot Runtime;executing:    CloseGripper;
+11/05/21;14:02:47.373;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;14:02:47.373;INFO;Controller;State = Ready;
+11/05/21;14:02:49.113;INFO;Server;Command: ExecRobotTask (OpenGripper,500000);
+11/05/21;14:02:49.113;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;14:02:49.114;INFO;Controller;Status = Executing: OpenGripper;
+11/05/21;14:02:49.114;INFO;Controller;State = Running;
+11/05/21;14:02:50.002;INFO;Robot Runtime;executing:    OpenGripper;
+11/05/21;14:02:50.195;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;14:02:50.196;INFO;Controller;State = Ready;
+11/05/21;14:14:47.809;INFO;Server;Command: ExecRobotTask (CloseGripper,500000);
+11/05/21;14:14:47.809;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;14:14:47.810;INFO;Controller;Status = Executing: CloseGripper;
+11/05/21;14:14:47.810;INFO;Controller;State = Running;
+11/05/21;14:14:48.695;INFO;Robot Runtime;executing:    CloseGripper;
+11/05/21;14:14:48.892;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;14:14:48.892;INFO;Controller;State = Ready;
+11/05/21;14:14:50.521;INFO;Server;Command: ExecRobotTask (OpenGripper,500000);
+11/05/21;14:14:50.522;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;14:14:50.522;INFO;Controller;Status = Executing: OpenGripper;
+11/05/21;14:14:50.522;INFO;Controller;State = Running;
+11/05/21;14:14:51.407;INFO;Robot Runtime;executing:    OpenGripper;
+11/05/21;14:14:51.725;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;14:14:51.726;INFO;Controller;State = Ready;
+11/05/21;14:20:49.162;INFO;Server;Command: ExecRobotTask (CloseGripper,500000);
+11/05/21;14:20:49.162;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;14:20:49.162;INFO;Controller;Status = Executing: CloseGripper;
+11/05/21;14:20:49.163;INFO;Controller;State = Running;
+11/05/21;14:20:50.047;INFO;Robot Runtime;executing:    CloseGripper;
+11/05/21;14:20:50.311;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;14:20:50.311;INFO;Controller;State = Ready;
+11/05/21;14:20:54.155;INFO;Server;Command: ExecRobotTask (OpenGripper,500000);
+11/05/21;14:20:54.155;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;14:20:54.155;INFO;Controller;Status = Executing: OpenGripper;
+11/05/21;14:20:54.156;INFO;Controller;State = Running;
+11/05/21;14:20:55.042;INFO;Robot Runtime;executing:    OpenGripper;
+11/05/21;14:20:55.467;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+11/05/21;14:20:55.468;INFO;Controller;State = Ready;
+11/05/21;15:40:53.409;INFO;Interface;Command: ExecRobotTask (UC_FlidLoad,-1);
+11/05/21;15:40:53.410;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;15:40:53.410;INFO;Controller;Status = Executing: UC_FlidLoad;
+11/05/21;15:40:53.410;INFO;Controller;State = Running;
+11/05/21;15:40:54.139;INFO;Robot Runtime;executing:    UC_FlidLoad;
+11/05/21;15:44:31.181;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+11/05/21;15:44:31.182;INFO;Controller;State = Ready;
+11/05/21;15:45:00.330;INFO;Interface;Command: ExecRobotTask (UC_FlidUnload,-1);
+11/05/21;15:45:00.331;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;15:45:00.331;INFO;Controller;Status = Executing: UC_FlidUnload;
+11/05/21;15:45:00.331;INFO;Controller;State = Running;
+11/05/21;15:45:00.853;INFO;Robot Runtime;executing:    UC_FlidUnload;
+11/05/21;15:48:54.944;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+11/05/21;15:48:54.944;INFO;Controller;State = Ready;
+11/05/21;15:54:32.263;INFO;Server;Command: ExecRobotTask (UC_FlidLoad,500000);
+11/05/21;15:54:32.264;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;15:54:32.264;INFO;Controller;Status = Executing: UC_FlidLoad;
+11/05/21;15:54:32.264;INFO;Controller;State = Running;
+11/05/21;15:54:32.766;INFO;Robot Runtime;executing:    UC_FlidLoad;
+11/05/21;15:59:02.270;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+11/05/21;15:59:02.270;INFO;Controller;State = Ready;
+11/05/21;15:59:02.307;INFO;Server;Command: ExecRobotTask (UC_FlidUnlod,500000);
+11/05/21;15:59:02.308;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;15:59:02.308;INFO;Controller;Status = Executing: UC_FlidUnlod;
+11/05/21;15:59:02.308;INFO;Controller;State = Running;
+11/05/21;15:59:02.372;INFO;Robot Runtime;executing:    UC_FlidUnlod;
+11/05/21;15:59:02.826;INFO;Controller;Activity ExecRobotTask ended. Return value: ;
+11/05/21;15:59:02.826;INFO;Controller;State = Ready;
+11/05/21;16:01:18.296;INFO;Interface;Command: ExecRobotTask (UC_FlidUnload,-1);
+11/05/21;16:01:18.296;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;16:01:18.296;INFO;Controller;Status = Executing: UC_FlidUnload;
+11/05/21;16:01:18.296;INFO;Controller;State = Running;
+11/05/21;16:01:18.770;INFO;Robot Runtime;executing:    UC_FlidUnload;
+11/05/21;16:04:04.467;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+11/05/21;16:04:04.468;INFO;Controller;State = Ready;
+11/05/21;16:34:33.913;INFO;Server;Command: ExecRobotTask (UC_FlidLoad,500000);
+11/05/21;16:34:33.914;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;16:34:33.914;INFO;Controller;Status = Executing: UC_FlidLoad;
+11/05/21;16:34:33.914;INFO;Controller;State = Running;
+11/05/21;16:34:34.505;INFO;Robot Runtime;executing:    UC_FlidLoad;
+11/05/21;16:38:16.094;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+11/05/21;16:38:16.094;INFO;Controller;State = Ready;
+11/05/21;16:38:16.130;INFO;Server;Command: ExecRobotTask (UC_FlidUnload,500000);
+11/05/21;16:38:16.131;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;16:38:16.131;INFO;Controller;Status = Executing: UC_FlidUnload;
+11/05/21;16:38:16.131;INFO;Controller;State = Running;
+11/05/21;16:38:16.207;INFO;Robot Runtime;executing:    UC_FlidUnload;
+11/05/21;16:40:22.624;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+11/05/21;16:40:22.625;INFO;Controller;State = Ready;
+11/05/21;16:50:07.918;INFO;Server;Command: ExecRobotTask (UC_FlidLoad,500000);
+11/05/21;16:50:07.918;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;16:50:07.918;INFO;Controller;Status = Executing: UC_FlidLoad;
+11/05/21;16:50:07.918;INFO;Controller;State = Running;
+11/05/21;16:50:07.999;INFO;Robot Runtime;executing:    UC_FlidLoad;
+11/05/21;16:52:01.790;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+11/05/21;16:52:01.790;INFO;Controller;State = Ready;
+11/05/21;16:52:01.802;INFO;Server;Command: ExecRobotTask (UC_FlidUnload,500000);
+11/05/21;16:52:01.802;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;16:52:01.802;INFO;Controller;Status = Executing: UC_FlidUnload;
+11/05/21;16:52:01.802;INFO;Controller;State = Running;
+11/05/21;16:52:01.876;INFO;Robot Runtime;executing:    UC_FlidUnload;
+11/05/21;16:54:34.344;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+11/05/21;16:54:34.345;INFO;Controller;State = Ready;
+11/05/21;17:02:53.856;INFO;Server;Command: ExecRobotTask (UC_FlidLoad,500000);
+11/05/21;17:02:53.857;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;17:02:53.857;INFO;Controller;Status = Executing: UC_FlidLoad;
+11/05/21;17:02:53.857;INFO;Controller;State = Running;
+11/05/21;17:02:53.931;INFO;Robot Runtime;executing:    UC_FlidLoad;
+11/05/21;17:05:55.455;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+11/05/21;17:05:55.455;INFO;Controller;State = Ready;
+11/05/21;17:05:55.471;INFO;Server;Command: ExecRobotTask (UC_FlidUnload,500000);
+11/05/21;17:05:55.471;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;17:05:55.471;INFO;Controller;Status = Executing: UC_FlidUnload;
+11/05/21;17:05:55.471;INFO;Controller;State = Running;
+11/05/21;17:05:55.540;INFO;Robot Runtime;executing:    UC_FlidUnload;
+11/05/21;17:07:37.716;INFO;Controller;Activity ExecRobotTask ended. Return value: Done True/False/False;
+11/05/21;17:07:37.716;INFO;Controller;State = Ready;
+11/05/21;17:10:40.022;INFO;Server;Command: ExecRobotTask (UC_FlidLoad,500000);
+11/05/21;17:10:40.023;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;17:10:40.023;INFO;Controller;Status = Executing: UC_FlidLoad;
+11/05/21;17:10:40.023;INFO;Controller;State = Running;
+11/05/21;17:10:40.119;INFO;Robot Runtime;executing:    UC_FlidLoad;
+11/05/21;17:12:19.834;WARNING;Robot;Alarm active: Device is offline;
+11/05/21;17:12:20.212;INFO;Controller;Command: Abort;
+11/05/21;17:12:20.213;INFO;Robot;Abort;
+11/05/21;17:12:20.213;INFO;Controller;Status = Alarm - Device is offline;
+11/05/21;17:12:20.213;INFO;Controller;State = Alarm;
+11/05/21;17:15:14.334;INFO;Controller;Activity ExecRobotTask was stopped;
+11/05/21;17:15:49.609;INFO;Interface;Command: Abort;
+11/05/21;17:15:49.609;INFO;Robot;Abort;
+11/05/21;17:15:49.619;WARNING;Interface;Exception: Robot not connected
+Stack trace:
+org.embl.ctrl.ConnectedDevice$NotConnectedException: Not connected
+	at org.embl.ctrl.ConnectedDevice.assertConnected(ConnectedDevice.java:112)
+	at org.embl.dev.staubli.StaubliRobot.sendReceive(StaubliRobot.java:1263)
+	at org.embl.dev.staubli.StaubliRobot.execute(StaubliRobot.java:1089)
+	at org.embl.dev.staubli.StaubliRobot.abort(StaubliRobot.java:709)
+	at org.embl.sw.Control.doAbort(Control.java:357)
+	at org.embl.ctrl.Controller.abort(Controller.java:1372)
+	at org.embl.ctrl.MainFrame.onAbort(MainFrame.java:1033)
+	at org.embl.ctrl.MainFrame$20.actionPerformed(MainFrame.java:421)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6535)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+;
+11/05/21;17:15:52.801;INFO;Interface;Command: Restart;
+11/05/21;17:15:52.801;INFO;Controller;State = Initializing;
+11/05/21;17:15:52.849;INFO;Controller;Initialized log services - Startup: 11/05/21 11:54:54;
+11/05/21;17:15:52.849;INFO;Robot;Alarm removed: Device is offline;
+11/05/21;17:15:53.860;INFO;Epics Server;Exiting running thread;
+11/05/21;17:15:53.864;INFO;Epics Server;Registered PV: SW:Version;
+11/05/21;17:15:53.864;INFO;Epics Server;Registered PV: SW:Status;
+11/05/21;17:15:53.864;INFO;Epics Server;Registered PV: SW:Uptime;
+11/05/21;17:15:53.865;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+11/05/21;17:15:53.865;INFO;Epics Server;Registered PV: SW:AlarmList;
+11/05/21;17:15:53.865;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+11/05/21;17:15:53.865;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+11/05/21;17:15:53.865;INFO;Epics Server;Registered PV: SW:LastTaskException;
+11/05/21;17:15:53.865;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+11/05/21;17:15:53.865;INFO;Epics Server;Registered PV: SW:RobotState;
+11/05/21;17:15:53.865;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+11/05/21;17:15:53.865;INFO;Epics Server;Registered PV: SW:JointPositions;
+11/05/21;17:15:53.865;INFO;Epics Server;Registered PV: SW:State;
+11/05/21;17:15:53.865;INFO;Epics Server;Registered PV: SW:abort;
+11/05/21;17:15:53.865;INFO;Epics Server;Registered PV: SW:restart;
+11/05/21;17:15:53.866;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+11/05/21;17:15:53.866;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+11/05/21;17:15:53.866;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+11/05/21;17:15:53.866;INFO;Epics Server;Registered PV: SW:startTestTask;
+11/05/21;17:15:53.866;INFO;Epics Server;Registered PV: SW:pauseRobot;
+11/05/21;17:15:53.866;INFO;Epics Server;Registered PV: SW:resumeRobot;
+11/05/21;17:15:53.866;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+11/05/21;17:15:53.866;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+11/05/21;17:15:53.866;INFO;Epics Server;Registered PV: SW:startRobotTask;
+11/05/21;17:15:53.866;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+11/05/21;17:15:53.866;INFO;Epics Server;Registered PV: SW:getDistance;
+11/05/21;17:15:53.866;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+11/05/21;17:15:53.867;INFO;Epics Server;Started server: ready to accept requests;
+11/05/21;17:15:54.486;INFO;Controller;Initializing Robot;
+11/05/21;17:15:54.490;INFO;Robot;Setting reference frame to: world;
+11/05/21;17:15:54.624;INFO;Controller;Initializing Bus Controller;
+11/05/21;17:15:54.625;INFO;Anti-Collision;Active = true;
+11/05/21;17:15:54.636;INFO;Controller;State = Starting;
+11/05/21;17:15:54.639;INFO;Controller;Command: Reset;
+11/05/21;17:15:54.639;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+11/05/21;17:15:54.640;INFO;Controller;Status = Reseting;
+11/05/21;17:15:54.640;INFO;Controller;State = Running;
+11/05/21;17:15:55.037;INFO;Controller;Script host: localhost:58472;
+11/05/21;17:15:55.037;INFO;Script;Starting initialization script;
+11/05/21;17:15:55.041;INFO;Script;Do nothing;
+11/05/21;17:15:55.041;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+11/05/21;17:15:55.042;INFO;Controller;State = Ready;
+11/05/21;17:15:59.824;INFO;Server;Command: ExecRobotTask (UC_FlidLoad,500000);
+11/05/21;17:15:59.825;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;17:15:59.825;INFO;Controller;Status = Executing: UC_FlidLoad;
+11/05/21;17:15:59.825;INFO;Controller;State = Running;
+11/05/21;17:16:00.512;INFO;Robot Runtime;executing:    UC_FlidLoad;
+11/05/21;17:16:00.812;INFO;Robot Runtime;Unrecognized Location;
+11/05/21;17:16:01.099;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT:Unrecognized Location;
+11/05/21;17:16:01.099;INFO;Controller;State = Ready;
+11/05/21;17:16:51.331;INFO;Server;Command: ExecRobotTask (UC_FlidLoad,500000);
+11/05/21;17:16:51.332;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+11/05/21;17:16:51.332;INFO;Controller;Status = Executing: UC_FlidLoad;
+11/05/21;17:16:51.332;INFO;Controller;State = Running;
+11/05/21;17:16:51.802;INFO;Robot Runtime;executing:    UC_FlidLoad;
+11/05/21;17:18:31.356;INFO;Robot Runtime;Close Tool TimeOut;
+11/05/21;17:18:31.377;INFO;Robot Runtime;Unrecognized Location;
+11/05/21;17:18:31.810;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Close Tool TimeOut;
+11/05/21;17:18:31.811;INFO;Controller;State = Ready;

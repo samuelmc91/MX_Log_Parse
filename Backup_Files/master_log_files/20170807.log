@@ -1,0 +1,142 @@
+07/08/17;11:40:35.270;WARNING;Robot Runtime;update thread is down, Error Code: 125;
+07/08/17;11:40:39.305;WARNING;Robot;Alarm active: Device is offline;
+07/08/17;11:40:39.306;INFO;Controller;State = Communication Error;
+07/08/17;11:42:51.435;INFO;Robot;Alarm inactive: Device is offline;
+07/08/17;11:42:51.436;WARNING;Controller;Communication resumed, trying updating devices;
+07/08/17;11:42:51.436;INFO;Controller;Finished device updating;
+07/08/17;11:42:51.436;INFO;Controller;State = Ready;
+07/08/17;11:43:38.831;INFO;Interface;Command: ExecRobotTask (initialize,-1);
+07/08/17;11:43:38.831;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+07/08/17;11:43:38.832;INFO;Controller;Status = Executing: initialize;
+07/08/17;11:43:38.832;INFO;Controller;State = Running;
+07/08/17;11:43:39.670;INFO;Robot Runtime;executing:    initialize;
+07/08/17;11:43:40.718;INFO;Robot Runtime;Failed to turn on robot power;
+07/08/17;11:43:40.866;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Failed to turn on robot power;
+07/08/17;11:43:40.866;INFO;Controller;State = Ready;
+07/08/17;11:43:53.931;INFO;Interface;Command: ExecRobotTask (Finish,-1);
+07/08/17;11:43:53.932;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+07/08/17;11:43:53.932;INFO;Controller;Status = Executing: Finish;
+07/08/17;11:43:53.932;INFO;Controller;State = Running;
+07/08/17;11:43:54.685;INFO;Robot Runtime;executing:    Finish;
+07/08/17;11:43:55.736;INFO;Robot Runtime;Failed to open the Gripper;
+07/08/17;11:43:56.058;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Open Gripper TimeOut;
+07/08/17;11:43:56.058;INFO;Controller;State = Ready;
+07/08/17;11:44:19.199;INFO;Interface;Command: ExecRobotTask (Finish,-1);
+07/08/17;11:44:19.199;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+07/08/17;11:44:19.199;INFO;Controller;Status = Executing: Finish;
+07/08/17;11:44:19.199;INFO;Controller;State = Running;
+07/08/17;11:44:19.914;INFO;Robot Runtime;executing:    Finish;
+07/08/17;11:44:20.962;INFO;Robot Runtime;Failed to open the Gripper;
+07/08/17;11:44:21.137;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Open Gripper TimeOut;
+07/08/17;11:44:21.137;INFO;Controller;State = Ready;
+07/08/17;11:44:24.665;WARNING;Robot Runtime;command thread is down, Error Code:   0;
+07/08/17;11:45:07.012;INFO;Interface;Command: ExecRobotTask (Finish,-1);
+07/08/17;11:45:07.012;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+07/08/17;11:45:07.012;INFO;Controller;Status = Executing: Finish;
+07/08/17;11:45:07.012;INFO;Controller;State = Running;
+07/08/17;11:45:07.762;INFO;Robot Runtime;executing:    Finish;
+07/08/17;11:45:58.874;INFO;Controller;Activity ExecRobotTask ended. Return value: ;
+07/08/17;11:45:58.875;INFO;Controller;State = Ready;
+07/08/17;15:54:28.306;WARNING;Robot;Alarm active: Device is offline;
+07/08/17;15:54:28.346;INFO;Controller;State = Communication Error;
+07/08/17;16:01:50.430;INFO;Robot;Alarm inactive: Device is offline;
+07/08/17;16:01:50.431;WARNING;Controller;Communication resumed, trying updating devices;
+07/08/17;16:01:50.432;INFO;Controller;Finished device updating;
+07/08/17;16:01:50.432;INFO;Controller;State = Ready;
+07/08/17;16:02:21.305;WARNING;Robot;Alarm active: Device is offline;
+07/08/17;16:02:21.306;INFO;Controller;State = Communication Error;
+07/08/17;16:14:51.469;INFO;Interface;Command: Abort;
+07/08/17;16:14:51.476;INFO;Robot;Abort;
+07/08/17;16:14:51.477;WARNING;Interface;Exception: Robot not connected
+Stack trace:
+org.embl.ctrl.ConnectedDevice$NotConnectedException: Not connected
+	at org.embl.ctrl.ConnectedDevice.assertConnected(ConnectedDevice.java:112)
+	at org.embl.dev.staubli.StaubliRobot.sendReceive(StaubliRobot.java:1263)
+	at org.embl.dev.staubli.StaubliRobot.execute(StaubliRobot.java:1089)
+	at org.embl.dev.staubli.StaubliRobot.abort(StaubliRobot.java:709)
+	at org.embl.sw.Control.doAbort(Control.java:357)
+	at org.embl.ctrl.Controller.abort(Controller.java:1372)
+	at org.embl.ctrl.MainFrame.onAbort(MainFrame.java:1033)
+	at org.embl.ctrl.MainFrame$20.actionPerformed(MainFrame.java:421)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6535)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+;
+07/08/17;16:21:31.392;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:21:37.506;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:32:36.468;INFO;Console;Command: run-css();
+07/08/17;16:32:36.473;WARNING;Console;Exception: Not supported
+Stack trace:
+org.embl.UnsupportedCommandException: Not supported
+	at org.embl.ctrl.Controller.onStdinCmd(Controller.java:3166)
+	at org.embl.ctrl.Controller$6.run(Controller.java:2740)
+	at java.lang.Thread.run(Thread.java:745)
+;
+07/08/17;16:35:17.806;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:18.418;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:19.036;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:19.706;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:20.235;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:20.561;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:20.879;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:21.201;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:21.761;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:22.139;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:22.606;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:23.284;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:23.578;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:23.987;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;16:35:24.308;INFO;Robot Runtime;Failed to construct this plate frame.;
+07/08/17;17:06:21.410;INFO;Robot;Alarm inactive: Device is offline;
+07/08/17;17:06:21.441;WARNING;Controller;Communication resumed, trying updating devices;
+07/08/17;17:06:21.442;INFO;Controller;Finished device updating;
+07/08/17;17:06:21.442;INFO;Controller;State = Ready;
+07/08/17;17:06:39.746;INFO;Interface;Command: ExecRobotTask (Finish,-1);
+07/08/17;17:06:39.803;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+07/08/17;17:06:39.803;INFO;Controller;Status = Executing: Finish;
+07/08/17;17:06:39.803;INFO;Controller;State = Running;
+07/08/17;17:06:39.888;INFO;Robot Runtime;executing:    Finish;
+07/08/17;17:06:39.934;INFO;Robot Runtime;Unrecognized Location;
+07/08/17;17:06:40.182;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Unrecognized Location;
+07/08/17;17:06:40.182;INFO;Controller;State = Ready;
+07/08/17;17:07:21.730;INFO;Interface;Command: ExecRobotTask (Finish,-1);
+07/08/17;17:07:21.775;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+07/08/17;17:07:21.775;INFO;Controller;Status = Executing: Finish;
+07/08/17;17:07:21.775;INFO;Controller;State = Running;
+07/08/17;17:07:21.853;INFO;Robot Runtime;executing:    Finish;
+07/08/17;17:07:44.650;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+07/08/17;17:07:44.651;INFO;Controller;State = Ready;

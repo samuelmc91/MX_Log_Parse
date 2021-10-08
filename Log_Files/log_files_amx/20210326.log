@@ -1,0 +1,269 @@
+26/03/21;09:00:41.743;INFO;Controller;Instantiation;
+26/03/21;09:00:41.762;INFO;Controller;State = Initializing;
+26/03/21;09:00:41.973;WARNING;Interface;Access level set to Admin;
+26/03/21;09:00:42.033;INFO;Controller;Initialized log services - Startup: 26/03/21 09:00:41;
+26/03/21;09:00:42.040;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+26/03/21;09:00:42.247;INFO;Epics Server;Registered PV: SW:Version;
+26/03/21;09:00:42.248;INFO;Epics Server;Registered PV: SW:Status;
+26/03/21;09:00:42.248;INFO;Epics Server;Registered PV: SW:Uptime;
+26/03/21;09:00:42.264;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+26/03/21;09:00:42.265;INFO;Epics Server;Registered PV: SW:AlarmList;
+26/03/21;09:00:42.265;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+26/03/21;09:00:42.265;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+26/03/21;09:00:42.266;INFO;Epics Server;Registered PV: SW:LastTaskException;
+26/03/21;09:00:42.266;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+26/03/21;09:00:42.266;INFO;Epics Server;Registered PV: SW:RobotState;
+26/03/21;09:00:42.267;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+26/03/21;09:00:42.268;INFO;Epics Server;Registered PV: SW:JointPositions;
+26/03/21;09:00:42.269;INFO;Epics Server;Registered PV: SW:State;
+26/03/21;09:00:42.271;INFO;Epics Server;Registered PV: SW:abort;
+26/03/21;09:00:42.272;INFO;Epics Server;Registered PV: SW:restart;
+26/03/21;09:00:42.272;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+26/03/21;09:00:42.272;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+26/03/21;09:00:42.273;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+26/03/21;09:00:42.273;INFO;Epics Server;Registered PV: SW:startTestTask;
+26/03/21;09:00:42.273;INFO;Epics Server;Registered PV: SW:pauseRobot;
+26/03/21;09:00:42.274;INFO;Epics Server;Registered PV: SW:resumeRobot;
+26/03/21;09:00:42.274;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+26/03/21;09:00:42.274;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+26/03/21;09:00:42.275;INFO;Epics Server;Registered PV: SW:startRobotTask;
+26/03/21;09:00:42.276;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+26/03/21;09:00:42.276;INFO;Epics Server;Registered PV: SW:getDistance;
+26/03/21;09:00:42.276;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+26/03/21;09:00:42.279;INFO;Epics Server;Started server: ready to accept requests;
+26/03/21;09:00:43.080;INFO;Controller;Initializing Robot;
+26/03/21;09:00:43.089;INFO;Robot;Setting reference frame to: world;
+26/03/21;09:00:43.269;INFO;Controller;Initializing Bus Controller;
+26/03/21;09:00:43.270;INFO;Anti-Collision;Active = true;
+26/03/21;09:00:43.271;INFO;Controller;State = Starting;
+26/03/21;09:00:43.274;INFO;Controller;Command: Reset;
+26/03/21;09:00:43.544;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+26/03/21;09:00:43.545;INFO;Controller;Status = Reseting;
+26/03/21;09:00:43.545;INFO;Controller;State = Running;
+26/03/21;09:00:44.136;INFO;Controller;Script host: localhost:37479;
+26/03/21;09:00:44.136;INFO;Script;Starting initialization script;
+26/03/21;09:00:44.140;INFO;Script;Do nothing;
+26/03/21;09:00:44.141;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+26/03/21;09:00:44.142;INFO;Controller;State = Ready;
+26/03/21;09:02:14.384;INFO;Controller;Instantiation;
+26/03/21;09:02:14.403;INFO;Controller;State = Initializing;
+26/03/21;09:02:14.528;WARNING;Interface;Access level set to Admin;
+26/03/21;09:02:14.593;INFO;Controller;Initialized log services - Startup: 26/03/21 09:02:14;
+26/03/21;09:02:14.600;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+26/03/21;09:02:14.814;INFO;Epics Server;Registered PV: SW:Version;
+26/03/21;09:02:14.814;INFO;Epics Server;Registered PV: SW:Status;
+26/03/21;09:02:14.849;INFO;Epics Server;Registered PV: SW:Uptime;
+26/03/21;09:02:14.866;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+26/03/21;09:02:14.867;INFO;Epics Server;Registered PV: SW:AlarmList;
+26/03/21;09:02:14.867;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+26/03/21;09:02:14.867;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+26/03/21;09:02:14.868;INFO;Epics Server;Registered PV: SW:LastTaskException;
+26/03/21;09:02:14.868;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+26/03/21;09:02:14.869;INFO;Epics Server;Registered PV: SW:RobotState;
+26/03/21;09:02:14.869;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+26/03/21;09:02:14.870;INFO;Epics Server;Registered PV: SW:JointPositions;
+26/03/21;09:02:14.870;INFO;Epics Server;Registered PV: SW:State;
+26/03/21;09:02:14.873;INFO;Epics Server;Registered PV: SW:abort;
+26/03/21;09:02:14.874;INFO;Epics Server;Registered PV: SW:restart;
+26/03/21;09:02:14.874;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+26/03/21;09:02:14.874;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+26/03/21;09:02:14.874;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+26/03/21;09:02:14.875;INFO;Epics Server;Registered PV: SW:startTestTask;
+26/03/21;09:02:14.875;INFO;Epics Server;Registered PV: SW:pauseRobot;
+26/03/21;09:02:14.875;INFO;Epics Server;Registered PV: SW:resumeRobot;
+26/03/21;09:02:14.876;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+26/03/21;09:02:14.876;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+26/03/21;09:02:14.876;INFO;Epics Server;Registered PV: SW:startRobotTask;
+26/03/21;09:02:14.878;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+26/03/21;09:02:14.878;INFO;Epics Server;Registered PV: SW:getDistance;
+26/03/21;09:02:14.878;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+26/03/21;09:02:14.881;INFO;Epics Server;Started server: ready to accept requests;
+26/03/21;09:02:15.508;INFO;Controller;Initializing Robot;
+26/03/21;09:02:15.520;INFO;Robot;Setting reference frame to: world;
+26/03/21;09:02:15.713;INFO;Controller;Initializing Bus Controller;
+26/03/21;09:02:15.714;INFO;Anti-Collision;Active = true;
+26/03/21;09:02:15.714;INFO;Controller;State = Starting;
+26/03/21;09:02:15.718;INFO;Controller;Command: Reset;
+26/03/21;09:02:16.111;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+26/03/21;09:02:16.112;INFO;Controller;Status = Reseting;
+26/03/21;09:02:16.112;INFO;Controller;State = Running;
+26/03/21;09:02:16.660;INFO;Controller;Script host: localhost:38281;
+26/03/21;09:02:16.661;INFO;Script;Starting initialization script;
+26/03/21;09:02:16.665;INFO;Script;Do nothing;
+26/03/21;09:02:16.666;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+26/03/21;09:02:16.667;INFO;Controller;State = Ready;
+26/03/21;09:23:13.726;INFO;Controller;Instantiation;
+26/03/21;09:23:13.744;INFO;Controller;State = Initializing;
+26/03/21;09:23:13.867;WARNING;Interface;Access level set to Admin;
+26/03/21;09:23:13.926;INFO;Controller;Initialized log services - Startup: 26/03/21 09:23:13;
+26/03/21;09:23:13.934;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+26/03/21;09:23:14.160;INFO;Epics Server;Registered PV: SW:Version;
+26/03/21;09:23:14.160;INFO;Epics Server;Registered PV: SW:Status;
+26/03/21;09:23:14.161;INFO;Epics Server;Registered PV: SW:Uptime;
+26/03/21;09:23:14.177;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+26/03/21;09:23:14.178;INFO;Epics Server;Registered PV: SW:AlarmList;
+26/03/21;09:23:14.178;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+26/03/21;09:23:14.178;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+26/03/21;09:23:14.179;INFO;Epics Server;Registered PV: SW:LastTaskException;
+26/03/21;09:23:14.179;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+26/03/21;09:23:14.179;INFO;Epics Server;Registered PV: SW:RobotState;
+26/03/21;09:23:14.180;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+26/03/21;09:23:14.181;INFO;Epics Server;Registered PV: SW:JointPositions;
+26/03/21;09:23:14.181;INFO;Epics Server;Registered PV: SW:State;
+26/03/21;09:23:14.183;INFO;Epics Server;Registered PV: SW:abort;
+26/03/21;09:23:14.184;INFO;Epics Server;Registered PV: SW:restart;
+26/03/21;09:23:14.184;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+26/03/21;09:23:14.184;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+26/03/21;09:23:14.185;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+26/03/21;09:23:14.185;INFO;Epics Server;Registered PV: SW:startTestTask;
+26/03/21;09:23:14.185;INFO;Epics Server;Registered PV: SW:pauseRobot;
+26/03/21;09:23:14.186;INFO;Epics Server;Registered PV: SW:resumeRobot;
+26/03/21;09:23:14.186;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+26/03/21;09:23:14.186;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+26/03/21;09:23:14.187;INFO;Epics Server;Registered PV: SW:startRobotTask;
+26/03/21;09:23:14.187;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+26/03/21;09:23:14.187;INFO;Epics Server;Registered PV: SW:getDistance;
+26/03/21;09:23:14.188;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+26/03/21;09:23:14.190;INFO;Epics Server;Started server: ready to accept requests;
+26/03/21;09:23:14.801;INFO;Controller;Initializing Robot;
+26/03/21;09:23:14.816;INFO;Robot;Setting reference frame to: world;
+26/03/21;09:23:15.002;INFO;Controller;Initializing Bus Controller;
+26/03/21;09:23:15.003;INFO;Anti-Collision;Active = true;
+26/03/21;09:23:15.004;INFO;Controller;State = Starting;
+26/03/21;09:23:15.007;INFO;Controller;Command: Reset;
+26/03/21;09:23:15.404;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+26/03/21;09:23:15.405;INFO;Controller;Status = Reseting;
+26/03/21;09:23:15.405;INFO;Controller;State = Running;
+26/03/21;09:23:16.003;INFO;Controller;Script host: localhost:44608;
+26/03/21;09:23:16.004;INFO;Script;Starting initialization script;
+26/03/21;09:23:16.008;INFO;Script;Do nothing;
+26/03/21;09:23:16.009;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+26/03/21;09:23:16.010;INFO;Controller;State = Ready;
+26/03/21;09:38:49.043;INFO;Server;Command: ExecRobotTask (TurnOffAutoFill,500000);
+26/03/21;09:38:49.044;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+26/03/21;09:38:49.044;INFO;Controller;Status = Executing: TurnOffAutoFill;
+26/03/21;09:38:49.045;INFO;Controller;State = Running;
+26/03/21;09:38:50.003;INFO;Robot Runtime;executing:    TurnOffAutoFill;
+26/03/21;09:38:50.570;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+26/03/21;09:38:50.571;INFO;Controller;State = Ready;
+26/03/21;13:25:54.450;INFO;Controller;Instantiation;
+26/03/21;13:25:54.468;INFO;Controller;State = Initializing;
+26/03/21;13:25:54.599;WARNING;Interface;Access level set to Admin;
+26/03/21;13:25:54.656;INFO;Controller;Initialized log services - Startup: 26/03/21 13:25:54;
+26/03/21;13:25:54.664;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+26/03/21;13:25:54.870;INFO;Epics Server;Registered PV: SW:Version;
+26/03/21;13:25:54.871;INFO;Epics Server;Registered PV: SW:Status;
+26/03/21;13:25:54.871;INFO;Epics Server;Registered PV: SW:Uptime;
+26/03/21;13:25:54.887;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+26/03/21;13:25:54.888;INFO;Epics Server;Registered PV: SW:AlarmList;
+26/03/21;13:25:54.888;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+26/03/21;13:25:54.889;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+26/03/21;13:25:54.889;INFO;Epics Server;Registered PV: SW:LastTaskException;
+26/03/21;13:25:54.890;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+26/03/21;13:25:54.890;INFO;Epics Server;Registered PV: SW:RobotState;
+26/03/21;13:25:54.891;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+26/03/21;13:25:54.891;INFO;Epics Server;Registered PV: SW:JointPositions;
+26/03/21;13:25:54.892;INFO;Epics Server;Registered PV: SW:State;
+26/03/21;13:25:54.894;INFO;Epics Server;Registered PV: SW:abort;
+26/03/21;13:25:54.895;INFO;Epics Server;Registered PV: SW:restart;
+26/03/21;13:25:54.895;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+26/03/21;13:25:54.895;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+26/03/21;13:25:54.896;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+26/03/21;13:25:54.896;INFO;Epics Server;Registered PV: SW:startTestTask;
+26/03/21;13:25:54.896;INFO;Epics Server;Registered PV: SW:pauseRobot;
+26/03/21;13:25:54.896;INFO;Epics Server;Registered PV: SW:resumeRobot;
+26/03/21;13:25:54.897;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+26/03/21;13:25:54.897;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+26/03/21;13:25:54.897;INFO;Epics Server;Registered PV: SW:startRobotTask;
+26/03/21;13:25:54.898;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+26/03/21;13:25:54.898;INFO;Epics Server;Registered PV: SW:getDistance;
+26/03/21;13:25:54.898;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+26/03/21;13:25:54.901;INFO;Epics Server;Started server: ready to accept requests;
+26/03/21;13:25:55.576;INFO;Controller;Initializing Robot;
+26/03/21;13:25:55.589;INFO;Robot;Setting reference frame to: world;
+26/03/21;13:25:55.763;INFO;Controller;Initializing Bus Controller;
+26/03/21;13:25:55.764;INFO;Anti-Collision;Active = true;
+26/03/21;13:25:55.764;INFO;Controller;State = Starting;
+26/03/21;13:25:55.767;INFO;Controller;Command: Reset;
+26/03/21;13:25:56.064;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+26/03/21;13:25:56.064;INFO;Controller;Status = Reseting;
+26/03/21;13:25:56.064;INFO;Controller;State = Running;
+26/03/21;13:25:56.621;INFO;Controller;Script host: localhost:47115;
+26/03/21;13:25:56.621;INFO;Script;Starting initialization script;
+26/03/21;13:25:56.624;INFO;Script;Do nothing;
+26/03/21;13:25:56.625;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+26/03/21;13:25:56.626;INFO;Controller;State = Ready;
+26/03/21;13:29:50.738;INFO;Controller;Robot configuration saved;
+26/03/21;13:29:50.745;INFO;Robot;Setting reference frame to: world;
+26/03/21;13:29:50.768;WARNING;Robot;Alarm active: Device is offline;
+26/03/21;13:29:50.768;INFO;Controller;State = Communication Error;
+26/03/21;13:29:53.142;WARNING;Robot;Exception: Robot connection error (Error connecting to device)
+Stack trace:
+org.embl.ctrl.ConnectedDevice$ConnectionFailureException: Connection error
+	at org.embl.ctrl.ConnectedDevice.connect(ConnectedDevice.java:136)
+	at org.embl.ctrl.ConnectedDevice.doInitialize(ConnectedDevice.java:85)
+	at org.embl.dev.staubli.StaubliRobot.doInitialize(StaubliRobot.java:491)
+	at org.embl.ctrl.Device.initialize(Device.java:678)
+	at org.embl.ctrl.Device.initialize(Device.java:644)
+	at org.embl.ctrl.Device.initialize(Device.java:639)
+	at org.embl.ctrl.Controller.onDeviceConfigurationSaved(Controller.java:2305)
+	at org.embl.sw.Control.onDeviceConfigurationSaved(Control.java:236)
+	at org.embl.ctrl.Device$7.run(Device.java:1485)
+	at org.embl.task.Invoker.Invoke(Invoker.java:111)
+	at org.embl.ctrl.Device.triggerConfigurationSavedEvent(Device.java:1487)
+	at org.embl.ctrl.Device.saveConfig(Device.java:1593)
+	at org.embl.ctrl.DeviceConfigPanel.actionPerformed(DeviceConfigPanel.java:487)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6535)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: org.embl.ctrl.Device$DeviceException: Error connecting to device
+	at org.embl.dev.staubli.StaubliRobot.doConnect(StaubliRobot.java:592)
+	at org.embl.ctrl.ConnectedDevice.connect(ConnectedDevice.java:125)
+	... 48 more
+Caused by: org.embl.net.NetException$NetConnectionErrorException: Connection error
+	at org.embl.net.SocketClient.connect(SocketClient.java:241)
+	at org.embl.dev.staubli.StaubliRobot.doConnect(StaubliRobot.java:584)
+	... 49 more
+Caused by: java.net.NoRouteToHostException: No route to host
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.embl.net.SocketClient.connect(SocketClient.java:235)
+	... 50 more
+;

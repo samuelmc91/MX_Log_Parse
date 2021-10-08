@@ -1,0 +1,13 @@
+08/03/21;09:53:20.338;INFO;Server;Command: ExecRobotTask (EnableTScreen,500000);
+08/03/21;09:53:20.339;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+08/03/21;09:53:20.339;INFO;Controller;Status = Executing: EnableTScreen;
+08/03/21;09:53:20.339;INFO;Controller;State = Running;
+08/03/21;09:53:21.221;INFO;Robot Runtime;executing:    EnableTScreen;
+08/03/21;09:53:21.526;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+08/03/21;09:53:21.526;INFO;Controller;State = Ready;
+08/03/21;14:35:20.451;WARNING;Robot;Alarm active: Device is offline;
+08/03/21;14:35:20.452;INFO;Controller;State = Communication Error;
+08/03/21;14:35:22.561;INFO;Robot;Alarm inactive: Device is offline;
+08/03/21;14:35:22.561;WARNING;Controller;Communication resumed, trying updating devices;
+08/03/21;14:35:22.561;INFO;Controller;Finished device updating;
+08/03/21;14:35:22.561;INFO;Controller;State = Ready;

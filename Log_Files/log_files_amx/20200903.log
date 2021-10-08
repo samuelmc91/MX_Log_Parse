@@ -1,0 +1,14 @@
+03/09/20;10:24:07.151;INFO;Server;Command: ExecRobotTask (TurnOffAutoFill,500000);
+03/09/20;10:24:07.152;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+03/09/20;10:24:07.152;INFO;Controller;Status = Executing: TurnOffAutoFill;
+03/09/20;10:24:07.153;INFO;Controller;State = Running;
+03/09/20;10:24:08.219;INFO;Robot Runtime;executing:    TurnOffAutoFill;
+03/09/20;10:24:08.974;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+03/09/20;10:24:08.974;INFO;Controller;State = Ready;
+03/09/20;10:24:09.016;INFO;Server;Command: ExecRobotTask (EnableTScreen,500000);
+03/09/20;10:24:09.016;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+03/09/20;10:24:09.016;INFO;Controller;Status = Executing: EnableTScreen;
+03/09/20;10:24:09.016;INFO;Controller;State = Running;
+03/09/20;10:24:10.210;INFO;Robot Runtime;executing:    EnableTScreen;
+03/09/20;10:24:10.479;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+03/09/20;10:24:10.479;INFO;Controller;State = Ready;

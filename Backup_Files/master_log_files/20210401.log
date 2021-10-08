@@ -1,0 +1,326 @@
+01/04/21;15:51:26.204;INFO;Controller;Instantiation;
+01/04/21;15:51:26.215;INFO;Controller;State = Initializing;
+01/04/21;15:51:26.242;INFO;Controller;Initialized log services - Startup: 01/04/21 15:51:26;
+01/04/21;15:51:26.250;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+01/04/21;15:51:26.377;INFO;Epics Server;Registered PV: SW:Version;
+01/04/21;15:51:26.377;INFO;Epics Server;Registered PV: SW:Status;
+01/04/21;15:51:26.378;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+01/04/21;15:51:26.387;INFO;Epics Server;Registered PV: SW:AlarmList;
+01/04/21;15:51:26.388;INFO;Epics Server;Registered PV: SW:LastTaskException;
+01/04/21;15:51:26.388;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+01/04/21;15:51:26.388;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+01/04/21;15:51:26.388;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+01/04/21;15:51:26.389;INFO;Epics Server;Registered PV: SW:Uptime;
+01/04/21;15:51:26.389;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+01/04/21;15:51:26.389;INFO;Epics Server;Registered PV: SW:RobotState;
+01/04/21;15:51:26.389;INFO;Epics Server;Registered PV: SW:JointPositions;
+01/04/21;15:51:26.390;INFO;Epics Server;Registered PV: SW:State;
+01/04/21;15:51:26.391;INFO;Epics Server;Registered PV: SW:abort;
+01/04/21;15:51:26.391;INFO;Epics Server;Registered PV: SW:restart;
+01/04/21;15:51:26.391;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+01/04/21;15:51:26.392;INFO;Epics Server;Registered PV: SW:startRobotTask;
+01/04/21;15:51:26.392;INFO;Epics Server;Registered PV: SW:startTestTask;
+01/04/21;15:51:26.392;INFO;Epics Server;Registered PV: SW:pauseRobot;
+01/04/21;15:51:26.392;INFO;Epics Server;Registered PV: SW:resumeRobot;
+01/04/21;15:51:26.392;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+01/04/21;15:51:26.392;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+01/04/21;15:51:26.393;INFO;Epics Server;Registered PV: SW:getDistance;
+01/04/21;15:51:26.393;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+01/04/21;15:51:26.393;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+01/04/21;15:51:26.393;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+01/04/21;15:51:26.393;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+01/04/21;15:51:26.395;INFO;Epics Server;Started server: ready to accept requests;
+01/04/21;15:51:27.039;WARNING;Image Viewer;Exception: java.lang.NullPointerException
+Stack trace:
+java.lang.NullPointerException
+	at org.embl.imaging.ImageRenderer.onNewImage(ImageRenderer.java:466)
+	at org.embl.imaging.ImageViewer.onNewImage(ImageViewer.java:565)
+	at org.embl.imaging.ImageSource.pushNewImage(ImageSource.java:310)
+	at org.embl.imaging.ImageSource.pushNewImage(ImageSource.java:337)
+	at org.embl.imaging.ImageSource$FileBufferedImageSource.pushNewImage(ImageSource.java:529)
+	at org.embl.imaging.sources.File.onTimer(File.java:32)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource.onTimerUpdate(ImageSource.java:479)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource.initialize(ImageSource.java:441)
+	at org.embl.imaging.ImageSource$FileBufferedImageSource.initialize(ImageSource.java:503)
+	at org.embl.imaging.ImageViewer.setSource(ImageViewer.java:824)
+	at org.embl.imaging.ImageViewer.setSource(ImageViewer.java:754)
+	at org.embl.imaging.ImageViewer.configure(ImageViewer.java:247)
+	at org.embl.imaging.ImageViewer.configure(ImageViewer.java:221)
+	at org.embl.sw.Control.doInitialize(Control.java:159)
+	at org.embl.ctrl.Sequencer.initialize(Sequencer.java:259)
+	at org.embl.ctrl.Controller.initialize(Controller.java:514)
+	at org.embl.ctrl.Sequencer$1.run(Sequencer.java:312)
+	at java.lang.Thread.run(Thread.java:745)
+;
+01/04/21;15:51:27.060;INFO;Controller;Initializing Robot;
+01/04/21;15:51:27.070;INFO;Robot;Setting reference frame to: world;
+01/04/21;15:51:27.075;WARNING;Image Viewer;Exception: java.lang.NullPointerException
+Stack trace:
+java.lang.NullPointerException
+	at org.embl.imaging.ImageRenderer.onNewImage(ImageRenderer.java:466)
+	at org.embl.imaging.ImageViewer.onNewImage(ImageViewer.java:565)
+	at org.embl.imaging.ImageSource.pushNewImage(ImageSource.java:310)
+	at org.embl.imaging.ImageSource.pushNewImage(ImageSource.java:337)
+	at org.embl.imaging.ImageSource$FileBufferedImageSource.pushNewImage(ImageSource.java:529)
+	at org.embl.imaging.sources.File.onTimer(File.java:32)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource.onTimerUpdate(ImageSource.java:479)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource.access$000(ImageSource.java:432)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource$1.run(ImageSource.java:462)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+;
+01/04/21;15:51:27.272;INFO;Controller;Initializing Bus Controller;
+01/04/21;15:51:27.273;INFO;Anti-Collision;Active = true;
+01/04/21;15:51:27.273;INFO;Controller;State = Starting;
+01/04/21;15:51:27.276;INFO;Controller;Command: Reset;
+01/04/21;15:51:27.651;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+01/04/21;15:51:27.651;INFO;Controller;Status = Reseting;
+01/04/21;15:51:27.651;INFO;Controller;State = Running;
+01/04/21;15:51:28.203;INFO;Controller;Script host: localhost:55276;
+01/04/21;15:51:28.204;INFO;Script;Starting initialization script;
+01/04/21;15:51:28.208;INFO;Script;Do nothing;
+01/04/21;15:51:28.209;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+01/04/21;15:51:28.210;INFO;Controller;State = Ready;
+01/04/21;15:51:37.076;WARNING;Image Viewer;Exception: java.lang.NullPointerException
+Stack trace:
+java.lang.NullPointerException
+	at org.embl.imaging.ImageRenderer.onNewImage(ImageRenderer.java:466)
+	at org.embl.imaging.ImageViewer.onNewImage(ImageViewer.java:565)
+	at org.embl.imaging.ImageSource.pushNewImage(ImageSource.java:310)
+	at org.embl.imaging.ImageSource.pushNewImage(ImageSource.java:337)
+	at org.embl.imaging.ImageSource$FileBufferedImageSource.pushNewImage(ImageSource.java:529)
+	at org.embl.imaging.sources.File.onTimer(File.java:32)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource.onTimerUpdate(ImageSource.java:479)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource.access$000(ImageSource.java:432)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource$1.run(ImageSource.java:462)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+;
+01/04/21;15:51:47.073;WARNING;Image Viewer;Exception: java.lang.NullPointerException
+Stack trace:
+java.lang.NullPointerException
+	at org.embl.imaging.ImageRenderer.onNewImage(ImageRenderer.java:466)
+	at org.embl.imaging.ImageViewer.onNewImage(ImageViewer.java:565)
+	at org.embl.imaging.ImageSource.pushNewImage(ImageSource.java:310)
+	at org.embl.imaging.ImageSource.pushNewImage(ImageSource.java:337)
+	at org.embl.imaging.ImageSource$FileBufferedImageSource.pushNewImage(ImageSource.java:529)
+	at org.embl.imaging.sources.File.onTimer(File.java:32)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource.onTimerUpdate(ImageSource.java:479)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource.access$000(ImageSource.java:432)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource$1.run(ImageSource.java:462)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+;
+01/04/21;15:51:57.075;WARNING;Image Viewer;Exception: java.lang.NullPointerException
+Stack trace:
+java.lang.NullPointerException
+	at org.embl.imaging.ImageRenderer.onNewImage(ImageRenderer.java:466)
+	at org.embl.imaging.ImageViewer.onNewImage(ImageViewer.java:565)
+	at org.embl.imaging.ImageSource.pushNewImage(ImageSource.java:310)
+	at org.embl.imaging.ImageSource.pushNewImage(ImageSource.java:337)
+	at org.embl.imaging.ImageSource$FileBufferedImageSource.pushNewImage(ImageSource.java:529)
+	at org.embl.imaging.sources.File.onTimer(File.java:32)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource.onTimerUpdate(ImageSource.java:479)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource.access$000(ImageSource.java:432)
+	at org.embl.imaging.ImageSource$TimerUpdatedImageSource$1.run(ImageSource.java:462)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+;
+01/04/21;15:52:33.406;INFO;Controller;Instantiation;
+01/04/21;15:52:33.425;INFO;Controller;State = Initializing;
+01/04/21;15:52:33.577;WARNING;Interface;Access level set to Admin;
+01/04/21;15:52:33.634;INFO;Controller;Initialized log services - Startup: 01/04/21 15:52:33;
+01/04/21;15:52:33.641;INFO;Controller;Initializing controller for SW version: 1.1.0 - JLib 1.7.2;
+01/04/21;15:52:33.850;INFO;Epics Server;Registered PV: SW:Version;
+01/04/21;15:52:33.851;INFO;Epics Server;Registered PV: SW:Status;
+01/04/21;15:52:33.851;INFO;Epics Server;Registered PV: SW:Uptime;
+01/04/21;15:52:33.869;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+01/04/21;15:52:33.870;INFO;Epics Server;Registered PV: SW:AlarmList;
+01/04/21;15:52:33.871;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+01/04/21;15:52:33.872;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+01/04/21;15:52:33.872;INFO;Epics Server;Registered PV: SW:LastTaskException;
+01/04/21;15:52:33.872;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+01/04/21;15:52:33.873;INFO;Epics Server;Registered PV: SW:RobotState;
+01/04/21;15:52:33.873;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+01/04/21;15:52:33.874;INFO;Epics Server;Registered PV: SW:JointPositions;
+01/04/21;15:52:33.874;INFO;Epics Server;Registered PV: SW:State;
+01/04/21;15:52:33.876;INFO;Epics Server;Registered PV: SW:abort;
+01/04/21;15:52:33.876;INFO;Epics Server;Registered PV: SW:restart;
+01/04/21;15:52:33.876;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+01/04/21;15:52:33.877;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+01/04/21;15:52:33.877;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+01/04/21;15:52:33.878;INFO;Epics Server;Registered PV: SW:startTestTask;
+01/04/21;15:52:33.878;INFO;Epics Server;Registered PV: SW:pauseRobot;
+01/04/21;15:52:33.878;INFO;Epics Server;Registered PV: SW:resumeRobot;
+01/04/21;15:52:33.879;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+01/04/21;15:52:33.879;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+01/04/21;15:52:33.879;INFO;Epics Server;Registered PV: SW:startRobotTask;
+01/04/21;15:52:33.879;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+01/04/21;15:52:33.880;INFO;Epics Server;Registered PV: SW:getDistance;
+01/04/21;15:52:33.880;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+01/04/21;15:52:33.882;INFO;Epics Server;Started server: ready to accept requests;
+01/04/21;15:52:34.519;INFO;Controller;Initializing Robot;
+01/04/21;15:52:34.529;INFO;Robot;Setting reference frame to: world;
+01/04/21;15:52:34.710;INFO;Controller;Initializing Bus Controller;
+01/04/21;15:52:34.710;INFO;Anti-Collision;Active = true;
+01/04/21;15:52:34.711;INFO;Controller;State = Starting;
+01/04/21;15:52:34.714;INFO;Controller;Command: Reset;
+01/04/21;15:52:35.111;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+01/04/21;15:52:35.112;INFO;Controller;Status = Reseting;
+01/04/21;15:52:35.112;INFO;Controller;State = Running;
+01/04/21;15:52:35.612;INFO;Controller;Script host: localhost:54668;
+01/04/21;15:52:35.613;INFO;Script;Starting initialization script;
+01/04/21;15:52:35.617;INFO;Script;Do nothing;
+01/04/21;15:52:35.618;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+01/04/21;15:52:35.618;INFO;Controller;State = Ready;
+01/04/21;15:52:59.038;INFO;Interface;Command: ExecRobotTask (UC_FLidLoad,-1);
+01/04/21;15:52:59.039;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+01/04/21;15:52:59.039;INFO;Controller;Status = Executing: UC_FLidLoad;
+01/04/21;15:52:59.039;INFO;Controller;State = Running;
+01/04/21;15:52:59.614;INFO;Robot Runtime;executing:    UC_FLidLoad;
+01/04/21;15:53:01.657;WARNING;Robot Runtime;AUTORECOVER=====> Gripper collission!!! Abort the the task;
+01/04/21;15:53:01.704;INFO;Controller;Activity ExecRobotTask ended. Return value: ;
+01/04/21;15:53:01.704;INFO;Controller;State = Ready;
+01/04/21;15:55:22.511;INFO;Interface;Command: ExecRobotTask (UC_FLidLoad,-1);
+01/04/21;15:55:22.511;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+01/04/21;15:55:22.512;INFO;Controller;Status = Executing: UC_FLidLoad;
+01/04/21;15:55:22.512;INFO;Controller;State = Running;
+01/04/21;15:55:22.916;INFO;Robot Runtime;executing:    UC_FLidLoad;
+01/04/21;15:56:20.085;INFO;Controller;Activity ExecRobotTask ended. Return value: ;
+01/04/21;15:56:20.086;INFO;Controller;State = Ready;
+01/04/21;16:06:05.715;WARNING;Robot;Alarm active: Device is offline;
+01/04/21;16:06:05.716;INFO;Controller;State = Communication Error;
+01/04/21;16:06:13.819;INFO;Robot;Alarm inactive: Device is offline;
+01/04/21;16:06:13.820;WARNING;Controller;Communication resumed, trying updating devices;
+01/04/21;16:06:13.821;INFO;Controller;Finished device updating;
+01/04/21;16:06:13.821;INFO;Controller;State = Ready;
+01/04/21;16:18:37.096;INFO;Interface;Command: ExecRobotTask (enableTscreen,-1);
+01/04/21;16:18:37.096;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+01/04/21;16:18:37.096;INFO;Controller;Status = Executing: enableTscreen;
+01/04/21;16:18:37.096;INFO;Controller;State = Running;
+01/04/21;16:18:38.111;INFO;Robot Runtime;executing:    enableTscreen;
+01/04/21;16:18:38.480;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+01/04/21;16:18:38.480;INFO;Controller;State = Ready;
+01/04/21;16:52:01.290;INFO;Interface;Command: ExecRobotTask (UC_FlidLoad,-1);
+01/04/21;16:52:01.291;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+01/04/21;16:52:01.291;INFO;Controller;Status = Executing: UC_FlidLoad;
+01/04/21;16:52:01.291;INFO;Controller;State = Running;
+01/04/21;16:52:11.315;INFO;Robot;Abort;
+01/04/21;16:52:11.408;INFO;Controller;Activity ExecRobotTask ended with exception: Timeout waiting busy;
+01/04/21;16:52:11.409;WARNING;Activity;Exception: Robot timeout waiting busy
+Stack trace:
+org.embl.ctrl.Device$TimeoutWaitBusyException: Timeout waiting busy
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1162)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1124)
+	at org.embl.sw.Control.execRobotTask(Control.java:489)
+	at org.embl.sw.Control$2.run(Control.java:380)
+	at org.embl.task.ActivityManager.runTask(ActivityManager.java:104)
+	at org.embl.task.ActivityManager.access$000(ActivityManager.java:22)
+	at org.embl.task.ActivityManager$ActivityThread.run(ActivityManager.java:145)
+;
+01/04/21;16:52:27.539;INFO;Controller;State = Ready;
+01/04/21;16:52:35.183;INFO;Interface;Command: Abort;
+01/04/21;16:52:35.183;INFO;Robot;Abort;
+01/04/21;16:52:36.313;INFO;Interface;Command: Restart;
+01/04/21;16:52:36.314;INFO;Controller;State = Initializing;
+01/04/21;16:52:36.407;INFO;Controller;Initialized log services - Startup: 01/04/21 15:52:33;
+01/04/21;16:52:37.412;INFO;Epics Server;Exiting running thread;
+01/04/21;16:52:37.417;INFO;Epics Server;Registered PV: SW:Version;
+01/04/21;16:52:37.417;INFO;Epics Server;Registered PV: SW:Status;
+01/04/21;16:52:37.417;INFO;Epics Server;Registered PV: SW:Uptime;
+01/04/21;16:52:37.418;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+01/04/21;16:52:37.418;INFO;Epics Server;Registered PV: SW:AlarmList;
+01/04/21;16:52:37.418;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+01/04/21;16:52:37.418;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+01/04/21;16:52:37.418;INFO;Epics Server;Registered PV: SW:LastTaskException;
+01/04/21;16:52:37.419;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+01/04/21;16:52:37.419;INFO;Epics Server;Registered PV: SW:RobotState;
+01/04/21;16:52:37.419;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+01/04/21;16:52:37.419;INFO;Epics Server;Registered PV: SW:JointPositions;
+01/04/21;16:52:37.419;INFO;Epics Server;Registered PV: SW:State;
+01/04/21;16:52:37.419;INFO;Epics Server;Registered PV: SW:abort;
+01/04/21;16:52:37.420;INFO;Epics Server;Registered PV: SW:restart;
+01/04/21;16:52:37.420;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+01/04/21;16:52:37.420;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+01/04/21;16:52:37.420;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+01/04/21;16:52:37.420;INFO;Epics Server;Registered PV: SW:startTestTask;
+01/04/21;16:52:37.421;INFO;Epics Server;Registered PV: SW:pauseRobot;
+01/04/21;16:52:37.421;INFO;Epics Server;Registered PV: SW:resumeRobot;
+01/04/21;16:52:37.421;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+01/04/21;16:52:37.422;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+01/04/21;16:52:37.422;INFO;Epics Server;Registered PV: SW:startRobotTask;
+01/04/21;16:52:37.422;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+01/04/21;16:52:37.422;INFO;Epics Server;Registered PV: SW:getDistance;
+01/04/21;16:52:37.422;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+01/04/21;16:52:37.424;INFO;Epics Server;Started server: ready to accept requests;
+01/04/21;16:52:38.020;INFO;Controller;Initializing Robot;
+01/04/21;16:52:38.024;INFO;Robot;Setting reference frame to: world;
+01/04/21;16:52:38.159;INFO;Controller;Initializing Bus Controller;
+01/04/21;16:52:38.160;INFO;Anti-Collision;Active = true;
+01/04/21;16:52:38.160;INFO;Controller;State = Starting;
+01/04/21;16:52:38.162;INFO;Controller;Command: Reset;
+01/04/21;16:52:38.162;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+01/04/21;16:52:38.162;INFO;Controller;Status = Reseting;
+01/04/21;16:52:38.163;INFO;Controller;State = Running;
+01/04/21;16:52:38.409;INFO;Controller;Script host: localhost:58452;
+01/04/21;16:52:38.409;INFO;Script;Starting initialization script;
+01/04/21;16:52:38.412;INFO;Script;Do nothing;
+01/04/21;16:52:38.413;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+01/04/21;16:52:38.413;INFO;Controller;State = Ready;
+01/04/21;16:52:41.353;INFO;Interface;Command: ExecRobotTask (UC_FlidLoad,-1);
+01/04/21;16:52:41.354;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+01/04/21;16:52:41.354;INFO;Controller;Status = Executing: UC_FlidLoad;
+01/04/21;16:52:41.354;INFO;Controller;State = Running;
+01/04/21;16:52:41.468;INFO;Robot Runtime;executing:    UC_FlidLoad;
+01/04/21;16:55:36.492;INFO;Robot;Abort;
+01/04/21;16:55:39.495;WARNING;Robot;Alarm active: Device is offline;
+01/04/21;16:55:39.496;INFO;Controller;Activity ExecRobotTask ended with exception: StaubliCommunicationException;
+01/04/21;16:55:39.497;INFO;Controller;State = Communication Error;
+01/04/21;16:55:39.498;WARNING;Activity;Exception: Robot staubliCommunicationException
+Stack trace:
+org.embl.dev.staubli.StaubliRobot$StaubliCommunicationException: StaubliCommunicationException
+	at org.embl.dev.staubli.StaubliRobot.sendReceive(StaubliRobot.java:1282)
+	at org.embl.dev.staubli.StaubliRobot.execute(StaubliRobot.java:1089)
+	at org.embl.dev.staubli.StaubliRobot.abort(StaubliRobot.java:709)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1189)
+	at org.embl.dev.staubli.StaubliRobot.executeTask(StaubliRobot.java:1124)
+	at org.embl.sw.Control.execRobotTask(Control.java:489)
+	at org.embl.sw.Control$2.run(Control.java:380)
+	at org.embl.task.ActivityManager.runTask(ActivityManager.java:104)
+	at org.embl.task.ActivityManager.access$000(ActivityManager.java:22)
+	at org.embl.task.ActivityManager$ActivityThread.run(ActivityManager.java:145)
+;
+01/04/21;16:55:44.265;INFO;Robot;Alarm inactive: Device is offline;
+01/04/21;16:55:44.266;WARNING;Controller;Communication resumed, trying updating devices;
+01/04/21;16:55:44.268;INFO;Controller;Finished device updating;
+01/04/21;16:55:44.268;INFO;Controller;State = Ready;
+01/04/21;17:00:58.750;WARNING;Robot;Alarm active: Device is offline;
+01/04/21;17:00:58.751;INFO;Controller;State = Communication Error;
+01/04/21;17:01:09.265;INFO;Robot;Alarm inactive: Device is offline;
+01/04/21;17:01:09.266;WARNING;Controller;Communication resumed, trying updating devices;
+01/04/21;17:01:09.266;INFO;Controller;Finished device updating;
+01/04/21;17:01:09.266;INFO;Controller;State = Ready;
+01/04/21;17:02:55.383;WARNING;Robot;Alarm active: Device is offline;
+01/04/21;17:02:55.383;INFO;Controller;State = Communication Error;
+01/04/21;17:03:00.266;INFO;Robot;Alarm inactive: Device is offline;
+01/04/21;17:03:00.267;WARNING;Controller;Communication resumed, trying updating devices;
+01/04/21;17:03:00.267;INFO;Controller;Finished device updating;
+01/04/21;17:03:00.267;INFO;Controller;State = Ready;
+01/04/21;17:03:20.696;WARNING;Robot;Alarm active: Device is offline;
+01/04/21;17:03:20.697;INFO;Controller;State = Communication Error;
+01/04/21;17:03:26.271;INFO;Robot;Alarm inactive: Device is offline;
+01/04/21;17:03:26.271;WARNING;Controller;Communication resumed, trying updating devices;
+01/04/21;17:03:26.271;INFO;Controller;Finished device updating;
+01/04/21;17:03:26.272;INFO;Controller;State = Ready;
+01/04/21;17:15:45.672;WARNING;Robot;Alarm active: Device is offline;
+01/04/21;17:15:45.673;INFO;Controller;State = Communication Error;
+01/04/21;17:15:49.265;INFO;Robot;Alarm inactive: Device is offline;
+01/04/21;17:15:49.265;WARNING;Controller;Communication resumed, trying updating devices;
+01/04/21;17:15:49.266;INFO;Controller;Finished device updating;
+01/04/21;17:15:49.266;INFO;Controller;State = Ready;
+01/04/21;17:16:39.441;WARNING;Robot;Alarm active: Device is offline;
+01/04/21;17:16:39.442;INFO;Controller;State = Communication Error;
+01/04/21;17:16:43.265;INFO;Robot;Alarm inactive: Device is offline;
+01/04/21;17:16:43.266;WARNING;Controller;Communication resumed, trying updating devices;
+01/04/21;17:16:43.266;INFO;Controller;Finished device updating;
+01/04/21;17:16:43.266;INFO;Controller;State = Ready;

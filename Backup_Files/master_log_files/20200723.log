@@ -1,0 +1,247 @@
+23/07/20;15:18:09.034;INFO;Interface;Command: ExecRobotTask (tracesample,-1);
+23/07/20;15:18:09.034;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;15:18:09.035;INFO;Controller;Status = Executing: tracesample;
+23/07/20;15:18:09.035;INFO;Controller;State = Running;
+23/07/20;15:18:10.051;INFO;Robot Runtime;executing:    tracesample;
+23/07/20;15:18:12.551;INFO;Interface;Command: Abort;
+23/07/20;15:18:12.551;INFO;Robot;Abort;
+23/07/20;15:18:12.552;INFO;Controller;Activity ExecRobotTask was stopped;
+23/07/20;15:18:12.552;INFO;Controller;State = Ready;
+23/07/20;15:18:14.919;INFO;Interface;Command: Restart;
+23/07/20;15:18:14.919;INFO;Controller;State = Initializing;
+23/07/20;15:18:15.000;INFO;Controller;Initialized log services - Startup: 07/07/20 10:18:00;
+23/07/20;15:18:16.004;INFO;Epics Server;Exiting running thread;
+23/07/20;15:18:16.007;INFO;Epics Server;Registered PV: SW:Version;
+23/07/20;15:18:16.008;INFO;Epics Server;Registered PV: SW:Status;
+23/07/20;15:18:16.008;INFO;Epics Server;Registered PV: SW:Uptime;
+23/07/20;15:18:16.008;INFO;Epics Server;Registered PV: SW:LastTaskInfo;
+23/07/20;15:18:16.008;INFO;Epics Server;Registered PV: SW:AlarmList;
+23/07/20;15:18:16.008;INFO;Epics Server;Registered PV: SW:LocalGuiLockOut;
+23/07/20;15:18:16.008;INFO;Epics Server;Registered PV: SW:RobotSpeed;
+23/07/20;15:18:16.008;INFO;Epics Server;Registered PV: SW:LastTaskException;
+23/07/20;15:18:16.008;INFO;Epics Server;Registered PV: SW:LastTaskOutput;
+23/07/20;15:18:16.008;INFO;Epics Server;Registered PV: SW:RobotState;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:CartesianPositions;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:JointPositions;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:State;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:abort;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:restart;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:getTaskInfo;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:isTaskRunning;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:checkTaskResult;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:startTestTask;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:pauseRobot;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:resumeRobot;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:setRobotVariable;
+23/07/20;15:18:16.009;INFO;Epics Server;Registered PV: SW:isSampleMounted;
+23/07/20;15:18:16.010;INFO;Epics Server;Registered PV: SW:startRobotTask;
+23/07/20;15:18:16.010;INFO;Epics Server;Registered PV: SW:getRobotVariable;
+23/07/20;15:18:16.010;INFO;Epics Server;Registered PV: SW:getDistance;
+23/07/20;15:18:16.010;INFO;Epics Server;Initializing: Channel Access Server in Java v1.1.1;
+23/07/20;15:18:16.010;INFO;Epics Server;Started server: ready to accept requests;
+23/07/20;15:18:16.638;INFO;Controller;Initializing Robot;
+23/07/20;15:18:16.641;INFO;Robot;Setting reference frame to: world;
+23/07/20;15:18:16.764;INFO;Controller;Initializing Bus Controller;
+23/07/20;15:18:16.764;INFO;Anti-Collision;Active = true;
+23/07/20;15:18:16.764;INFO;Controller;State = Starting;
+23/07/20;15:18:16.765;INFO;Controller;Command: Reset;
+23/07/20;15:18:16.765;INFO;Controller;Executing asynchronous script: ./script/Reset.py;
+23/07/20;15:18:16.765;INFO;Controller;Status = Reseting;
+23/07/20;15:18:16.765;INFO;Controller;State = Running;
+23/07/20;15:18:16.949;INFO;Controller;Script host: localhost:47424;
+23/07/20;15:18:16.949;INFO;Script;Starting initialization script;
+23/07/20;15:18:16.952;INFO;Script;Do nothing;
+23/07/20;15:18:16.952;INFO;Controller;Script ./script/Reset.py ended. Return value: ;
+23/07/20;15:18:16.953;INFO;Controller;State = Ready;
+23/07/20;15:18:20.198;INFO;Interface;Command: ExecRobotTask (tracesample,-1);
+23/07/20;15:18:20.198;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;15:18:20.199;INFO;Controller;Status = Executing: tracesample;
+23/07/20;15:18:20.199;INFO;Controller;State = Running;
+23/07/20;15:18:21.129;INFO;Robot Runtime;executing:    tracesample;
+23/07/20;15:19:31.893;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+23/07/20;15:19:31.893;INFO;Controller;State = Ready;
+23/07/20;15:21:03.602;INFO;Interface;Command: ExecRobotTask (tracesample,-1);
+23/07/20;15:21:03.602;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;15:21:03.602;INFO;Controller;Status = Executing: tracesample;
+23/07/20;15:21:03.602;INFO;Controller;State = Running;
+23/07/20;15:21:03.683;INFO;Robot Runtime;executing:    tracesample;
+23/07/20;15:21:14.814;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+23/07/20;15:21:14.814;INFO;Controller;State = Ready;
+23/07/20;15:23:20.030;INFO;Interface;Command: ExecRobotTask (tracesample,-1);
+23/07/20;15:23:20.030;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;15:23:20.030;INFO;Controller;Status = Executing: tracesample;
+23/07/20;15:23:20.030;INFO;Controller;State = Running;
+23/07/20;15:23:20.109;INFO;Robot Runtime;executing:    tracesample;
+23/07/20;15:23:29.733;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+23/07/20;15:23:29.733;INFO;Controller;State = Ready;
+23/07/20;15:24:29.183;INFO;Interface;Command: ExecRobotTask (tracesample,-1);
+23/07/20;15:24:29.183;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;15:24:29.183;INFO;Controller;Status = Executing: tracesample;
+23/07/20;15:24:29.183;INFO;Controller;State = Running;
+23/07/20;15:24:29.252;INFO;Robot Runtime;executing:    tracesample;
+23/07/20;15:24:42.102;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+23/07/20;15:24:42.102;INFO;Controller;State = Ready;
+23/07/20;15:25:47.429;INFO;Interface;Command: ExecRobotTask (tracesample,-1);
+23/07/20;15:25:47.429;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;15:25:47.429;INFO;Controller;Status = Executing: tracesample;
+23/07/20;15:25:47.429;INFO;Controller;State = Running;
+23/07/20;15:25:47.508;INFO;Robot Runtime;executing:    tracesample;
+23/07/20;15:27:39.523;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+23/07/20;15:27:39.523;INFO;Controller;State = Ready;
+23/07/20;15:28:20.503;INFO;Interface;Command: ExecRobotTask (tracesample,-1);
+23/07/20;15:28:20.503;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;15:28:20.503;INFO;Controller;Status = Executing: tracesample;
+23/07/20;15:28:20.503;INFO;Controller;State = Running;
+23/07/20;15:28:20.540;INFO;Robot Runtime;executing:    tracesample;
+23/07/20;15:28:35.678;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+23/07/20;15:28:35.678;INFO;Controller;State = Ready;
+23/07/20;15:29:09.600;INFO;Interface;Command: ExecRobotTask (tracesample,-1);
+23/07/20;15:29:09.600;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;15:29:09.600;INFO;Controller;Status = Executing: tracesample;
+23/07/20;15:29:09.600;INFO;Controller;State = Running;
+23/07/20;15:29:09.638;INFO;Robot Runtime;executing:    tracesample;
+23/07/20;15:45:36.199;INFO;Interface;Command: Abort;
+23/07/20;15:45:36.199;INFO;Robot;Abort;
+23/07/20;15:45:36.200;INFO;Controller;Activity ExecRobotTask was stopped;
+23/07/20;15:45:36.200;INFO;Controller;State = Ready;
+23/07/20;15:45:39.203;WARNING;Interface;Exception: Robot staubliCommunicationException
+Stack trace:
+org.embl.dev.staubli.StaubliRobot$StaubliCommunicationException: StaubliCommunicationException
+	at org.embl.dev.staubli.StaubliRobot.sendReceive(StaubliRobot.java:1282)
+	at org.embl.dev.staubli.StaubliRobot.execute(StaubliRobot.java:1089)
+	at org.embl.dev.staubli.StaubliRobot.abort(StaubliRobot.java:709)
+	at org.embl.sw.Control.doAbort(Control.java:357)
+	at org.embl.ctrl.Controller.abort(Controller.java:1372)
+	at org.embl.ctrl.MainFrame.onAbort(MainFrame.java:1033)
+	at org.embl.ctrl.MainFrame$20.actionPerformed(MainFrame.java:421)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6535)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+;
+23/07/20;15:45:39.766;WARNING;Robot;Alarm active: Device is offline;
+23/07/20;15:45:39.766;INFO;Controller;State = Communication Error;
+23/07/20;15:45:45.084;INFO;Interface;Command: Abort;
+23/07/20;15:45:45.099;INFO;Robot;Abort;
+23/07/20;15:45:47.770;WARNING;Interface;Exception: Robot not connected
+Stack trace:
+org.embl.ctrl.ConnectedDevice$NotConnectedException: Not connected
+	at org.embl.ctrl.ConnectedDevice.assertConnected(ConnectedDevice.java:112)
+	at org.embl.dev.staubli.StaubliRobot.sendReceive(StaubliRobot.java:1263)
+	at org.embl.dev.staubli.StaubliRobot.execute(StaubliRobot.java:1089)
+	at org.embl.dev.staubli.StaubliRobot.abort(StaubliRobot.java:709)
+	at org.embl.sw.Control.doAbort(Control.java:357)
+	at org.embl.ctrl.Controller.abort(Controller.java:1372)
+	at org.embl.ctrl.MainFrame.onAbort(MainFrame.java:1033)
+	at org.embl.ctrl.MainFrame$20.actionPerformed(MainFrame.java:421)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6535)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+;
+23/07/20;15:46:04.871;INFO;Robot;Alarm inactive: Device is offline;
+23/07/20;15:46:04.872;WARNING;Controller;Communication resumed, trying updating devices;
+23/07/20;15:46:04.872;INFO;Controller;Finished device updating;
+23/07/20;15:46:04.872;INFO;Controller;State = Ready;
+23/07/20;15:46:18.521;INFO;Interface;Command: ExecRobotTask (tracesample,-1);
+23/07/20;15:46:18.522;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;15:46:18.522;INFO;Controller;Status = Executing: tracesample;
+23/07/20;15:46:18.522;INFO;Controller;State = Running;
+23/07/20;15:46:18.559;INFO;Robot Runtime;executing:    tracesample;
+23/07/20;15:46:28.531;INFO;Robot Runtime;Failed to read data from machine vision. ER,T1,03;
+23/07/20;15:46:28.987;INFO;Controller;Activity ExecRobotTask ended. Return value: ABORT: Failed to read from machine vision;
+23/07/20;15:46:28.987;INFO;Controller;State = Ready;
+23/07/20;15:46:55.496;INFO;Interface;Command: ExecRobotTask (tracesample,-1);
+23/07/20;15:46:55.496;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;15:46:55.496;INFO;Controller;Status = Executing: tracesample;
+23/07/20;15:46:55.496;INFO;Controller;State = Running;
+23/07/20;15:46:55.533;INFO;Robot Runtime;executing:    tracesample;
+23/07/20;15:47:10.058;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/False/False;
+23/07/20;15:47:10.059;INFO;Controller;State = Ready;
+23/07/20;16:09:54.470;INFO;Interface;Command: ExecRobotTask (tracesample,-1);
+23/07/20;16:09:54.470;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;16:09:54.470;INFO;Controller;Status = Executing: tracesample;
+23/07/20;16:09:54.470;INFO;Controller;State = Running;
+23/07/20;16:09:54.507;INFO;Robot Runtime;executing:    tracesample;
+23/07/20;16:10:08.137;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+23/07/20;16:10:08.137;INFO;Controller;State = Ready;
+23/07/20;16:11:31.737;INFO;Interface;Command: ExecRobotTask (tracesample,-1);
+23/07/20;16:11:31.737;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;16:11:31.737;INFO;Controller;Status = Executing: tracesample;
+23/07/20;16:11:31.737;INFO;Controller;State = Running;
+23/07/20;16:11:31.775;INFO;Robot Runtime;executing:    tracesample;
+23/07/20;16:11:44.838;INFO;Controller;Activity ExecRobotTask ended. Return value: Done False/True/False;
+23/07/20;16:11:44.838;INFO;Controller;State = Ready;
+23/07/20;16:15:13.212;INFO;Interface;Command: ExecRobotTask (Home,-1);
+23/07/20;16:15:13.212;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+23/07/20;16:15:13.212;INFO;Controller;Status = Executing: Home;
+23/07/20;16:15:13.212;INFO;Controller;State = Running;
+23/07/20;16:15:14.131;INFO;Robot Runtime;executing:    Home;
+23/07/20;16:15:24.891;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+23/07/20;16:15:24.892;INFO;Controller;State = Ready;

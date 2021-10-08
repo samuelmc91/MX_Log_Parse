@@ -1,0 +1,14 @@
+29/05/18;09:52:57.510;INFO;Server;Command: ExecRobotTask (OpenPortLid,500000);
+29/05/18;09:52:57.511;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+29/05/18;09:52:57.511;INFO;Controller;Status = Executing: OpenPortLid;
+29/05/18;09:52:57.512;INFO;Controller;State = Running;
+29/05/18;09:52:58.469;INFO;Robot Runtime;executing:    OpenPortLid;
+29/05/18;09:52:59.142;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+29/05/18;09:52:59.142;INFO;Controller;State = Ready;
+29/05/18;09:58:40.374;INFO;Server;Command: ExecRobotTask (ClosePorts,500000);
+29/05/18;09:58:40.374;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+29/05/18;09:58:40.375;INFO;Controller;Status = Executing: ClosePorts;
+29/05/18;09:58:40.375;INFO;Controller;State = Running;
+29/05/18;09:58:41.205;INFO;Robot Runtime;executing:    ClosePorts;
+29/05/18;09:58:41.428;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+29/05/18;09:58:41.428;INFO;Controller;State = Ready;

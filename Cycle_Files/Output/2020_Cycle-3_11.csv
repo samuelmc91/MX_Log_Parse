@@ -1,0 +1,26 @@
+,AMX morning,AMX afternoon,AMX overnight,FMX morning,FMX afternoon,FMX overnight
+1,,PR,,BAG,BAG,
+2,BAG,PR,,GU,GU,
+3,BAG,,,BAG305000,BAG305000,
+4,,GU,,,GU,GU
+5,BAG,,,BAG,,
+6,,Connection,,,Connection,
+9,,BAG,BAG,,,
+10,GU,BAG,BAG,BAG305018,BAG305018,
+11,BAG,DT,BAG,PR,PR,PR
+12,BAG,BAG305036,BAG305036,,Training,
+13,GU,BAG305000,,BAG,BAG,
+14,BAG,BAG,,BAG305000-BA,BAG305000-BA,
+16,BAG,BAG,BAG,BAG,,BAG
+17,Sam,Connection,,top-view,Connection,
+18,,CBMS,,,CBMS,
+19,tour,BAG,BAG,,BAG-305000-BA,
+20,PR,PR,PR,BAG,BAG,BAG
+21,PR,PR,,BAG,,
+23,GU,GU,,BAG,,
+24,BAG,BAG,BAG,BAG,GU,GU
+26,,,Thanksgiving,,,Thanksgiving
+27,,,Thanksgiving,,,Thanksgiving
+28,,,Thanksgiving,,,Thanksgiving
+29,,,Thanksgiving,,,Thanksgiving
+30,,Training,,,,

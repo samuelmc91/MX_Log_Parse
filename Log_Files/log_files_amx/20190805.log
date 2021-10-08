@@ -1,0 +1,11 @@
+05/08/19;15:13:24.844;WARNING;Robot Runtime;update thread is down, Error Code: 125;
+05/08/19;15:13:25.101;WARNING;Robot Runtime;update thread is down, Error Code: 125;
+05/08/19;15:13:28.281;WARNING;Robot;Alarm active: Device is offline;
+05/08/19;15:13:28.281;INFO;Controller;State = Communication Error;
+05/08/19;15:17:02.406;INFO;Robot;Alarm inactive: Device is offline;
+05/08/19;15:17:02.406;WARNING;Controller;Communication resumed, trying updating devices;
+05/08/19;15:17:02.407;INFO;Controller;Finished device updating;
+05/08/19;15:17:02.407;INFO;Controller;State = Ready;
+05/08/19;15:34:04.427;INFO;Controller;State = Closing;
+05/08/19;15:34:05.480;INFO;Epics Server;Exiting running thread;
+05/08/19;15:34:05.483;INFO;Controller;Stopping log services - Startup: 02/08/19 10:04:33;

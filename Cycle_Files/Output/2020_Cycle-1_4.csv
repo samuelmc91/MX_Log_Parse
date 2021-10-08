@@ -1,0 +1,21 @@
+,AMX morning,AMX afternoon,FMX morning,FMX afternoon
+1,JJ,Training,MF,testing
+2,PR,,,
+3,EL/AM-DK+JJ/PM,Top,,
+6,Dewar/gripper,,FMX,
+7,JJ,,,
+9,,,PR,
+10,BL,,,
+13,Globus,,Auto,
+14,,,LSDC,
+15,BAG,,"setE(),",
+16,BAG,PM,,
+17,PR,,,
+20,,,hardware,EL
+21,LSDC,,,
+22,BAG,,"setE,",
+23,,BL,,
+24,BAG,,BAG,
+27,,,PR,
+28,,smart,,
+29,BAG-305000(D),LSDC,LSDC,

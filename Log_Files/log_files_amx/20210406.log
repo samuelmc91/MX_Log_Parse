@@ -1,0 +1,9 @@
+06/04/21;10:23:12.291;WARNING;Robot;Alarm active: Device is offline;
+06/04/21;10:23:12.292;INFO;Controller;State = Communication Error;
+06/04/21;10:23:14.396;INFO;Robot;Alarm inactive: Device is offline;
+06/04/21;10:23:14.397;WARNING;Controller;Communication resumed, trying updating devices;
+06/04/21;10:23:14.398;INFO;Controller;Finished device updating;
+06/04/21;10:23:14.398;INFO;Controller;State = Ready;
+06/04/21;10:24:02.064;INFO;Controller;State = Closing;
+06/04/21;10:24:03.071;INFO;Epics Server;Exiting running thread;
+06/04/21;10:24:03.074;INFO;Controller;Stopping log services - Startup: 02/04/21 16:01:37;

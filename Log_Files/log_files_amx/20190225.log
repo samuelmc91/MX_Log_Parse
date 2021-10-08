@@ -1,0 +1,16 @@
+25/02/19;09:57:28.151;INFO;Server;Command: ExecRobotTask (EnableTScreen,500000);
+25/02/19;09:57:28.161;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+25/02/19;09:57:28.161;INFO;Controller;Status = Executing: EnableTScreen;
+25/02/19;09:57:28.161;INFO;Controller;State = Running;
+25/02/19;09:57:29.005;INFO;Robot Runtime;executing:    EnableTScreen;
+25/02/19;09:57:29.273;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+25/02/19;09:57:29.274;INFO;Controller;State = Ready;
+25/02/19;10:12:49.917;WARNING;Robot;Alarm active: Device is offline;
+25/02/19;10:12:49.917;INFO;Controller;State = Communication Error;
+25/02/19;10:12:51.022;INFO;Robot;Alarm inactive: Device is offline;
+25/02/19;10:12:51.022;WARNING;Controller;Communication resumed, trying updating devices;
+25/02/19;10:12:51.022;INFO;Controller;Finished device updating;
+25/02/19;10:12:51.022;INFO;Controller;State = Ready;
+25/02/19;11:27:22.579;INFO;Controller;State = Closing;
+25/02/19;11:27:23.590;INFO;Epics Server;Exiting running thread;
+25/02/19;11:27:23.593;INFO;Controller;Stopping log services - Startup: 20/02/19 16:52:03;

@@ -1,0 +1,7 @@
+03/11/18;10:54:48.415;INFO;Server;Command: ExecRobotTask (EnableTScreen,500000);
+03/11/18;10:54:48.415;INFO;Controller;Executing asynchronous activity: ExecRobotTask;
+03/11/18;10:54:48.416;INFO;Controller;Status = Executing: EnableTScreen;
+03/11/18;10:54:48.416;INFO;Controller;State = Running;
+03/11/18;10:54:49.783;INFO;Robot Runtime;executing:    EnableTScreen;
+03/11/18;10:54:50.037;INFO;Controller;Activity ExecRobotTask ended. Return value: Done;
+03/11/18;10:54:50.038;INFO;Controller;State = Ready;
